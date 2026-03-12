@@ -1,0 +1,126 @@
+{
+
+	"common" :
+	{
+
+		"root" :
+		{
+                        "SoftwareID"				: [ "0000000700001375",		"REG_SZ" ],
+			"Logging"								: [ "1",					"REG_DWORD" ]
+		},
+
+		"common_scope" :
+		{
+			"DriverProductVersion"		: [ "1.55.0.0",		"REG_SZ" ],
+			"Date"				: [ "05/14/2021",	"REG_SZ" ],
+			"PrinterModelName"		: [ "IM C2000",	"REG_SZ" ],
+			"PDL"						: [ "PCLXL",				"REG_SZ" ]
+		},
+
+		"ui_scope" :
+		{
+		},
+
+		"gr_scope" :
+		{
+		},
+
+		"capsdb_scope" :
+		{
+		}
+
+	},
+
+              "Gestetner IM C2000 PCL 6" :
+       {
+               "common_scope" :
+               {
+                       "PrinterModelName"              : [ "IM C2000", "REG_SZ" ]
+               }
+       },
+       "Gestetner GS3020 PCL 6" :
+       {
+               "common_scope" :
+               {
+                       "PrinterModelName"              : [ "GS3020", "REG_SZ" ]
+               }
+       },
+       "Gestetner IM C2500 PCL 6" :
+       {
+               "common_scope" :
+               {
+                       "PrinterModelName"              : [ "IM C2500", "REG_SZ" ]
+               }
+       },
+       "Gestetner GS3025 PCL 6" :
+       {
+               "common_scope" :
+               {
+                       "PrinterModelName"              : [ "GS3025", "REG_SZ" ]
+               }
+       },
+       "LANIER IM C2000 PCL 6" :
+       {
+               "common_scope" :
+               {
+                       "PrinterModelName"              : [ "IM C2000", "REG_SZ" ]
+               }
+       },
+       "LANIER IM C2500 PCL 6" :
+       {
+               "common_scope" :
+               {
+                       "PrinterModelName"              : [ "IM C2500", "REG_SZ" ]
+               }
+       },
+       "NRG IM C2000 PCL 6" :
+       {
+               "common_scope" :
+               {
+                       "PrinterModelName"              : [ "IM C2000", "REG_SZ" ]
+               }
+       },
+       "NRG IM C2500 PCL 6" :
+       {
+               "common_scope" :
+               {
+                       "PrinterModelName"              : [ "IM C2500", "REG_SZ" ]
+               }
+       },
+       "RICOH IM C2000 PCL 6" :
+       {
+               "common_scope" :
+               {
+                       "PrinterModelName"              : [ "IM C2000", "REG_SZ" ]
+               }
+       },
+       "RICOH IM C2500 PCL 6" :
+       {
+               "common_scope" :
+               {
+                       "PrinterModelName"              : [ "IM C2500", "REG_SZ" ]
+               }
+       },
+       "RICOH IM C2509J PCL 6" :
+       {
+               "common_scope" :
+               {
+                       "PrinterModelName"              : [ "IM C2509J", "REG_SZ" ]
+               }
+       },
+       "SAVIN IM C2000 PCL 6" :
+       {
+               "common_scope" :
+               {
+                       "PrinterModelName"              : [ "IM C2000", "REG_SZ" ]
+               }
+       },
+       "SAVIN IM C2500 PCL 6" :
+       {
+               "common_scope" :
+               {
+                       "PrinterModelName"              : [ "IM C2500", "REG_SZ" ]
+               }
+       }
+ 
+}

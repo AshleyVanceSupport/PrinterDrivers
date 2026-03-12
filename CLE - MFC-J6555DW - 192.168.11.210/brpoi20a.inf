@@ -1,0 +1,173 @@
+;=======================================================================
+;  Brother Port Setup File
+;  Copyright (c)  2020 Brother Industries Ltd.
+;  FileName   :   brpoi20a.inf
+;  Function   :   Port Driver
+;  I/F        :   USB
+;  OS         :   Windows 7 / 8 / 8.1  / 10
+;  Model      : MFC-J5340DW
+;             : MFC-J5345DW
+;             : MFC-J2340DW
+;             : MFC-J5740DW
+;             : MFC-J2740DW
+;             : MFC-J6540DW
+;             : MFC-J3540DW
+;             : MFC-J7100CDW
+;             : MFC-J6740DW
+;             : MFC-J6940DW
+;             : MFC-J3940DW
+;             : MFC-J7300CDW
+;             : MFC-J5855DW
+;             : MFC-J5800CDW
+;             : MFC-J5955DW
+;             : MFC-J6555DW
+;             : MFC-J6955DW
+;             : MFC-J7500CDW
+;             : MFC-J6957DW
+;             : MFC-J7600CDW
+;             : MFC-J6959DW
+;             : MFC-J7700CDW
+=======================================================================
+
+[Version]
+Signature  = "$Windows NT$"
+Class      = Ports
+ClassGUID  = {4d36e978-e325-11ce-bfc1-08002be10318}
+Provider   = Brother
+DriverPackageType       = PlugAndPlay
+DriverPackageDisplayName = "MFC-J5340DW, MFC-J5345DW, MFC-J2340DW, MFC-J5740DW, MFC-J2740DW, MFC-J6540DW, MFC-J3540DW, MFC-J7100CDW, MFC-J6740DW, MFC-J6940DW, MFC-J3940DW, MFC-J7300CDW, MFC-J5855DW, MFC-J5800CDW, MFC-J5955DW, MFC-J6555DW, MFC-J6955DW, MFC-J7500CDW, MFC-J6957DW, MFC-J7600CDW"
+DriverVer   = 10/12/2023, 1.0.5.1
+CatalogFile = brpoi20a.cat
+
+; ========== Manufacturer/Models sections ===========
+
+[Manufacturer]
+Brother = BrDrv_WinUSB,NTx86.6.1,NTamd64.6.1
+
+; Windows 7/8 or later 32bit
+[BrDrv_WinUSB.NTx86.6.1]
+"Brother MFC-J5340DW" = USB_Install1009, USB\VID_04F9&PID_04BB&MI_02
+"Brother MFC-J5345DW" = USB_Install1009, USB\VID_04F9&PID_04BC&MI_02
+"Brother MFC-J2340DW" = USB_Install1009, USB\VID_04F9&PID_04BD&MI_02
+"Brother MFC-J5740DW" = USB_Install1009, USB\VID_04F9&PID_04BE&MI_02
+"Brother MFC-J2740DW" = USB_Install1009, USB\VID_04F9&PID_04BF&MI_02
+"Brother MFC-J6540DW" = USB_Install1009, USB\VID_04F9&PID_04C2&MI_02
+"Brother MFC-J3540DW" = USB_Install1009, USB\VID_04F9&PID_04C3&MI_02
+"Brother MFC-J7100CDW" = USB_Install1009, USB\VID_04F9&PID_04CD&MI_02
+"Brother MFC-J6740DW" = USB_Install1009, USB\VID_04F9&PID_04C4&MI_02
+"Brother MFC-J6940DW" = USB_Install1009, USB\VID_04F9&PID_04C5&MI_02
+"Brother MFC-J3940DW" = USB_Install1009, USB\VID_04F9&PID_04C6&MI_02
+"Brother MFC-J7300CDW" = USB_Install1009, USB\VID_04F9&PID_0515&MI_02
+"Brother MFC-J5855DW" = USB_Install1009, USB\VID_04F9&PID_04C0&MI_02
+"Brother MFC-J5800CDW" = USB_Install1009, USB\VID_04F9&PID_04E3&MI_02
+"Brother MFC-J5955DW" = USB_Install1009, USB\VID_04F9&PID_04C1&MI_02
+"Brother MFC-J6555DW" = USB_Install1009, USB\VID_04F9&PID_04C7&MI_02
+"Brother MFC-J6955DW" = USB_Install1009, USB\VID_04F9&PID_04C8&MI_02
+"Brother MFC-J7500CDW" = USB_Install1009, USB\VID_04F9&PID_04CF&MI_02
+"Brother MFC-J6957DW" = USB_Install1009, USB\VID_04F9&PID_04C9&MI_02
+"Brother MFC-J7600CDW" = USB_Install1009, USB\VID_04F9&PID_04D0&MI_02
+"Brother MFC-J6959DW" = USB_Install1009, USB\VID_04F9&PID_04E5&MI_02
+"Brother MFC-J7700CDW" = USB_Install1009, USB\VID_04F9&PID_04E6&MI_02
+
+; Windows 7/8 or later 64bit
+[BrDrv_WinUSB.NTamd64.6.1]
+"Brother MFC-J5340DW" = USB_Install1009, USB\VID_04F9&PID_04BB&MI_02
+"Brother MFC-J5345DW" = USB_Install1009, USB\VID_04F9&PID_04BC&MI_02
+"Brother MFC-J2340DW" = USB_Install1009, USB\VID_04F9&PID_04BD&MI_02
+"Brother MFC-J5740DW" = USB_Install1009, USB\VID_04F9&PID_04BE&MI_02
+"Brother MFC-J2740DW" = USB_Install1009, USB\VID_04F9&PID_04BF&MI_02
+"Brother MFC-J6540DW" = USB_Install1009, USB\VID_04F9&PID_04C2&MI_02
+"Brother MFC-J3540DW" = USB_Install1009, USB\VID_04F9&PID_04C3&MI_02
+"Brother MFC-J7100CDW" = USB_Install1009, USB\VID_04F9&PID_04CD&MI_02
+"Brother MFC-J6740DW" = USB_Install1009, USB\VID_04F9&PID_04C4&MI_02
+"Brother MFC-J6940DW" = USB_Install1009, USB\VID_04F9&PID_04C5&MI_02
+"Brother MFC-J3940DW" = USB_Install1009, USB\VID_04F9&PID_04C6&MI_02
+"Brother MFC-J7300CDW" = USB_Install1009, USB\VID_04F9&PID_0515&MI_02
+"Brother MFC-J5855DW" = USB_Install1009, USB\VID_04F9&PID_04C0&MI_02
+"Brother MFC-J5800CDW" = USB_Install1009, USB\VID_04F9&PID_04E3&MI_02
+"Brother MFC-J5955DW" = USB_Install1009, USB\VID_04F9&PID_04C1&MI_02
+"Brother MFC-J6555DW" = USB_Install1009, USB\VID_04F9&PID_04C7&MI_02
+"Brother MFC-J6955DW" = USB_Install1009, USB\VID_04F9&PID_04C8&MI_02
+"Brother MFC-J7500CDW" = USB_Install1009, USB\VID_04F9&PID_04CF&MI_02
+"Brother MFC-J6957DW" = USB_Install1009, USB\VID_04F9&PID_04C9&MI_02
+"Brother MFC-J7600CDW" = USB_Install1009, USB\VID_04F9&PID_04D0&MI_02
+"Brother MFC-J6959DW" = USB_Install1009, USB\VID_04F9&PID_04E5&MI_02
+"Brother MFC-J7700CDW" = USB_Install1009, USB\VID_04F9&PID_04E6&MI_02
+
+; =================== Installation ===================
+
+;[1']
+[USB_Install1009]
+Include=winusb.inf
+Needs=WINUSB.NT
+AddReg=USB_Install_Reg
+
+;-----------------------------------------
+
+[USB_Install_Reg]
+HKR,,PortSubClassOther,1,01
+
+;[2]
+[USB_Install1009.Services]
+Include=winusb.inf
+AddService=WinUSB,0x00000002,WinUSB_ServiceInstall
+
+;[3]
+[WinUSB_ServiceInstall]
+DisplayName     = %BrDrv_SvcDesc%
+ServiceType     = 1
+StartType       = 3
+ErrorControl    = 1
+ServiceBinary   = %12%\WinUSB.sys
+
+;[4]
+[USB_Install1009.Wdf]
+KmdfService=WINUSB, WinUsb_Install1009
+
+[WinUSB_Install1009]
+KmdfLibraryVersion=1.9
+
+;[5]
+[USB_Install1009.HW]
+AddReg=Dev_AddReg
+
+[Dev_AddReg]
+HKR,,DeviceInterfaceGUIDs,0x10000,"{1EA0A2DA-6162-41EA-861A-E840C3FFF0E2}"
+
+;[6]
+[USB_Install1009.CoInstallers]
+AddReg=CoInstallers1009_AddReg
+CopyFiles=CoInstallers1009_CopyFiles
+
+[CoInstallers1009_AddReg]
+HKR,,CoInstallers32,0x00010000,"WdfCoInstaller01009.dll,WdfCoInstaller","WinUSBCoInstaller2.dll"
+
+[CoInstallers1009_CopyFiles]
+WinUSBCoInstaller2.dll
+WdfCoInstaller01009.dll
+
+[DestinationDirs]
+CoInstallers1009_CopyFiles=11
+DefaultDestDir         = 12
+
+; ================= Source Media Section =====================
+;[7]
+
+[SourceDisksNames]
+1 = %DISK_NAME%,,,\x86
+2 = %DISK_NAME%,,,\amd64
+
+[SourceDisksFiles.x86]
+WinUSBCoInstaller2.dll  = 1
+WdfCoInstaller01009.dll = 1
+
+[SourceDisksFiles.amd64]
+WinUSBCoInstaller2.dll  = 2
+WdfCoInstaller01009.dll = 2
+
+
+; =================== Strings ===================
+
+[Strings]
+BrDrv_SvcDesc="Brother WinUSB Port Driver"
+DISK_NAME="Install Disk"

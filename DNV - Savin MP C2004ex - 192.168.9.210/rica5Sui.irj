@@ -1,0 +1,147 @@
+{
+
+	"common" :
+	{
+
+		"root" :
+		{
+                        "SoftwareID"				: [ "0000000700001005",		"REG_SZ" ],
+			"Logging"								: [ "1",					"REG_DWORD" ]
+		},
+
+		"common_scope" :
+		{
+			"DriverProductVersion"		: [ "1.1.0.0",		"REG_SZ" ],
+			"Date"				: [ "11/21/2016",	"REG_SZ" ],
+			"PrinterModelName"		: [ "MP C2004ex",	"REG_SZ" ],
+			"PDL"						: [ "PCLXL",				"REG_SZ" ]
+		},
+
+		"ui_scope" :
+		{
+		},
+
+		"gr_scope" :
+		{
+		},
+
+		"capsdb_scope" :
+		{
+		}
+
+	},
+
+       "Gestetner MP C2004ex PCL 6" :
+       {
+               "common_scope" :
+               {
+                       "PrinterModelName"              : [ "MP C2004ex", "REG_SZ" ]
+               }
+       },
+       "Gestetner DSc1220ex PCL 6" :
+       {
+               "common_scope" :
+               {
+                       "PrinterModelName"              : [ "DSc1220ex", "REG_SZ" ]
+               }
+       },
+       "Gestetner MP C2504ex PCL 6" :
+       {
+               "common_scope" :
+               {
+                       "PrinterModelName"              : [ "MP C2504ex", "REG_SZ" ]
+               }
+       },
+       "Gestetner DSc1225ex PCL 6" :
+       {
+               "common_scope" :
+               {
+                       "PrinterModelName"              : [ "DSc1225ex", "REG_SZ" ]
+               }
+       },
+"infotec MP C2004ex PCL 6" :
+       {
+               "common_scope" :
+               {
+                       "PrinterModelName"              : [ "MP C2004ex", "REG_SZ" ]
+               }
+       },
+       "infotec MP C2504ex PCL 6" :
+       {
+               "common_scope" :
+               {
+                       "PrinterModelName"              : [ "MP C2504ex", "REG_SZ" ]
+               }
+       },
+"LANIER MP C2004ex PCL 6" :
+       {
+               "common_scope" :
+               {
+                       "PrinterModelName"              : [ "MP C2004ex", "REG_SZ" ]
+               }
+       },
+       "LANIER MP C2504ex PCL 6" :
+       {
+               "common_scope" :
+               {
+                       "PrinterModelName"              : [ "MP C2504ex", "REG_SZ" ]
+               }
+       },
+"NRG MP C2004ex PCL 6" :
+       {
+               "common_scope" :
+               {
+                       "PrinterModelName"              : [ "MP C2004ex", "REG_SZ" ]
+               }
+       },
+       "NRG MP C2504ex PCL 6" :
+       {
+               "common_scope" :
+               {
+                       "PrinterModelName"              : [ "MP C2504ex", "REG_SZ" ]
+               }
+       },
+"RICOH MP C2004ex PCL 6" :
+       {
+               "common_scope" :
+               {
+                       "PrinterModelName"              : [ "MP C2004ex", "REG_SZ" ]
+               }
+       },
+       "RICOH MP C2094exJ PCL 6" :
+       {
+               "common_scope" :
+               {
+                       "PrinterModelName"              : [ "MP C2094exJ", "REG_SZ" ]
+               }
+       },
+       "RICOH MP C2504ex PCL 6" :
+       {
+               "common_scope" :
+               {
+                       "PrinterModelName"              : [ "MP C2504ex", "REG_SZ" ]
+               }
+       },
+       "RICOH MP C2594exJ PCL 6" :
+       {
+               "common_scope" :
+               {
+                       "PrinterModelName"              : [ "MP C2594exJ", "REG_SZ" ]
+               }
+       },
+"SAVIN MP C2004ex PCL 6" :
+       {
+               "common_scope" :
+               {
+                       "PrinterModelName"              : [ "MP C2004ex", "REG_SZ" ]
+               }
+       },
+       "SAVIN MP C2504ex PCL 6" :
+       {
+               "common_scope" :
+               {
+                       "PrinterModelName"              : [ "MP C2504ex", "REG_SZ" ]
+               }
+       }
+ 
+}

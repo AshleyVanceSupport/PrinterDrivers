@@ -1,0 +1,4239 @@
+;=======================================================================
+; Brother Scanner Setup File
+; Copyright (c) 2020 Brother Industries Ltd.
+; FileName : brimi20a.inf
+; Function : Scanner(Image)
+; I/F      : USB / LAN
+; OS       : 7 / 8 / 8.1 / 10 / Server 2008 / 2012 / 2016 / 2019
+; Model    : MFC-J5340DW
+;          : MFC-J5345DW
+;          : MFC-J2340DW
+;          : MFC-J5740DW
+;          : MFC-J2740DW
+;          : MFC-J6540DW
+;          : MFC-J3540DW
+;          : MFC-J7100CDW
+;          : MFC-J6740DW
+;          : MFC-J6940DW
+;          : MFC-J3940DW
+;          : MFC-J7300CDW
+;          : MFC-J5855DW
+;          : MFC-J5800CDW
+;          : MFC-J5955DW
+;          : MFC-J6555DW
+;          : MFC-J6955DW
+;          : MFC-J7500CDW
+;          : MFC-J6957DW
+;          : MFC-J7600CDW
+;          : MFC-J6959DW
+;          : MFC-J7700CDW
+;=======================================================================
+
+[Version]
+Signature   = "$Windows NT$"
+Class       = Image
+ClassGUID   = {6bdd1fc6-810f-11d0-bec7-08002be2092f}
+Provider    = Brother
+DriverPackageType        = PlugAndPlay
+DriverPackageDisplayName = "MFC-J5340DW, MFC-J5345DW, MFC-J2340DW, MFC-J5740DW, MFC-J2740DW, MFC-J6540DW, MFC-J3540DW, MFC-J7100CDW, MFC-J6740DW, MFC-J6940DW, MFC-J3940DW, MFC-J7300CDW, MFC-J5855DW, MFC-J5800CDW, MFC-J5955DW, MFC-J6555DW, MFC-J6955DW, MFC-J7500CDW, MFC-J6957DW, MFC-J7600CDW"
+DriverVer   = 12/26/2024, 1.0.17.1
+CatalogFile = brimi20a.cat
+
+[Manufacturer]
+Brother = MODEL,NTx86.5.2,NTamd64.5.2,NTx86.6,NTamd64.6
+
+[MODEL]
+
+[MODEL.NTx86.5.2]
+"Brother MFC-J5340DW" = MFC-J5340DW.USB.SCN.WSERV32,USB\VID_04F9&PID_04BB&MI_01
+"Brother MFC-J5345DW" = MFC-J5345DW.USB.SCN.WSERV32,USB\VID_04F9&PID_04BC&MI_01
+"Brother MFC-J2340DW" = MFC-J2340DW.USB.SCN.WSERV32,USB\VID_04F9&PID_04BD&MI_01
+"Brother MFC-J5740DW" = MFC-J5740DW.USB.SCN.WSERV32,USB\VID_04F9&PID_04BE&MI_01
+"Brother MFC-J2740DW" = MFC-J2740DW.USB.SCN.WSERV32,USB\VID_04F9&PID_04BF&MI_01
+"Brother MFC-J6540DW" = MFC-J6540DW.USB.SCN.WSERV32,USB\VID_04F9&PID_04C2&MI_01
+"Brother MFC-J3540DW" = MFC-J3540DW.USB.SCN.WSERV32,USB\VID_04F9&PID_04C3&MI_01
+"Brother MFC-J7100CDW" = MFC-J7100CDW.USB.SCN.WSERV32,USB\VID_04F9&PID_04CD&MI_01
+"Brother MFC-J6740DW" = MFC-J6740DW.USB.SCN.WSERV32,USB\VID_04F9&PID_04C4&MI_01
+"Brother MFC-J6940DW" = MFC-J6940DW.USB.SCN.WSERV32,USB\VID_04F9&PID_04C5&MI_01
+"Brother MFC-J3940DW" = MFC-J3940DW.USB.SCN.WSERV32,USB\VID_04F9&PID_04C6&MI_01
+"Brother MFC-J7300CDW" = MFC-J7300CDW.USB.SCN.WSERV32,USB\VID_04F9&PID_0515&MI_01
+"Brother MFC-J5855DW" = MFC-J5855DW.USB.SCN.WSERV32,USB\VID_04F9&PID_04C0&MI_01
+"Brother MFC-J5800CDW" = MFC-J5800CDW.USB.SCN.WSERV32,USB\VID_04F9&PID_04E3&MI_01
+"Brother MFC-J5955DW" = MFC-J5955DW.USB.SCN.WSERV32,USB\VID_04F9&PID_04C1&MI_01
+"Brother MFC-J6555DW" = MFC-J6555DW.USB.SCN.WSERV32,USB\VID_04F9&PID_04C7&MI_01
+"Brother MFC-J6955DW" = MFC-J6955DW.USB.SCN.WSERV32,USB\VID_04F9&PID_04C8&MI_01
+"Brother MFC-J7500CDW" = MFC-J7500CDW.USB.SCN.WSERV32,USB\VID_04F9&PID_04CF&MI_01
+"Brother MFC-J6957DW" = MFC-J6957DW.USB.SCN.WSERV32,USB\VID_04F9&PID_04C9&MI_01
+"Brother MFC-J7600CDW" = MFC-J7600CDW.USB.SCN.WSERV32,USB\VID_04F9&PID_04D0&MI_01
+"Brother MFC-J6959DW" = MFC-J6959DW.USB.SCN.WSERV32,USB\VID_04F9&PID_04E5&MI_01
+"Brother MFC-J7700CDW" = MFC-J7700CDW.USB.SCN.WSERV32,USB\VID_04F9&PID_04E6&MI_01
+"Brother MFC-J5340DW LAN" = MFC-J5340DW.NET.SCN.WXP,VID_04F9&PID_04BB&NETSCN
+"Brother MFC-J5345DW LAN" = MFC-J5345DW.NET.SCN.WXP,VID_04F9&PID_04BC&NETSCN
+"Brother MFC-J2340DW LAN" = MFC-J2340DW.NET.SCN.WXP,VID_04F9&PID_04BD&NETSCN
+"Brother MFC-J5740DW LAN" = MFC-J5740DW.NET.SCN.WXP,VID_04F9&PID_04BE&NETSCN
+"Brother MFC-J2740DW LAN" = MFC-J2740DW.NET.SCN.WXP,VID_04F9&PID_04BF&NETSCN
+"Brother MFC-J6540DW LAN" = MFC-J6540DW.NET.SCN.WXP,VID_04F9&PID_04C2&NETSCN
+"Brother MFC-J3540DW LAN" = MFC-J3540DW.NET.SCN.WXP,VID_04F9&PID_04C3&NETSCN
+"Brother MFC-J7100CDW LAN" = MFC-J7100CDW.NET.SCN.WXP,VID_04F9&PID_04CD&NETSCN
+"Brother MFC-J6740DW LAN" = MFC-J6740DW.NET.SCN.WXP,VID_04F9&PID_04C4&NETSCN
+"Brother MFC-J6940DW LAN" = MFC-J6940DW.NET.SCN.WXP,VID_04F9&PID_04C5&NETSCN
+"Brother MFC-J3940DW LAN" = MFC-J3940DW.NET.SCN.WXP,VID_04F9&PID_04C6&NETSCN
+"Brother MFC-J7300CDW LAN" = MFC-J7300CDW.NET.SCN.WXP,VID_04F9&PID_0515&NETSCN
+"Brother MFC-J5855DW LAN" = MFC-J5855DW.NET.SCN.WXP,VID_04F9&PID_04C0&NETSCN
+"Brother MFC-J5800CDW LAN" = MFC-J5800CDW.NET.SCN.WXP,VID_04F9&PID_04E3&NETSCN
+"Brother MFC-J5955DW LAN" = MFC-J5955DW.NET.SCN.WXP,VID_04F9&PID_04C1&NETSCN
+"Brother MFC-J6555DW LAN" = MFC-J6555DW.NET.SCN.WXP,VID_04F9&PID_04C7&NETSCN
+"Brother MFC-J6955DW LAN" = MFC-J6955DW.NET.SCN.WXP,VID_04F9&PID_04C8&NETSCN
+"Brother MFC-J7500CDW LAN" = MFC-J7500CDW.NET.SCN.WXP,VID_04F9&PID_04CF&NETSCN
+"Brother MFC-J6957DW LAN" = MFC-J6957DW.NET.SCN.WXP,VID_04F9&PID_04C9&NETSCN
+"Brother MFC-J7600CDW LAN" = MFC-J7600CDW.NET.SCN.WXP,VID_04F9&PID_04D0&NETSCN
+"Brother MFC-J6959DW LAN" = MFC-J6959DW.NET.SCN.WXP,VID_04F9&PID_04E5&NETSCN
+"Brother MFC-J7700CDW LAN" = MFC-J7700CDW.NET.SCN.WXP,VID_04F9&PID_04E6&NETSCN
+
+[MODEL.NTamd64.5.2]
+"Brother MFC-J5340DW" = MFC-J5340DW.USB.SCN.WXP64,USB\VID_04F9&PID_04BB&MI_01
+"Brother MFC-J5345DW" = MFC-J5345DW.USB.SCN.WXP64,USB\VID_04F9&PID_04BC&MI_01
+"Brother MFC-J2340DW" = MFC-J2340DW.USB.SCN.WXP64,USB\VID_04F9&PID_04BD&MI_01
+"Brother MFC-J5740DW" = MFC-J5740DW.USB.SCN.WXP64,USB\VID_04F9&PID_04BE&MI_01
+"Brother MFC-J2740DW" = MFC-J2740DW.USB.SCN.WXP64,USB\VID_04F9&PID_04BF&MI_01
+"Brother MFC-J6540DW" = MFC-J6540DW.USB.SCN.WXP64,USB\VID_04F9&PID_04C2&MI_01
+"Brother MFC-J3540DW" = MFC-J3540DW.USB.SCN.WXP64,USB\VID_04F9&PID_04C3&MI_01
+"Brother MFC-J7100CDW" = MFC-J7100CDW.USB.SCN.WXP64,USB\VID_04F9&PID_04CD&MI_01
+"Brother MFC-J6740DW" = MFC-J6740DW.USB.SCN.WXP64,USB\VID_04F9&PID_04C4&MI_01
+"Brother MFC-J6940DW" = MFC-J6940DW.USB.SCN.WXP64,USB\VID_04F9&PID_04C5&MI_01
+"Brother MFC-J3940DW" = MFC-J3940DW.USB.SCN.WXP64,USB\VID_04F9&PID_04C6&MI_01
+"Brother MFC-J7300CDW" = MFC-J7300CDW.USB.SCN.WXP64,USB\VID_04F9&PID_0515&MI_01
+"Brother MFC-J5855DW" = MFC-J5855DW.USB.SCN.WXP64,USB\VID_04F9&PID_04C0&MI_01
+"Brother MFC-J5800CDW" = MFC-J5800CDW.USB.SCN.WXP64,USB\VID_04F9&PID_04E3&MI_01
+"Brother MFC-J5955DW" = MFC-J5955DW.USB.SCN.WXP64,USB\VID_04F9&PID_04C1&MI_01
+"Brother MFC-J6555DW" = MFC-J6555DW.USB.SCN.WXP64,USB\VID_04F9&PID_04C7&MI_01
+"Brother MFC-J6955DW" = MFC-J6955DW.USB.SCN.WXP64,USB\VID_04F9&PID_04C8&MI_01
+"Brother MFC-J7500CDW" = MFC-J7500CDW.USB.SCN.WXP64,USB\VID_04F9&PID_04CF&MI_01
+"Brother MFC-J6957DW" = MFC-J6957DW.USB.SCN.WXP64,USB\VID_04F9&PID_04C9&MI_01
+"Brother MFC-J7600CDW" = MFC-J7600CDW.USB.SCN.WXP64,USB\VID_04F9&PID_04D0&MI_01
+"Brother MFC-J6959DW" = MFC-J6959DW.USB.SCN.WXP64,USB\VID_04F9&PID_04E5&MI_01
+"Brother MFC-J7700CDW" = MFC-J7700CDW.USB.SCN.WXP64,USB\VID_04F9&PID_04E6&MI_01
+"Brother MFC-J5340DW LAN" = MFC-J5340DW.NET.SCN.WXP,VID_04F9&PID_04BB&NETSCN
+"Brother MFC-J5345DW LAN" = MFC-J5345DW.NET.SCN.WXP,VID_04F9&PID_04BC&NETSCN
+"Brother MFC-J2340DW LAN" = MFC-J2340DW.NET.SCN.WXP,VID_04F9&PID_04BD&NETSCN
+"Brother MFC-J5740DW LAN" = MFC-J5740DW.NET.SCN.WXP,VID_04F9&PID_04BE&NETSCN
+"Brother MFC-J2740DW LAN" = MFC-J2740DW.NET.SCN.WXP,VID_04F9&PID_04BF&NETSCN
+"Brother MFC-J6540DW LAN" = MFC-J6540DW.NET.SCN.WXP,VID_04F9&PID_04C2&NETSCN
+"Brother MFC-J3540DW LAN" = MFC-J3540DW.NET.SCN.WXP,VID_04F9&PID_04C3&NETSCN
+"Brother MFC-J7100CDW LAN" = MFC-J7100CDW.NET.SCN.WXP,VID_04F9&PID_04CD&NETSCN
+"Brother MFC-J6740DW LAN" = MFC-J6740DW.NET.SCN.WXP,VID_04F9&PID_04C4&NETSCN
+"Brother MFC-J6940DW LAN" = MFC-J6940DW.NET.SCN.WXP,VID_04F9&PID_04C5&NETSCN
+"Brother MFC-J3940DW LAN" = MFC-J3940DW.NET.SCN.WXP,VID_04F9&PID_04C6&NETSCN
+"Brother MFC-J7300CDW LAN" = MFC-J7300CDW.NET.SCN.WXP,VID_04F9&PID_0515&NETSCN
+"Brother MFC-J5855DW LAN" = MFC-J5855DW.NET.SCN.WXP,VID_04F9&PID_04C0&NETSCN
+"Brother MFC-J5800CDW LAN" = MFC-J5800CDW.NET.SCN.WXP,VID_04F9&PID_04E3&NETSCN
+"Brother MFC-J5955DW LAN" = MFC-J5955DW.NET.SCN.WXP,VID_04F9&PID_04C1&NETSCN
+"Brother MFC-J6555DW LAN" = MFC-J6555DW.NET.SCN.WXP,VID_04F9&PID_04C7&NETSCN
+"Brother MFC-J6955DW LAN" = MFC-J6955DW.NET.SCN.WXP,VID_04F9&PID_04C8&NETSCN
+"Brother MFC-J7500CDW LAN" = MFC-J7500CDW.NET.SCN.WXP,VID_04F9&PID_04CF&NETSCN
+"Brother MFC-J6957DW LAN" = MFC-J6957DW.NET.SCN.WXP,VID_04F9&PID_04C9&NETSCN
+"Brother MFC-J7600CDW LAN" = MFC-J7600CDW.NET.SCN.WXP,VID_04F9&PID_04D0&NETSCN
+"Brother MFC-J6959DW LAN" = MFC-J6959DW.NET.SCN.WXP,VID_04F9&PID_04E5&NETSCN
+"Brother MFC-J7700CDW LAN" = MFC-J7700CDW.NET.SCN.WXP,VID_04F9&PID_04E6&NETSCN
+
+[MODEL.NTx86.6]
+"Brother MFC-J5340DW" = MFC-J5340DW.USB.SCN,USB\VID_04F9&PID_04BB&MI_01
+"Brother MFC-J5345DW" = MFC-J5345DW.USB.SCN,USB\VID_04F9&PID_04BC&MI_01
+"Brother MFC-J2340DW" = MFC-J2340DW.USB.SCN,USB\VID_04F9&PID_04BD&MI_01
+"Brother MFC-J5740DW" = MFC-J5740DW.USB.SCN,USB\VID_04F9&PID_04BE&MI_01
+"Brother MFC-J2740DW" = MFC-J2740DW.USB.SCN,USB\VID_04F9&PID_04BF&MI_01
+"Brother MFC-J6540DW" = MFC-J6540DW.USB.SCN,USB\VID_04F9&PID_04C2&MI_01
+"Brother MFC-J3540DW" = MFC-J3540DW.USB.SCN,USB\VID_04F9&PID_04C3&MI_01
+"Brother MFC-J7100CDW" = MFC-J7100CDW.USB.SCN,USB\VID_04F9&PID_04CD&MI_01
+"Brother MFC-J6740DW" = MFC-J6740DW.USB.SCN,USB\VID_04F9&PID_04C4&MI_01
+"Brother MFC-J6940DW" = MFC-J6940DW.USB.SCN,USB\VID_04F9&PID_04C5&MI_01
+"Brother MFC-J3940DW" = MFC-J3940DW.USB.SCN,USB\VID_04F9&PID_04C6&MI_01
+"Brother MFC-J7300CDW" = MFC-J7300CDW.USB.SCN,USB\VID_04F9&PID_0515&MI_01
+"Brother MFC-J5855DW" = MFC-J5855DW.USB.SCN,USB\VID_04F9&PID_04C0&MI_01
+"Brother MFC-J5800CDW" = MFC-J5800CDW.USB.SCN,USB\VID_04F9&PID_04E3&MI_01
+"Brother MFC-J5955DW" = MFC-J5955DW.USB.SCN,USB\VID_04F9&PID_04C1&MI_01
+"Brother MFC-J6555DW" = MFC-J6555DW.USB.SCN,USB\VID_04F9&PID_04C7&MI_01
+"Brother MFC-J6955DW" = MFC-J6955DW.USB.SCN,USB\VID_04F9&PID_04C8&MI_01
+"Brother MFC-J7500CDW" = MFC-J7500CDW.USB.SCN,USB\VID_04F9&PID_04CF&MI_01
+"Brother MFC-J6957DW" = MFC-J6957DW.USB.SCN,USB\VID_04F9&PID_04C9&MI_01
+"Brother MFC-J7600CDW" = MFC-J7600CDW.USB.SCN,USB\VID_04F9&PID_04D0&MI_01
+"Brother MFC-J6959DW" = MFC-J6959DW.USB.SCN,USB\VID_04F9&PID_04E5&MI_01
+"Brother MFC-J7700CDW" = MFC-J7700CDW.USB.SCN,USB\VID_04F9&PID_04E6&MI_01
+"Brother MFC-J5340DW LAN" = MFC-J5340DW.NET.SCN,VID_04F9&PID_04BB&NETSCN
+"Brother MFC-J5345DW LAN" = MFC-J5345DW.NET.SCN,VID_04F9&PID_04BC&NETSCN
+"Brother MFC-J2340DW LAN" = MFC-J2340DW.NET.SCN,VID_04F9&PID_04BD&NETSCN
+"Brother MFC-J5740DW LAN" = MFC-J5740DW.NET.SCN,VID_04F9&PID_04BE&NETSCN
+"Brother MFC-J2740DW LAN" = MFC-J2740DW.NET.SCN,VID_04F9&PID_04BF&NETSCN
+"Brother MFC-J6540DW LAN" = MFC-J6540DW.NET.SCN,VID_04F9&PID_04C2&NETSCN
+"Brother MFC-J3540DW LAN" = MFC-J3540DW.NET.SCN,VID_04F9&PID_04C3&NETSCN
+"Brother MFC-J7100CDW LAN" = MFC-J7100CDW.NET.SCN,VID_04F9&PID_04CD&NETSCN
+"Brother MFC-J6740DW LAN" = MFC-J6740DW.NET.SCN,VID_04F9&PID_04C4&NETSCN
+"Brother MFC-J6940DW LAN" = MFC-J6940DW.NET.SCN,VID_04F9&PID_04C5&NETSCN
+"Brother MFC-J3940DW LAN" = MFC-J3940DW.NET.SCN,VID_04F9&PID_04C6&NETSCN
+"Brother MFC-J7300CDW LAN" = MFC-J7300CDW.NET.SCN,VID_04F9&PID_0515&NETSCN
+"Brother MFC-J5855DW LAN" = MFC-J5855DW.NET.SCN,VID_04F9&PID_04C0&NETSCN
+"Brother MFC-J5800CDW LAN" = MFC-J5800CDW.NET.SCN,VID_04F9&PID_04E3&NETSCN
+"Brother MFC-J5955DW LAN" = MFC-J5955DW.NET.SCN,VID_04F9&PID_04C1&NETSCN
+"Brother MFC-J6555DW LAN" = MFC-J6555DW.NET.SCN,VID_04F9&PID_04C7&NETSCN
+"Brother MFC-J6955DW LAN" = MFC-J6955DW.NET.SCN,VID_04F9&PID_04C8&NETSCN
+"Brother MFC-J7500CDW LAN" = MFC-J7500CDW.NET.SCN,VID_04F9&PID_04CF&NETSCN
+"Brother MFC-J6957DW LAN" = MFC-J6957DW.NET.SCN,VID_04F9&PID_04C9&NETSCN
+"Brother MFC-J7600CDW LAN" = MFC-J7600CDW.NET.SCN,VID_04F9&PID_04D0&NETSCN
+"Brother MFC-J6959DW LAN" = MFC-J6959DW.NET.SCN,VID_04F9&PID_04E5&NETSCN
+"Brother MFC-J7700CDW LAN" = MFC-J7700CDW.NET.SCN,VID_04F9&PID_04E6&NETSCN
+
+[MODEL.NTamd64.6]
+"Brother MFC-J5340DW" = MFC-J5340DW.USB.SCN,USB\VID_04F9&PID_04BB&MI_01
+"Brother MFC-J5345DW" = MFC-J5345DW.USB.SCN,USB\VID_04F9&PID_04BC&MI_01
+"Brother MFC-J2340DW" = MFC-J2340DW.USB.SCN,USB\VID_04F9&PID_04BD&MI_01
+"Brother MFC-J5740DW" = MFC-J5740DW.USB.SCN,USB\VID_04F9&PID_04BE&MI_01
+"Brother MFC-J2740DW" = MFC-J2740DW.USB.SCN,USB\VID_04F9&PID_04BF&MI_01
+"Brother MFC-J6540DW" = MFC-J6540DW.USB.SCN,USB\VID_04F9&PID_04C2&MI_01
+"Brother MFC-J3540DW" = MFC-J3540DW.USB.SCN,USB\VID_04F9&PID_04C3&MI_01
+"Brother MFC-J7100CDW" = MFC-J7100CDW.USB.SCN,USB\VID_04F9&PID_04CD&MI_01
+"Brother MFC-J6740DW" = MFC-J6740DW.USB.SCN,USB\VID_04F9&PID_04C4&MI_01
+"Brother MFC-J6940DW" = MFC-J6940DW.USB.SCN,USB\VID_04F9&PID_04C5&MI_01
+"Brother MFC-J3940DW" = MFC-J3940DW.USB.SCN,USB\VID_04F9&PID_04C6&MI_01
+"Brother MFC-J7300CDW" = MFC-J7300CDW.USB.SCN,USB\VID_04F9&PID_0515&MI_01
+"Brother MFC-J5855DW" = MFC-J5855DW.USB.SCN,USB\VID_04F9&PID_04C0&MI_01
+"Brother MFC-J5800CDW" = MFC-J5800CDW.USB.SCN,USB\VID_04F9&PID_04E3&MI_01
+"Brother MFC-J5955DW" = MFC-J5955DW.USB.SCN,USB\VID_04F9&PID_04C1&MI_01
+"Brother MFC-J6555DW" = MFC-J6555DW.USB.SCN,USB\VID_04F9&PID_04C7&MI_01
+"Brother MFC-J6955DW" = MFC-J6955DW.USB.SCN,USB\VID_04F9&PID_04C8&MI_01
+"Brother MFC-J7500CDW" = MFC-J7500CDW.USB.SCN,USB\VID_04F9&PID_04CF&MI_01
+"Brother MFC-J6957DW" = MFC-J6957DW.USB.SCN,USB\VID_04F9&PID_04C9&MI_01
+"Brother MFC-J7600CDW" = MFC-J7600CDW.USB.SCN,USB\VID_04F9&PID_04D0&MI_01
+"Brother MFC-J6959DW" = MFC-J6959DW.USB.SCN,USB\VID_04F9&PID_04E5&MI_01
+"Brother MFC-J7700CDW" = MFC-J7700CDW.USB.SCN,USB\VID_04F9&PID_04E6&MI_01
+"Brother MFC-J5340DW LAN" = MFC-J5340DW.NET.SCN,VID_04F9&PID_04BB&NETSCN
+"Brother MFC-J5345DW LAN" = MFC-J5345DW.NET.SCN,VID_04F9&PID_04BC&NETSCN
+"Brother MFC-J2340DW LAN" = MFC-J2340DW.NET.SCN,VID_04F9&PID_04BD&NETSCN
+"Brother MFC-J5740DW LAN" = MFC-J5740DW.NET.SCN,VID_04F9&PID_04BE&NETSCN
+"Brother MFC-J2740DW LAN" = MFC-J2740DW.NET.SCN,VID_04F9&PID_04BF&NETSCN
+"Brother MFC-J6540DW LAN" = MFC-J6540DW.NET.SCN,VID_04F9&PID_04C2&NETSCN
+"Brother MFC-J3540DW LAN" = MFC-J3540DW.NET.SCN,VID_04F9&PID_04C3&NETSCN
+"Brother MFC-J7100CDW LAN" = MFC-J7100CDW.NET.SCN,VID_04F9&PID_04CD&NETSCN
+"Brother MFC-J6740DW LAN" = MFC-J6740DW.NET.SCN,VID_04F9&PID_04C4&NETSCN
+"Brother MFC-J6940DW LAN" = MFC-J6940DW.NET.SCN,VID_04F9&PID_04C5&NETSCN
+"Brother MFC-J3940DW LAN" = MFC-J3940DW.NET.SCN,VID_04F9&PID_04C6&NETSCN
+"Brother MFC-J7300CDW LAN" = MFC-J7300CDW.NET.SCN,VID_04F9&PID_0515&NETSCN
+"Brother MFC-J5855DW LAN" = MFC-J5855DW.NET.SCN,VID_04F9&PID_04C0&NETSCN
+"Brother MFC-J5800CDW LAN" = MFC-J5800CDW.NET.SCN,VID_04F9&PID_04E3&NETSCN
+"Brother MFC-J5955DW LAN" = MFC-J5955DW.NET.SCN,VID_04F9&PID_04C1&NETSCN
+"Brother MFC-J6555DW LAN" = MFC-J6555DW.NET.SCN,VID_04F9&PID_04C7&NETSCN
+"Brother MFC-J6955DW LAN" = MFC-J6955DW.NET.SCN,VID_04F9&PID_04C8&NETSCN
+"Brother MFC-J7500CDW LAN" = MFC-J7500CDW.NET.SCN,VID_04F9&PID_04CF&NETSCN
+"Brother MFC-J6957DW LAN" = MFC-J6957DW.NET.SCN,VID_04F9&PID_04C9&NETSCN
+"Brother MFC-J7600CDW LAN" = MFC-J7600CDW.NET.SCN,VID_04F9&PID_04D0&NETSCN
+"Brother MFC-J6959DW LAN" = MFC-J6959DW.NET.SCN,VID_04F9&PID_04E5&NETSCN
+"Brother MFC-J7700CDW LAN" = MFC-J7700CDW.NET.SCN,VID_04F9&PID_04E6&NETSCN
+
+
+
+
+
+[ControlFlags]
+ExcludeFromSelect=*
+
+;----------------------------------------
+;----------------------------------------
+; MFC-J5340DW
+;----------------------------------------
+;----------------------------------------
+
+;----------------------------------------
+; USB: Server 2003 (32bit)
+;----------------------------------------
+[MFC-J5340DW.USB.SCN.WSERV32.NT]
+Include       = sti.inf
+Needs         = STI.USBSection
+SubClass      = StillImage
+DeviceType    = 1
+DeviceSubType = 0x1
+Capabilities  = 0x39
+PortSelect    = NO
+Events        = BrEvents
+DeviceData    = MFC-J5340DW.USB.SCN.WSERV32.DeviceData
+AddReg        = BrWia10USB.AddReg,BrModel.BHB.SX50.AddReg
+CopyFiles     = BrWia10USB.CopyFiles,BrTwdsFeUSB.MFC-J5340DW.CopyFiles,BrTwdsMain.CopyFiles
+ICMProfiles   = "sRGB Color Space Profile.icm"
+
+[MFC-J5340DW.USB.SCN.WSERV32.NT.Services]
+Include       = sti.inf
+Needs         = STI.USBSection.Services
+
+[MFC-J5340DW.USB.SCN.WSERV32.DeviceData]
+Server        = local
+UI Class ID   = {4DB1AD10-3391-11D2-9A33-00C04FA36145}
+TwainDS       = "TW-Brother MFC-J5340DW"
+Model         = 0-GENERAL
+STIFILE       = BrUsi19c.dll
+ModelName     = "MFC-J5340DW"
+
+;----------------------------------------
+; USB: XP, Server 2003 (64bit)
+;----------------------------------------
+[MFC-J5340DW.USB.SCN.WXP64.NT]
+Include       = sti.inf
+Needs         = STI.USBSection
+SubClass      = StillImage
+DeviceType    = 1
+DeviceSubType = 0x1
+Capabilities  = 0x39
+PortSelect    = NO
+Events        = BrEvents
+DeviceData    = MFC-J5340DW.USB.SCN.WXP64.DeviceData
+AddReg        = BrWia10USB.AddReg,BrModel.BHB.SX50.AddReg
+CopyFiles     = BrWia10USB.CopyFiles,BrTwdsFeUSB.MFC-J5340DW.CopyFiles,BrTwdsMain.CopyFiles
+ICMProfiles   = "sRGB Color Space Profile.icm"
+
+[MFC-J5340DW.USB.SCN.WXP64.NT.Services]
+Include       = sti.inf
+Needs         = STI.USBSection.Services
+
+[MFC-J5340DW.USB.SCN.WXP64.DeviceData]
+Server        = local
+UI Class ID   = {4DB1AD10-3391-11D2-9A33-00C04FA36145}
+TwainDS       = "TW-Brother MFC-J5340DW"
+Model         = 0-GENERAL
+STIFILE       = BrUsi19c.dll
+ModelName     = "MFC-J5340DW"
+
+;----------------------------------------
+; USB: Vist or later (32/64bit)
+;----------------------------------------
+[MFC-J5340DW.USB.SCN.NT]
+Include       = sti.inf
+Needs         = STI.USBSection
+SubClass      = StillImage
+DeviceType    = 1
+DeviceSubType = 0x1
+Capabilities  = 0x39
+PortSelect    = NO
+Events        = BrEvents
+DeviceData    = MFC-J5340DW.USB.SCN.DeviceData
+AddReg        = BrWia20USB.AddReg,BrModel.BHB.SX50.AddReg
+CopyFiles     = BrWia20USB.CopyFiles,BrTwdsFeUSB.MFC-J5340DW.CopyFiles,BrTwdsMain.CopyFiles
+ICMProfiles   = "sRGB Color Space Profile.icm"
+
+[MFC-J5340DW.USB.SCN.NT.Services]
+Include       = sti.inf
+Needs         = STI.USBSection.Services
+
+[MFC-J5340DW.USB.SCN.DeviceData]
+Server        = local
+UI Class ID   = {4DB1AD10-3391-11D2-9A33-00C04FA36145}
+TwainDS       = "TW-Brother MFC-J5340DW"
+Model         = 0-GENERAL
+STIFILE       = BrUsi19c.dll
+ModelName     = "MFC-J5340DW"
+
+;----------------------------------------
+; NET: XP / Server2003 (32/64bit)
+;----------------------------------------
+[MFC-J5340DW.NET.SCN.WXP.NT]
+Include       = sti.inf
+Needs         = STI.SerialSection
+SubClass      = StillImage
+DeviceType    = 1
+DeviceSubType = 0x1
+Capabilities  = 0x39
+PortSelect    = NO
+Events        = BrEvents
+DeviceData    = MFC-J5340DW.NET.SCN.WXP.DeviceData
+AddReg        = BrWiaNetUi.AddReg,BrWia10Net.AddReg,BrModel.BHB.SX50.AddReg
+CopyFiles     = BrWia10Net.CopyFiles,BrTwdsFeNet.MFC-J5340DW.CopyFiles,BrTwdsMain.CopyFiles
+ICMProfiles   = "sRGB Color Space Profile.icm"
+
+[MFC-J5340DW.NET.SCN.WXP.NT.Services]
+Include       = sti.inf
+Needs         = STI.SerialSection.Services
+
+[MFC-J5340DW.NET.SCN.WXP.DeviceData]
+Server        = local
+UI Class ID   = {4B29E704-7E5A-466c-A5FD-8BAEC62DC2BA}
+TwainDS       = "TW-Brother MFC-J5340DW LAN"
+Model         = 0-GENERAL
+STIFILE       = BrNetSti.dll
+LISTNAME      = "MFC-J5340DW"
+
+;----------------------------------------
+; NET: Vista or later (32/64bit)
+;----------------------------------------
+[MFC-J5340DW.NET.SCN.NT]
+Include       = sti.inf
+Needs         = STI.SerialSection
+SubClass      = StillImage
+DeviceType    = 1
+DeviceSubType = 0x1
+Capabilities  = 0x39
+PortSelect    = NO
+Events        = BrEvents
+DeviceData    = MFC-J5340DW.NET.SCN.DeviceData
+AddReg        = BrWiaNetUi.AddReg,BrWia20Net.AddReg,BrModel.BHB.SX50.AddReg
+CopyFiles     = BrWia20Net.CopyFiles,BrTwdsFeNet.MFC-J5340DW.CopyFiles,BrTwdsMain.CopyFiles
+ICMProfiles   = "sRGB Color Space Profile.icm"
+
+[MFC-J5340DW.NET.SCN.NT.Services]
+Include       = sti.inf
+Needs         = STI.SerialSection.Services
+
+[MFC-J5340DW.NET.SCN.DeviceData]
+Server        = local
+UI Class ID   = {4B29E704-7E5A-466c-A5FD-8BAEC62DC2BA}
+TwainDS       = "TW-Brother MFC-J5340DW LAN"
+Model         = 0-GENERAL
+STIFILE       = BrNetSti.dll
+LISTNAME      = "MFC-J5340DW"
+
+;----------------------------------------
+;----------------------------------------
+; MFC-J5345DW
+;----------------------------------------
+;----------------------------------------
+
+;----------------------------------------
+; USB: Server 2003 (32bit)
+;----------------------------------------
+[MFC-J5345DW.USB.SCN.WSERV32.NT]
+Include       = sti.inf
+Needs         = STI.USBSection
+SubClass      = StillImage
+DeviceType    = 1
+DeviceSubType = 0x1
+Capabilities  = 0x39
+PortSelect    = NO
+Events        = BrEvents
+DeviceData    = MFC-J5345DW.USB.SCN.WSERV32.DeviceData
+AddReg        = BrWia10USB.AddReg,BrModel.BHB.SX50.AddReg
+CopyFiles     = BrWia10USB.CopyFiles,BrTwdsFeUSB.MFC-J5345DW.CopyFiles,BrTwdsMain.CopyFiles
+ICMProfiles   = "sRGB Color Space Profile.icm"
+
+[MFC-J5345DW.USB.SCN.WSERV32.NT.Services]
+Include       = sti.inf
+Needs         = STI.USBSection.Services
+
+[MFC-J5345DW.USB.SCN.WSERV32.DeviceData]
+Server        = local
+UI Class ID   = {4DB1AD10-3391-11D2-9A33-00C04FA36145}
+TwainDS       = "TW-Brother MFC-J5345DW"
+Model         = 0-GENERAL
+STIFILE       = BrUsi19c.dll
+ModelName     = "MFC-J5345DW"
+
+;----------------------------------------
+; USB: XP, Server 2003 (64bit)
+;----------------------------------------
+[MFC-J5345DW.USB.SCN.WXP64.NT]
+Include       = sti.inf
+Needs         = STI.USBSection
+SubClass      = StillImage
+DeviceType    = 1
+DeviceSubType = 0x1
+Capabilities  = 0x39
+PortSelect    = NO
+Events        = BrEvents
+DeviceData    = MFC-J5345DW.USB.SCN.WXP64.DeviceData
+AddReg        = BrWia10USB.AddReg,BrModel.BHB.SX50.AddReg
+CopyFiles     = BrWia10USB.CopyFiles,BrTwdsFeUSB.MFC-J5345DW.CopyFiles,BrTwdsMain.CopyFiles
+ICMProfiles   = "sRGB Color Space Profile.icm"
+
+[MFC-J5345DW.USB.SCN.WXP64.NT.Services]
+Include       = sti.inf
+Needs         = STI.USBSection.Services
+
+[MFC-J5345DW.USB.SCN.WXP64.DeviceData]
+Server        = local
+UI Class ID   = {4DB1AD10-3391-11D2-9A33-00C04FA36145}
+TwainDS       = "TW-Brother MFC-J5345DW"
+Model         = 0-GENERAL
+STIFILE       = BrUsi19c.dll
+ModelName     = "MFC-J5345DW"
+
+;----------------------------------------
+; USB: Vist or later (32/64bit)
+;----------------------------------------
+[MFC-J5345DW.USB.SCN.NT]
+Include       = sti.inf
+Needs         = STI.USBSection
+SubClass      = StillImage
+DeviceType    = 1
+DeviceSubType = 0x1
+Capabilities  = 0x39
+PortSelect    = NO
+Events        = BrEvents
+DeviceData    = MFC-J5345DW.USB.SCN.DeviceData
+AddReg        = BrWia20USB.AddReg,BrModel.BHB.SX50.AddReg
+CopyFiles     = BrWia20USB.CopyFiles,BrTwdsFeUSB.MFC-J5345DW.CopyFiles,BrTwdsMain.CopyFiles
+ICMProfiles   = "sRGB Color Space Profile.icm"
+
+[MFC-J5345DW.USB.SCN.NT.Services]
+Include       = sti.inf
+Needs         = STI.USBSection.Services
+
+[MFC-J5345DW.USB.SCN.DeviceData]
+Server        = local
+UI Class ID   = {4DB1AD10-3391-11D2-9A33-00C04FA36145}
+TwainDS       = "TW-Brother MFC-J5345DW"
+Model         = 0-GENERAL
+STIFILE       = BrUsi19c.dll
+ModelName     = "MFC-J5345DW"
+
+;----------------------------------------
+; NET: XP / Server2003 (32/64bit)
+;----------------------------------------
+[MFC-J5345DW.NET.SCN.WXP.NT]
+Include       = sti.inf
+Needs         = STI.SerialSection
+SubClass      = StillImage
+DeviceType    = 1
+DeviceSubType = 0x1
+Capabilities  = 0x39
+PortSelect    = NO
+Events        = BrEvents
+DeviceData    = MFC-J5345DW.NET.SCN.WXP.DeviceData
+AddReg        = BrWiaNetUi.AddReg,BrWia10Net.AddReg,BrModel.BHB.SX50.AddReg
+CopyFiles     = BrWia10Net.CopyFiles,BrTwdsFeNet.MFC-J5345DW.CopyFiles,BrTwdsMain.CopyFiles
+ICMProfiles   = "sRGB Color Space Profile.icm"
+
+[MFC-J5345DW.NET.SCN.WXP.NT.Services]
+Include       = sti.inf
+Needs         = STI.SerialSection.Services
+
+[MFC-J5345DW.NET.SCN.WXP.DeviceData]
+Server        = local
+UI Class ID   = {4B29E704-7E5A-466c-A5FD-8BAEC62DC2BA}
+TwainDS       = "TW-Brother MFC-J5345DW LAN"
+Model         = 0-GENERAL
+STIFILE       = BrNetSti.dll
+LISTNAME      = "MFC-J5345DW"
+
+;----------------------------------------
+; NET: Vista or later (32/64bit)
+;----------------------------------------
+[MFC-J5345DW.NET.SCN.NT]
+Include       = sti.inf
+Needs         = STI.SerialSection
+SubClass      = StillImage
+DeviceType    = 1
+DeviceSubType = 0x1
+Capabilities  = 0x39
+PortSelect    = NO
+Events        = BrEvents
+DeviceData    = MFC-J5345DW.NET.SCN.DeviceData
+AddReg        = BrWiaNetUi.AddReg,BrWia20Net.AddReg,BrModel.BHB.SX50.AddReg
+CopyFiles     = BrWia20Net.CopyFiles,BrTwdsFeNet.MFC-J5345DW.CopyFiles,BrTwdsMain.CopyFiles
+ICMProfiles   = "sRGB Color Space Profile.icm"
+
+[MFC-J5345DW.NET.SCN.NT.Services]
+Include       = sti.inf
+Needs         = STI.SerialSection.Services
+
+[MFC-J5345DW.NET.SCN.DeviceData]
+Server        = local
+UI Class ID   = {4B29E704-7E5A-466c-A5FD-8BAEC62DC2BA}
+TwainDS       = "TW-Brother MFC-J5345DW LAN"
+Model         = 0-GENERAL
+STIFILE       = BrNetSti.dll
+LISTNAME      = "MFC-J5345DW"
+
+;----------------------------------------
+;----------------------------------------
+; MFC-J2340DW
+;----------------------------------------
+;----------------------------------------
+
+;----------------------------------------
+; USB: Server 2003 (32bit)
+;----------------------------------------
+[MFC-J2340DW.USB.SCN.WSERV32.NT]
+Include       = sti.inf
+Needs         = STI.USBSection
+SubClass      = StillImage
+DeviceType    = 1
+DeviceSubType = 0x1
+Capabilities  = 0x39
+PortSelect    = NO
+Events        = BrEvents
+DeviceData    = MFC-J2340DW.USB.SCN.WSERV32.DeviceData
+AddReg        = BrWia10USB.AddReg,BrModel.BHB.SX50.AddReg
+CopyFiles     = BrWia10USB.CopyFiles,BrTwdsFeUSB.MFC-J2340DW.CopyFiles,BrTwdsMain.CopyFiles
+ICMProfiles   = "sRGB Color Space Profile.icm"
+
+[MFC-J2340DW.USB.SCN.WSERV32.NT.Services]
+Include       = sti.inf
+Needs         = STI.USBSection.Services
+
+[MFC-J2340DW.USB.SCN.WSERV32.DeviceData]
+Server        = local
+UI Class ID   = {4DB1AD10-3391-11D2-9A33-00C04FA36145}
+TwainDS       = "TW-Brother MFC-J2340DW"
+Model         = 0-GENERAL
+STIFILE       = BrUsi19c.dll
+ModelName     = "MFC-J2340DW"
+
+;----------------------------------------
+; USB: XP, Server 2003 (64bit)
+;----------------------------------------
+[MFC-J2340DW.USB.SCN.WXP64.NT]
+Include       = sti.inf
+Needs         = STI.USBSection
+SubClass      = StillImage
+DeviceType    = 1
+DeviceSubType = 0x1
+Capabilities  = 0x39
+PortSelect    = NO
+Events        = BrEvents
+DeviceData    = MFC-J2340DW.USB.SCN.WXP64.DeviceData
+AddReg        = BrWia10USB.AddReg,BrModel.BHB.SX50.AddReg
+CopyFiles     = BrWia10USB.CopyFiles,BrTwdsFeUSB.MFC-J2340DW.CopyFiles,BrTwdsMain.CopyFiles
+ICMProfiles   = "sRGB Color Space Profile.icm"
+
+[MFC-J2340DW.USB.SCN.WXP64.NT.Services]
+Include       = sti.inf
+Needs         = STI.USBSection.Services
+
+[MFC-J2340DW.USB.SCN.WXP64.DeviceData]
+Server        = local
+UI Class ID   = {4DB1AD10-3391-11D2-9A33-00C04FA36145}
+TwainDS       = "TW-Brother MFC-J2340DW"
+Model         = 0-GENERAL
+STIFILE       = BrUsi19c.dll
+ModelName     = "MFC-J2340DW"
+
+;----------------------------------------
+; USB: Vist or later (32/64bit)
+;----------------------------------------
+[MFC-J2340DW.USB.SCN.NT]
+Include       = sti.inf
+Needs         = STI.USBSection
+SubClass      = StillImage
+DeviceType    = 1
+DeviceSubType = 0x1
+Capabilities  = 0x39
+PortSelect    = NO
+Events        = BrEvents
+DeviceData    = MFC-J2340DW.USB.SCN.DeviceData
+AddReg        = BrWia20USB.AddReg,BrModel.BHB.SX50.AddReg
+CopyFiles     = BrWia20USB.CopyFiles,BrTwdsFeUSB.MFC-J2340DW.CopyFiles,BrTwdsMain.CopyFiles
+ICMProfiles   = "sRGB Color Space Profile.icm"
+
+[MFC-J2340DW.USB.SCN.NT.Services]
+Include       = sti.inf
+Needs         = STI.USBSection.Services
+
+[MFC-J2340DW.USB.SCN.DeviceData]
+Server        = local
+UI Class ID   = {4DB1AD10-3391-11D2-9A33-00C04FA36145}
+TwainDS       = "TW-Brother MFC-J2340DW"
+Model         = 0-GENERAL
+STIFILE       = BrUsi19c.dll
+ModelName     = "MFC-J2340DW"
+
+;----------------------------------------
+; NET: XP / Server2003 (32/64bit)
+;----------------------------------------
+[MFC-J2340DW.NET.SCN.WXP.NT]
+Include       = sti.inf
+Needs         = STI.SerialSection
+SubClass      = StillImage
+DeviceType    = 1
+DeviceSubType = 0x1
+Capabilities  = 0x39
+PortSelect    = NO
+Events        = BrEvents
+DeviceData    = MFC-J2340DW.NET.SCN.WXP.DeviceData
+AddReg        = BrWiaNetUi.AddReg,BrWia10Net.AddReg,BrModel.BHB.SX50.AddReg
+CopyFiles     = BrWia10Net.CopyFiles,BrTwdsFeNet.MFC-J2340DW.CopyFiles,BrTwdsMain.CopyFiles
+ICMProfiles   = "sRGB Color Space Profile.icm"
+
+[MFC-J2340DW.NET.SCN.WXP.NT.Services]
+Include       = sti.inf
+Needs         = STI.SerialSection.Services
+
+[MFC-J2340DW.NET.SCN.WXP.DeviceData]
+Server        = local
+UI Class ID   = {4B29E704-7E5A-466c-A5FD-8BAEC62DC2BA}
+TwainDS       = "TW-Brother MFC-J2340DW LAN"
+Model         = 0-GENERAL
+STIFILE       = BrNetSti.dll
+LISTNAME      = "MFC-J2340DW"
+
+;----------------------------------------
+; NET: Vista or later (32/64bit)
+;----------------------------------------
+[MFC-J2340DW.NET.SCN.NT]
+Include       = sti.inf
+Needs         = STI.SerialSection
+SubClass      = StillImage
+DeviceType    = 1
+DeviceSubType = 0x1
+Capabilities  = 0x39
+PortSelect    = NO
+Events        = BrEvents
+DeviceData    = MFC-J2340DW.NET.SCN.DeviceData
+AddReg        = BrWiaNetUi.AddReg,BrWia20Net.AddReg,BrModel.BHB.SX50.AddReg
+CopyFiles     = BrWia20Net.CopyFiles,BrTwdsFeNet.MFC-J2340DW.CopyFiles,BrTwdsMain.CopyFiles
+ICMProfiles   = "sRGB Color Space Profile.icm"
+
+[MFC-J2340DW.NET.SCN.NT.Services]
+Include       = sti.inf
+Needs         = STI.SerialSection.Services
+
+[MFC-J2340DW.NET.SCN.DeviceData]
+Server        = local
+UI Class ID   = {4B29E704-7E5A-466c-A5FD-8BAEC62DC2BA}
+TwainDS       = "TW-Brother MFC-J2340DW LAN"
+Model         = 0-GENERAL
+STIFILE       = BrNetSti.dll
+LISTNAME      = "MFC-J2340DW"
+
+;----------------------------------------
+;----------------------------------------
+; MFC-J5740DW
+;----------------------------------------
+;----------------------------------------
+
+;----------------------------------------
+; USB: Server 2003 (32bit)
+;----------------------------------------
+[MFC-J5740DW.USB.SCN.WSERV32.NT]
+Include       = sti.inf
+Needs         = STI.USBSection
+SubClass      = StillImage
+DeviceType    = 1
+DeviceSubType = 0x1
+Capabilities  = 0x39
+PortSelect    = NO
+Events        = BrEvents
+DeviceData    = MFC-J5740DW.USB.SCN.WSERV32.DeviceData
+AddReg        = BrWia10USB.AddReg,BrModel.BHB.DX50.AddReg
+CopyFiles     = BrWia10USB.CopyFiles,BrTwdsFeUSB.MFC-J5740DW.CopyFiles,BrTwdsMain.CopyFiles
+ICMProfiles   = "sRGB Color Space Profile.icm"
+
+[MFC-J5740DW.USB.SCN.WSERV32.NT.Services]
+Include       = sti.inf
+Needs         = STI.USBSection.Services
+
+[MFC-J5740DW.USB.SCN.WSERV32.DeviceData]
+Server        = local
+UI Class ID   = {4DB1AD10-3391-11D2-9A33-00C04FA36145}
+TwainDS       = "TW-Brother MFC-J5740DW"
+Model         = 0-GENERAL
+STIFILE       = BrUsi19c.dll
+ModelName     = "MFC-J5740DW"
+
+;----------------------------------------
+; USB: XP, Server 2003 (64bit)
+;----------------------------------------
+[MFC-J5740DW.USB.SCN.WXP64.NT]
+Include       = sti.inf
+Needs         = STI.USBSection
+SubClass      = StillImage
+DeviceType    = 1
+DeviceSubType = 0x1
+Capabilities  = 0x39
+PortSelect    = NO
+Events        = BrEvents
+DeviceData    = MFC-J5740DW.USB.SCN.WXP64.DeviceData
+AddReg        = BrWia10USB.AddReg,BrModel.BHB.DX50.AddReg
+CopyFiles     = BrWia10USB.CopyFiles,BrTwdsFeUSB.MFC-J5740DW.CopyFiles,BrTwdsMain.CopyFiles
+ICMProfiles   = "sRGB Color Space Profile.icm"
+
+[MFC-J5740DW.USB.SCN.WXP64.NT.Services]
+Include       = sti.inf
+Needs         = STI.USBSection.Services
+
+[MFC-J5740DW.USB.SCN.WXP64.DeviceData]
+Server        = local
+UI Class ID   = {4DB1AD10-3391-11D2-9A33-00C04FA36145}
+TwainDS       = "TW-Brother MFC-J5740DW"
+Model         = 0-GENERAL
+STIFILE       = BrUsi19c.dll
+ModelName     = "MFC-J5740DW"
+
+;----------------------------------------
+; USB: Vist or later (32/64bit)
+;----------------------------------------
+[MFC-J5740DW.USB.SCN.NT]
+Include       = sti.inf
+Needs         = STI.USBSection
+SubClass      = StillImage
+DeviceType    = 1
+DeviceSubType = 0x1
+Capabilities  = 0x39
+PortSelect    = NO
+Events        = BrEvents
+DeviceData    = MFC-J5740DW.USB.SCN.DeviceData
+AddReg        = BrWia20USB.AddReg,BrModel.BHB.DX50.AddReg
+CopyFiles     = BrWia20USB.CopyFiles,BrTwdsFeUSB.MFC-J5740DW.CopyFiles,BrTwdsMain.CopyFiles
+ICMProfiles   = "sRGB Color Space Profile.icm"
+
+[MFC-J5740DW.USB.SCN.NT.Services]
+Include       = sti.inf
+Needs         = STI.USBSection.Services
+
+[MFC-J5740DW.USB.SCN.DeviceData]
+Server        = local
+UI Class ID   = {4DB1AD10-3391-11D2-9A33-00C04FA36145}
+TwainDS       = "TW-Brother MFC-J5740DW"
+Model         = 0-GENERAL
+STIFILE       = BrUsi19c.dll
+ModelName     = "MFC-J5740DW"
+
+;----------------------------------------
+; NET: XP / Server2003 (32/64bit)
+;----------------------------------------
+[MFC-J5740DW.NET.SCN.WXP.NT]
+Include       = sti.inf
+Needs         = STI.SerialSection
+SubClass      = StillImage
+DeviceType    = 1
+DeviceSubType = 0x1
+Capabilities  = 0x39
+PortSelect    = NO
+Events        = BrEvents
+DeviceData    = MFC-J5740DW.NET.SCN.WXP.DeviceData
+AddReg        = BrWiaNetUi.AddReg,BrWia10Net.AddReg,BrModel.BHB.DX50.AddReg
+CopyFiles     = BrWia10Net.CopyFiles,BrTwdsFeNet.MFC-J5740DW.CopyFiles,BrTwdsMain.CopyFiles
+ICMProfiles   = "sRGB Color Space Profile.icm"
+
+[MFC-J5740DW.NET.SCN.WXP.NT.Services]
+Include       = sti.inf
+Needs         = STI.SerialSection.Services
+
+[MFC-J5740DW.NET.SCN.WXP.DeviceData]
+Server        = local
+UI Class ID   = {4B29E704-7E5A-466c-A5FD-8BAEC62DC2BA}
+TwainDS       = "TW-Brother MFC-J5740DW LAN"
+Model         = 0-GENERAL
+STIFILE       = BrNetSti.dll
+LISTNAME      = "MFC-J5740DW"
+
+;----------------------------------------
+; NET: Vista or later (32/64bit)
+;----------------------------------------
+[MFC-J5740DW.NET.SCN.NT]
+Include       = sti.inf
+Needs         = STI.SerialSection
+SubClass      = StillImage
+DeviceType    = 1
+DeviceSubType = 0x1
+Capabilities  = 0x39
+PortSelect    = NO
+Events        = BrEvents
+DeviceData    = MFC-J5740DW.NET.SCN.DeviceData
+AddReg        = BrWiaNetUi.AddReg,BrWia20Net.AddReg,BrModel.BHB.DX50.AddReg
+CopyFiles     = BrWia20Net.CopyFiles,BrTwdsFeNet.MFC-J5740DW.CopyFiles,BrTwdsMain.CopyFiles
+ICMProfiles   = "sRGB Color Space Profile.icm"
+
+[MFC-J5740DW.NET.SCN.NT.Services]
+Include       = sti.inf
+Needs         = STI.SerialSection.Services
+
+[MFC-J5740DW.NET.SCN.DeviceData]
+Server        = local
+UI Class ID   = {4B29E704-7E5A-466c-A5FD-8BAEC62DC2BA}
+TwainDS       = "TW-Brother MFC-J5740DW LAN"
+Model         = 0-GENERAL
+STIFILE       = BrNetSti.dll
+LISTNAME      = "MFC-J5740DW"
+
+;----------------------------------------
+;----------------------------------------
+; MFC-J2740DW
+;----------------------------------------
+;----------------------------------------
+
+;----------------------------------------
+; USB: Server 2003 (32bit)
+;----------------------------------------
+[MFC-J2740DW.USB.SCN.WSERV32.NT]
+Include       = sti.inf
+Needs         = STI.USBSection
+SubClass      = StillImage
+DeviceType    = 1
+DeviceSubType = 0x1
+Capabilities  = 0x39
+PortSelect    = NO
+Events        = BrEvents
+DeviceData    = MFC-J2740DW.USB.SCN.WSERV32.DeviceData
+AddReg        = BrWia10USB.AddReg,BrModel.BHB.DX50.AddReg
+CopyFiles     = BrWia10USB.CopyFiles,BrTwdsFeUSB.MFC-J2740DW.CopyFiles,BrTwdsMain.CopyFiles
+ICMProfiles   = "sRGB Color Space Profile.icm"
+
+[MFC-J2740DW.USB.SCN.WSERV32.NT.Services]
+Include       = sti.inf
+Needs         = STI.USBSection.Services
+
+[MFC-J2740DW.USB.SCN.WSERV32.DeviceData]
+Server        = local
+UI Class ID   = {4DB1AD10-3391-11D2-9A33-00C04FA36145}
+TwainDS       = "TW-Brother MFC-J2740DW"
+Model         = 0-GENERAL
+STIFILE       = BrUsi19c.dll
+ModelName     = "MFC-J2740DW"
+
+;----------------------------------------
+; USB: XP, Server 2003 (64bit)
+;----------------------------------------
+[MFC-J2740DW.USB.SCN.WXP64.NT]
+Include       = sti.inf
+Needs         = STI.USBSection
+SubClass      = StillImage
+DeviceType    = 1
+DeviceSubType = 0x1
+Capabilities  = 0x39
+PortSelect    = NO
+Events        = BrEvents
+DeviceData    = MFC-J2740DW.USB.SCN.WXP64.DeviceData
+AddReg        = BrWia10USB.AddReg,BrModel.BHB.DX50.AddReg
+CopyFiles     = BrWia10USB.CopyFiles,BrTwdsFeUSB.MFC-J2740DW.CopyFiles,BrTwdsMain.CopyFiles
+ICMProfiles   = "sRGB Color Space Profile.icm"
+
+[MFC-J2740DW.USB.SCN.WXP64.NT.Services]
+Include       = sti.inf
+Needs         = STI.USBSection.Services
+
+[MFC-J2740DW.USB.SCN.WXP64.DeviceData]
+Server        = local
+UI Class ID   = {4DB1AD10-3391-11D2-9A33-00C04FA36145}
+TwainDS       = "TW-Brother MFC-J2740DW"
+Model         = 0-GENERAL
+STIFILE       = BrUsi19c.dll
+ModelName     = "MFC-J2740DW"
+
+;----------------------------------------
+; USB: Vist or later (32/64bit)
+;----------------------------------------
+[MFC-J2740DW.USB.SCN.NT]
+Include       = sti.inf
+Needs         = STI.USBSection
+SubClass      = StillImage
+DeviceType    = 1
+DeviceSubType = 0x1
+Capabilities  = 0x39
+PortSelect    = NO
+Events        = BrEvents
+DeviceData    = MFC-J2740DW.USB.SCN.DeviceData
+AddReg        = BrWia20USB.AddReg,BrModel.BHB.DX50.AddReg
+CopyFiles     = BrWia20USB.CopyFiles,BrTwdsFeUSB.MFC-J2740DW.CopyFiles,BrTwdsMain.CopyFiles
+ICMProfiles   = "sRGB Color Space Profile.icm"
+
+[MFC-J2740DW.USB.SCN.NT.Services]
+Include       = sti.inf
+Needs         = STI.USBSection.Services
+
+[MFC-J2740DW.USB.SCN.DeviceData]
+Server        = local
+UI Class ID   = {4DB1AD10-3391-11D2-9A33-00C04FA36145}
+TwainDS       = "TW-Brother MFC-J2740DW"
+Model         = 0-GENERAL
+STIFILE       = BrUsi19c.dll
+ModelName     = "MFC-J2740DW"
+
+;----------------------------------------
+; NET: XP / Server2003 (32/64bit)
+;----------------------------------------
+[MFC-J2740DW.NET.SCN.WXP.NT]
+Include       = sti.inf
+Needs         = STI.SerialSection
+SubClass      = StillImage
+DeviceType    = 1
+DeviceSubType = 0x1
+Capabilities  = 0x39
+PortSelect    = NO
+Events        = BrEvents
+DeviceData    = MFC-J2740DW.NET.SCN.WXP.DeviceData
+AddReg        = BrWiaNetUi.AddReg,BrWia10Net.AddReg,BrModel.BHB.DX50.AddReg
+CopyFiles     = BrWia10Net.CopyFiles,BrTwdsFeNet.MFC-J2740DW.CopyFiles,BrTwdsMain.CopyFiles
+ICMProfiles   = "sRGB Color Space Profile.icm"
+
+[MFC-J2740DW.NET.SCN.WXP.NT.Services]
+Include       = sti.inf
+Needs         = STI.SerialSection.Services
+
+[MFC-J2740DW.NET.SCN.WXP.DeviceData]
+Server        = local
+UI Class ID   = {4B29E704-7E5A-466c-A5FD-8BAEC62DC2BA}
+TwainDS       = "TW-Brother MFC-J2740DW LAN"
+Model         = 0-GENERAL
+STIFILE       = BrNetSti.dll
+LISTNAME      = "MFC-J2740DW"
+
+;----------------------------------------
+; NET: Vista or later (32/64bit)
+;----------------------------------------
+[MFC-J2740DW.NET.SCN.NT]
+Include       = sti.inf
+Needs         = STI.SerialSection
+SubClass      = StillImage
+DeviceType    = 1
+DeviceSubType = 0x1
+Capabilities  = 0x39
+PortSelect    = NO
+Events        = BrEvents
+DeviceData    = MFC-J2740DW.NET.SCN.DeviceData
+AddReg        = BrWiaNetUi.AddReg,BrWia20Net.AddReg,BrModel.BHB.DX50.AddReg
+CopyFiles     = BrWia20Net.CopyFiles,BrTwdsFeNet.MFC-J2740DW.CopyFiles,BrTwdsMain.CopyFiles
+ICMProfiles   = "sRGB Color Space Profile.icm"
+
+[MFC-J2740DW.NET.SCN.NT.Services]
+Include       = sti.inf
+Needs         = STI.SerialSection.Services
+
+[MFC-J2740DW.NET.SCN.DeviceData]
+Server        = local
+UI Class ID   = {4B29E704-7E5A-466c-A5FD-8BAEC62DC2BA}
+TwainDS       = "TW-Brother MFC-J2740DW LAN"
+Model         = 0-GENERAL
+STIFILE       = BrNetSti.dll
+LISTNAME      = "MFC-J2740DW"
+
+;----------------------------------------
+;----------------------------------------
+; MFC-J6540DW
+;----------------------------------------
+;----------------------------------------
+
+;----------------------------------------
+; USB: Server 2003 (32bit)
+;----------------------------------------
+[MFC-J6540DW.USB.SCN.WSERV32.NT]
+Include       = sti.inf
+Needs         = STI.USBSection
+SubClass      = StillImage
+DeviceType    = 1
+DeviceSubType = 0x1
+Capabilities  = 0x39
+PortSelect    = NO
+Events        = BrEvents
+DeviceData    = MFC-J6540DW.USB.SCN.WSERV32.DeviceData
+AddReg        = BrWia10USB.AddReg,BrModel.BHM.SX50.AddReg
+CopyFiles     = BrWia10USB.CopyFiles,BrTwdsFeUSB.MFC-J6540DW.CopyFiles,BrTwdsMain.CopyFiles
+ICMProfiles   = "sRGB Color Space Profile.icm"
+
+[MFC-J6540DW.USB.SCN.WSERV32.NT.Services]
+Include       = sti.inf
+Needs         = STI.USBSection.Services
+
+[MFC-J6540DW.USB.SCN.WSERV32.DeviceData]
+Server        = local
+UI Class ID   = {4DB1AD10-3391-11D2-9A33-00C04FA36145}
+TwainDS       = "TW-Brother MFC-J6540DW"
+Model         = 0-GENERAL
+STIFILE       = BrUsi19c.dll
+ModelName     = "MFC-J6540DW"
+
+;----------------------------------------
+; USB: XP, Server 2003 (64bit)
+;----------------------------------------
+[MFC-J6540DW.USB.SCN.WXP64.NT]
+Include       = sti.inf
+Needs         = STI.USBSection
+SubClass      = StillImage
+DeviceType    = 1
+DeviceSubType = 0x1
+Capabilities  = 0x39
+PortSelect    = NO
+Events        = BrEvents
+DeviceData    = MFC-J6540DW.USB.SCN.WXP64.DeviceData
+AddReg        = BrWia10USB.AddReg,BrModel.BHM.SX50.AddReg
+CopyFiles     = BrWia10USB.CopyFiles,BrTwdsFeUSB.MFC-J6540DW.CopyFiles,BrTwdsMain.CopyFiles
+ICMProfiles   = "sRGB Color Space Profile.icm"
+
+[MFC-J6540DW.USB.SCN.WXP64.NT.Services]
+Include       = sti.inf
+Needs         = STI.USBSection.Services
+
+[MFC-J6540DW.USB.SCN.WXP64.DeviceData]
+Server        = local
+UI Class ID   = {4DB1AD10-3391-11D2-9A33-00C04FA36145}
+TwainDS       = "TW-Brother MFC-J6540DW"
+Model         = 0-GENERAL
+STIFILE       = BrUsi19c.dll
+ModelName     = "MFC-J6540DW"
+
+;----------------------------------------
+; USB: Vist or later (32/64bit)
+;----------------------------------------
+[MFC-J6540DW.USB.SCN.NT]
+Include       = sti.inf
+Needs         = STI.USBSection
+SubClass      = StillImage
+DeviceType    = 1
+DeviceSubType = 0x1
+Capabilities  = 0x39
+PortSelect    = NO
+Events        = BrEvents
+DeviceData    = MFC-J6540DW.USB.SCN.DeviceData
+AddReg        = BrWia20USB.AddReg,BrModel.BHM.SX50.AddReg
+CopyFiles     = BrWia20USB.CopyFiles,BrTwdsFeUSB.MFC-J6540DW.CopyFiles,BrTwdsMain.CopyFiles
+ICMProfiles   = "sRGB Color Space Profile.icm"
+
+[MFC-J6540DW.USB.SCN.NT.Services]
+Include       = sti.inf
+Needs         = STI.USBSection.Services
+
+[MFC-J6540DW.USB.SCN.DeviceData]
+Server        = local
+UI Class ID   = {4DB1AD10-3391-11D2-9A33-00C04FA36145}
+TwainDS       = "TW-Brother MFC-J6540DW"
+Model         = 0-GENERAL
+STIFILE       = BrUsi19c.dll
+ModelName     = "MFC-J6540DW"
+
+;----------------------------------------
+; NET: XP / Server2003 (32/64bit)
+;----------------------------------------
+[MFC-J6540DW.NET.SCN.WXP.NT]
+Include       = sti.inf
+Needs         = STI.SerialSection
+SubClass      = StillImage
+DeviceType    = 1
+DeviceSubType = 0x1
+Capabilities  = 0x39
+PortSelect    = NO
+Events        = BrEvents
+DeviceData    = MFC-J6540DW.NET.SCN.WXP.DeviceData
+AddReg        = BrWiaNetUi.AddReg,BrWia10Net.AddReg,BrModel.BHM.SX50.AddReg
+CopyFiles     = BrWia10Net.CopyFiles,BrTwdsFeNet.MFC-J6540DW.CopyFiles,BrTwdsMain.CopyFiles
+ICMProfiles   = "sRGB Color Space Profile.icm"
+
+[MFC-J6540DW.NET.SCN.WXP.NT.Services]
+Include       = sti.inf
+Needs         = STI.SerialSection.Services
+
+[MFC-J6540DW.NET.SCN.WXP.DeviceData]
+Server        = local
+UI Class ID   = {4B29E704-7E5A-466c-A5FD-8BAEC62DC2BA}
+TwainDS       = "TW-Brother MFC-J6540DW LAN"
+Model         = 0-GENERAL
+STIFILE       = BrNetSti.dll
+LISTNAME      = "MFC-J6540DW"
+
+;----------------------------------------
+; NET: Vista or later (32/64bit)
+;----------------------------------------
+[MFC-J6540DW.NET.SCN.NT]
+Include       = sti.inf
+Needs         = STI.SerialSection
+SubClass      = StillImage
+DeviceType    = 1
+DeviceSubType = 0x1
+Capabilities  = 0x39
+PortSelect    = NO
+Events        = BrEvents
+DeviceData    = MFC-J6540DW.NET.SCN.DeviceData
+AddReg        = BrWiaNetUi.AddReg,BrWia20Net.AddReg,BrModel.BHM.SX50.AddReg
+CopyFiles     = BrWia20Net.CopyFiles,BrTwdsFeNet.MFC-J6540DW.CopyFiles,BrTwdsMain.CopyFiles
+ICMProfiles   = "sRGB Color Space Profile.icm"
+
+[MFC-J6540DW.NET.SCN.NT.Services]
+Include       = sti.inf
+Needs         = STI.SerialSection.Services
+
+[MFC-J6540DW.NET.SCN.DeviceData]
+Server        = local
+UI Class ID   = {4B29E704-7E5A-466c-A5FD-8BAEC62DC2BA}
+TwainDS       = "TW-Brother MFC-J6540DW LAN"
+Model         = 0-GENERAL
+STIFILE       = BrNetSti.dll
+LISTNAME      = "MFC-J6540DW"
+
+;----------------------------------------
+;----------------------------------------
+; MFC-J3540DW
+;----------------------------------------
+;----------------------------------------
+
+;----------------------------------------
+; USB: Server 2003 (32bit)
+;----------------------------------------
+[MFC-J3540DW.USB.SCN.WSERV32.NT]
+Include       = sti.inf
+Needs         = STI.USBSection
+SubClass      = StillImage
+DeviceType    = 1
+DeviceSubType = 0x1
+Capabilities  = 0x39
+PortSelect    = NO
+Events        = BrEvents
+DeviceData    = MFC-J3540DW.USB.SCN.WSERV32.DeviceData
+AddReg        = BrWia10USB.AddReg,BrModel.BHM.SX50.AddReg
+CopyFiles     = BrWia10USB.CopyFiles,BrTwdsFeUSB.MFC-J3540DW.CopyFiles,BrTwdsMain.CopyFiles
+ICMProfiles   = "sRGB Color Space Profile.icm"
+
+[MFC-J3540DW.USB.SCN.WSERV32.NT.Services]
+Include       = sti.inf
+Needs         = STI.USBSection.Services
+
+[MFC-J3540DW.USB.SCN.WSERV32.DeviceData]
+Server        = local
+UI Class ID   = {4DB1AD10-3391-11D2-9A33-00C04FA36145}
+TwainDS       = "TW-Brother MFC-J3540DW"
+Model         = 0-GENERAL
+STIFILE       = BrUsi19c.dll
+ModelName     = "MFC-J3540DW"
+
+;----------------------------------------
+; USB: XP, Server 2003 (64bit)
+;----------------------------------------
+[MFC-J3540DW.USB.SCN.WXP64.NT]
+Include       = sti.inf
+Needs         = STI.USBSection
+SubClass      = StillImage
+DeviceType    = 1
+DeviceSubType = 0x1
+Capabilities  = 0x39
+PortSelect    = NO
+Events        = BrEvents
+DeviceData    = MFC-J3540DW.USB.SCN.WXP64.DeviceData
+AddReg        = BrWia10USB.AddReg,BrModel.BHM.SX50.AddReg
+CopyFiles     = BrWia10USB.CopyFiles,BrTwdsFeUSB.MFC-J3540DW.CopyFiles,BrTwdsMain.CopyFiles
+ICMProfiles   = "sRGB Color Space Profile.icm"
+
+[MFC-J3540DW.USB.SCN.WXP64.NT.Services]
+Include       = sti.inf
+Needs         = STI.USBSection.Services
+
+[MFC-J3540DW.USB.SCN.WXP64.DeviceData]
+Server        = local
+UI Class ID   = {4DB1AD10-3391-11D2-9A33-00C04FA36145}
+TwainDS       = "TW-Brother MFC-J3540DW"
+Model         = 0-GENERAL
+STIFILE       = BrUsi19c.dll
+ModelName     = "MFC-J3540DW"
+
+;----------------------------------------
+; USB: Vist or later (32/64bit)
+;----------------------------------------
+[MFC-J3540DW.USB.SCN.NT]
+Include       = sti.inf
+Needs         = STI.USBSection
+SubClass      = StillImage
+DeviceType    = 1
+DeviceSubType = 0x1
+Capabilities  = 0x39
+PortSelect    = NO
+Events        = BrEvents
+DeviceData    = MFC-J3540DW.USB.SCN.DeviceData
+AddReg        = BrWia20USB.AddReg,BrModel.BHM.SX50.AddReg
+CopyFiles     = BrWia20USB.CopyFiles,BrTwdsFeUSB.MFC-J3540DW.CopyFiles,BrTwdsMain.CopyFiles
+ICMProfiles   = "sRGB Color Space Profile.icm"
+
+[MFC-J3540DW.USB.SCN.NT.Services]
+Include       = sti.inf
+Needs         = STI.USBSection.Services
+
+[MFC-J3540DW.USB.SCN.DeviceData]
+Server        = local
+UI Class ID   = {4DB1AD10-3391-11D2-9A33-00C04FA36145}
+TwainDS       = "TW-Brother MFC-J3540DW"
+Model         = 0-GENERAL
+STIFILE       = BrUsi19c.dll
+ModelName     = "MFC-J3540DW"
+
+;----------------------------------------
+; NET: XP / Server2003 (32/64bit)
+;----------------------------------------
+[MFC-J3540DW.NET.SCN.WXP.NT]
+Include       = sti.inf
+Needs         = STI.SerialSection
+SubClass      = StillImage
+DeviceType    = 1
+DeviceSubType = 0x1
+Capabilities  = 0x39
+PortSelect    = NO
+Events        = BrEvents
+DeviceData    = MFC-J3540DW.NET.SCN.WXP.DeviceData
+AddReg        = BrWiaNetUi.AddReg,BrWia10Net.AddReg,BrModel.BHM.SX50.AddReg
+CopyFiles     = BrWia10Net.CopyFiles,BrTwdsFeNet.MFC-J3540DW.CopyFiles,BrTwdsMain.CopyFiles
+ICMProfiles   = "sRGB Color Space Profile.icm"
+
+[MFC-J3540DW.NET.SCN.WXP.NT.Services]
+Include       = sti.inf
+Needs         = STI.SerialSection.Services
+
+[MFC-J3540DW.NET.SCN.WXP.DeviceData]
+Server        = local
+UI Class ID   = {4B29E704-7E5A-466c-A5FD-8BAEC62DC2BA}
+TwainDS       = "TW-Brother MFC-J3540DW LAN"
+Model         = 0-GENERAL
+STIFILE       = BrNetSti.dll
+LISTNAME      = "MFC-J3540DW"
+
+;----------------------------------------
+; NET: Vista or later (32/64bit)
+;----------------------------------------
+[MFC-J3540DW.NET.SCN.NT]
+Include       = sti.inf
+Needs         = STI.SerialSection
+SubClass      = StillImage
+DeviceType    = 1
+DeviceSubType = 0x1
+Capabilities  = 0x39
+PortSelect    = NO
+Events        = BrEvents
+DeviceData    = MFC-J3540DW.NET.SCN.DeviceData
+AddReg        = BrWiaNetUi.AddReg,BrWia20Net.AddReg,BrModel.BHM.SX50.AddReg
+CopyFiles     = BrWia20Net.CopyFiles,BrTwdsFeNet.MFC-J3540DW.CopyFiles,BrTwdsMain.CopyFiles
+ICMProfiles   = "sRGB Color Space Profile.icm"
+
+[MFC-J3540DW.NET.SCN.NT.Services]
+Include       = sti.inf
+Needs         = STI.SerialSection.Services
+
+[MFC-J3540DW.NET.SCN.DeviceData]
+Server        = local
+UI Class ID   = {4B29E704-7E5A-466c-A5FD-8BAEC62DC2BA}
+TwainDS       = "TW-Brother MFC-J3540DW LAN"
+Model         = 0-GENERAL
+STIFILE       = BrNetSti.dll
+LISTNAME      = "MFC-J3540DW"
+
+;----------------------------------------
+;----------------------------------------
+; MFC-J7100CDW
+;----------------------------------------
+;----------------------------------------
+
+;----------------------------------------
+; USB: Server 2003 (32bit)
+;----------------------------------------
+[MFC-J7100CDW.USB.SCN.WSERV32.NT]
+Include       = sti.inf
+Needs         = STI.USBSection
+SubClass      = StillImage
+DeviceType    = 1
+DeviceSubType = 0x1
+Capabilities  = 0x39
+PortSelect    = NO
+Events        = BrEvents
+DeviceData    = MFC-J7100CDW.USB.SCN.WSERV32.DeviceData
+AddReg        = BrWia10USB.AddReg,BrModel.BHM.SX50.AddReg
+CopyFiles     = BrWia10USB.CopyFiles,BrTwdsFeUSB.MFC-J7100CDW.CopyFiles,BrTwdsMain.CopyFiles
+ICMProfiles   = "sRGB Color Space Profile.icm"
+
+[MFC-J7100CDW.USB.SCN.WSERV32.NT.Services]
+Include       = sti.inf
+Needs         = STI.USBSection.Services
+
+[MFC-J7100CDW.USB.SCN.WSERV32.DeviceData]
+Server        = local
+UI Class ID   = {4DB1AD10-3391-11D2-9A33-00C04FA36145}
+TwainDS       = "TW-Brother MFC-J7100CDW"
+Model         = 0-GENERAL
+STIFILE       = BrUsi19c.dll
+ModelName     = "MFC-J7100CDW"
+
+;----------------------------------------
+; USB: XP, Server 2003 (64bit)
+;----------------------------------------
+[MFC-J7100CDW.USB.SCN.WXP64.NT]
+Include       = sti.inf
+Needs         = STI.USBSection
+SubClass      = StillImage
+DeviceType    = 1
+DeviceSubType = 0x1
+Capabilities  = 0x39
+PortSelect    = NO
+Events        = BrEvents
+DeviceData    = MFC-J7100CDW.USB.SCN.WXP64.DeviceData
+AddReg        = BrWia10USB.AddReg,BrModel.BHM.SX50.AddReg
+CopyFiles     = BrWia10USB.CopyFiles,BrTwdsFeUSB.MFC-J7100CDW.CopyFiles,BrTwdsMain.CopyFiles
+ICMProfiles   = "sRGB Color Space Profile.icm"
+
+[MFC-J7100CDW.USB.SCN.WXP64.NT.Services]
+Include       = sti.inf
+Needs         = STI.USBSection.Services
+
+[MFC-J7100CDW.USB.SCN.WXP64.DeviceData]
+Server        = local
+UI Class ID   = {4DB1AD10-3391-11D2-9A33-00C04FA36145}
+TwainDS       = "TW-Brother MFC-J7100CDW"
+Model         = 0-GENERAL
+STIFILE       = BrUsi19c.dll
+ModelName     = "MFC-J7100CDW"
+
+;----------------------------------------
+; USB: Vist or later (32/64bit)
+;----------------------------------------
+[MFC-J7100CDW.USB.SCN.NT]
+Include       = sti.inf
+Needs         = STI.USBSection
+SubClass      = StillImage
+DeviceType    = 1
+DeviceSubType = 0x1
+Capabilities  = 0x39
+PortSelect    = NO
+Events        = BrEvents
+DeviceData    = MFC-J7100CDW.USB.SCN.DeviceData
+AddReg        = BrWia20USB.AddReg,BrModel.BHM.SX50.AddReg
+CopyFiles     = BrWia20USB.CopyFiles,BrTwdsFeUSB.MFC-J7100CDW.CopyFiles,BrTwdsMain.CopyFiles
+ICMProfiles   = "sRGB Color Space Profile.icm"
+
+[MFC-J7100CDW.USB.SCN.NT.Services]
+Include       = sti.inf
+Needs         = STI.USBSection.Services
+
+[MFC-J7100CDW.USB.SCN.DeviceData]
+Server        = local
+UI Class ID   = {4DB1AD10-3391-11D2-9A33-00C04FA36145}
+TwainDS       = "TW-Brother MFC-J7100CDW"
+Model         = 0-GENERAL
+STIFILE       = BrUsi19c.dll
+ModelName     = "MFC-J7100CDW"
+
+;----------------------------------------
+; NET: XP / Server2003 (32/64bit)
+;----------------------------------------
+[MFC-J7100CDW.NET.SCN.WXP.NT]
+Include       = sti.inf
+Needs         = STI.SerialSection
+SubClass      = StillImage
+DeviceType    = 1
+DeviceSubType = 0x1
+Capabilities  = 0x39
+PortSelect    = NO
+Events        = BrEvents
+DeviceData    = MFC-J7100CDW.NET.SCN.WXP.DeviceData
+AddReg        = BrWiaNetUi.AddReg,BrWia10Net.AddReg,BrModel.BHM.SX50.AddReg
+CopyFiles     = BrWia10Net.CopyFiles,BrTwdsFeNet.MFC-J7100CDW.CopyFiles,BrTwdsMain.CopyFiles
+ICMProfiles   = "sRGB Color Space Profile.icm"
+
+[MFC-J7100CDW.NET.SCN.WXP.NT.Services]
+Include       = sti.inf
+Needs         = STI.SerialSection.Services
+
+[MFC-J7100CDW.NET.SCN.WXP.DeviceData]
+Server        = local
+UI Class ID   = {4B29E704-7E5A-466c-A5FD-8BAEC62DC2BA}
+TwainDS       = "TW-Brother MFC-J7100CDW LAN"
+Model         = 0-GENERAL
+STIFILE       = BrNetSti.dll
+LISTNAME      = "MFC-J7100CDW"
+
+;----------------------------------------
+; NET: Vista or later (32/64bit)
+;----------------------------------------
+[MFC-J7100CDW.NET.SCN.NT]
+Include       = sti.inf
+Needs         = STI.SerialSection
+SubClass      = StillImage
+DeviceType    = 1
+DeviceSubType = 0x1
+Capabilities  = 0x39
+PortSelect    = NO
+Events        = BrEvents
+DeviceData    = MFC-J7100CDW.NET.SCN.DeviceData
+AddReg        = BrWiaNetUi.AddReg,BrWia20Net.AddReg,BrModel.BHM.SX50.AddReg
+CopyFiles     = BrWia20Net.CopyFiles,BrTwdsFeNet.MFC-J7100CDW.CopyFiles,BrTwdsMain.CopyFiles
+ICMProfiles   = "sRGB Color Space Profile.icm"
+
+[MFC-J7100CDW.NET.SCN.NT.Services]
+Include       = sti.inf
+Needs         = STI.SerialSection.Services
+
+[MFC-J7100CDW.NET.SCN.DeviceData]
+Server        = local
+UI Class ID   = {4B29E704-7E5A-466c-A5FD-8BAEC62DC2BA}
+TwainDS       = "TW-Brother MFC-J7100CDW LAN"
+Model         = 0-GENERAL
+STIFILE       = BrNetSti.dll
+LISTNAME      = "MFC-J7100CDW"
+
+;----------------------------------------
+;----------------------------------------
+; MFC-J6740DW
+;----------------------------------------
+;----------------------------------------
+
+;----------------------------------------
+; USB: Server 2003 (32bit)
+;----------------------------------------
+[MFC-J6740DW.USB.SCN.WSERV32.NT]
+Include       = sti.inf
+Needs         = STI.USBSection
+SubClass      = StillImage
+DeviceType    = 1
+DeviceSubType = 0x1
+Capabilities  = 0x39
+PortSelect    = NO
+Events        = BrEvents
+DeviceData    = MFC-J6740DW.USB.SCN.WSERV32.DeviceData
+AddReg        = BrWia10USB.AddReg,BrModel.BHM.SX50.AddReg
+CopyFiles     = BrWia10USB.CopyFiles,BrTwdsFeUSB.MFC-J6740DW.CopyFiles,BrTwdsMain.CopyFiles
+ICMProfiles   = "sRGB Color Space Profile.icm"
+
+[MFC-J6740DW.USB.SCN.WSERV32.NT.Services]
+Include       = sti.inf
+Needs         = STI.USBSection.Services
+
+[MFC-J6740DW.USB.SCN.WSERV32.DeviceData]
+Server        = local
+UI Class ID   = {4DB1AD10-3391-11D2-9A33-00C04FA36145}
+TwainDS       = "TW-Brother MFC-J6740DW"
+Model         = 0-GENERAL
+STIFILE       = BrUsi19c.dll
+ModelName     = "MFC-J6740DW"
+
+;----------------------------------------
+; USB: XP, Server 2003 (64bit)
+;----------------------------------------
+[MFC-J6740DW.USB.SCN.WXP64.NT]
+Include       = sti.inf
+Needs         = STI.USBSection
+SubClass      = StillImage
+DeviceType    = 1
+DeviceSubType = 0x1
+Capabilities  = 0x39
+PortSelect    = NO
+Events        = BrEvents
+DeviceData    = MFC-J6740DW.USB.SCN.WXP64.DeviceData
+AddReg        = BrWia10USB.AddReg,BrModel.BHM.SX50.AddReg
+CopyFiles     = BrWia10USB.CopyFiles,BrTwdsFeUSB.MFC-J6740DW.CopyFiles,BrTwdsMain.CopyFiles
+ICMProfiles   = "sRGB Color Space Profile.icm"
+
+[MFC-J6740DW.USB.SCN.WXP64.NT.Services]
+Include       = sti.inf
+Needs         = STI.USBSection.Services
+
+[MFC-J6740DW.USB.SCN.WXP64.DeviceData]
+Server        = local
+UI Class ID   = {4DB1AD10-3391-11D2-9A33-00C04FA36145}
+TwainDS       = "TW-Brother MFC-J6740DW"
+Model         = 0-GENERAL
+STIFILE       = BrUsi19c.dll
+ModelName     = "MFC-J6740DW"
+
+;----------------------------------------
+; USB: Vist or later (32/64bit)
+;----------------------------------------
+[MFC-J6740DW.USB.SCN.NT]
+Include       = sti.inf
+Needs         = STI.USBSection
+SubClass      = StillImage
+DeviceType    = 1
+DeviceSubType = 0x1
+Capabilities  = 0x39
+PortSelect    = NO
+Events        = BrEvents
+DeviceData    = MFC-J6740DW.USB.SCN.DeviceData
+AddReg        = BrWia20USB.AddReg,BrModel.BHM.SX50.AddReg
+CopyFiles     = BrWia20USB.CopyFiles,BrTwdsFeUSB.MFC-J6740DW.CopyFiles,BrTwdsMain.CopyFiles
+ICMProfiles   = "sRGB Color Space Profile.icm"
+
+[MFC-J6740DW.USB.SCN.NT.Services]
+Include       = sti.inf
+Needs         = STI.USBSection.Services
+
+[MFC-J6740DW.USB.SCN.DeviceData]
+Server        = local
+UI Class ID   = {4DB1AD10-3391-11D2-9A33-00C04FA36145}
+TwainDS       = "TW-Brother MFC-J6740DW"
+Model         = 0-GENERAL
+STIFILE       = BrUsi19c.dll
+ModelName     = "MFC-J6740DW"
+
+;----------------------------------------
+; NET: XP / Server2003 (32/64bit)
+;----------------------------------------
+[MFC-J6740DW.NET.SCN.WXP.NT]
+Include       = sti.inf
+Needs         = STI.SerialSection
+SubClass      = StillImage
+DeviceType    = 1
+DeviceSubType = 0x1
+Capabilities  = 0x39
+PortSelect    = NO
+Events        = BrEvents
+DeviceData    = MFC-J6740DW.NET.SCN.WXP.DeviceData
+AddReg        = BrWiaNetUi.AddReg,BrWia10Net.AddReg,BrModel.BHM.SX50.AddReg
+CopyFiles     = BrWia10Net.CopyFiles,BrTwdsFeNet.MFC-J6740DW.CopyFiles,BrTwdsMain.CopyFiles
+ICMProfiles   = "sRGB Color Space Profile.icm"
+
+[MFC-J6740DW.NET.SCN.WXP.NT.Services]
+Include       = sti.inf
+Needs         = STI.SerialSection.Services
+
+[MFC-J6740DW.NET.SCN.WXP.DeviceData]
+Server        = local
+UI Class ID   = {4B29E704-7E5A-466c-A5FD-8BAEC62DC2BA}
+TwainDS       = "TW-Brother MFC-J6740DW LAN"
+Model         = 0-GENERAL
+STIFILE       = BrNetSti.dll
+LISTNAME      = "MFC-J6740DW"
+
+;----------------------------------------
+; NET: Vista or later (32/64bit)
+;----------------------------------------
+[MFC-J6740DW.NET.SCN.NT]
+Include       = sti.inf
+Needs         = STI.SerialSection
+SubClass      = StillImage
+DeviceType    = 1
+DeviceSubType = 0x1
+Capabilities  = 0x39
+PortSelect    = NO
+Events        = BrEvents
+DeviceData    = MFC-J6740DW.NET.SCN.DeviceData
+AddReg        = BrWiaNetUi.AddReg,BrWia20Net.AddReg,BrModel.BHM.SX50.AddReg
+CopyFiles     = BrWia20Net.CopyFiles,BrTwdsFeNet.MFC-J6740DW.CopyFiles,BrTwdsMain.CopyFiles
+ICMProfiles   = "sRGB Color Space Profile.icm"
+
+[MFC-J6740DW.NET.SCN.NT.Services]
+Include       = sti.inf
+Needs         = STI.SerialSection.Services
+
+[MFC-J6740DW.NET.SCN.DeviceData]
+Server        = local
+UI Class ID   = {4B29E704-7E5A-466c-A5FD-8BAEC62DC2BA}
+TwainDS       = "TW-Brother MFC-J6740DW LAN"
+Model         = 0-GENERAL
+STIFILE       = BrNetSti.dll
+LISTNAME      = "MFC-J6740DW"
+
+;----------------------------------------
+;----------------------------------------
+; MFC-J6940DW
+;----------------------------------------
+;----------------------------------------
+
+;----------------------------------------
+; USB: Server 2003 (32bit)
+;----------------------------------------
+[MFC-J6940DW.USB.SCN.WSERV32.NT]
+Include       = sti.inf
+Needs         = STI.USBSection
+SubClass      = StillImage
+DeviceType    = 1
+DeviceSubType = 0x1
+Capabilities  = 0x39
+PortSelect    = NO
+Events        = BrEvents
+DeviceData    = MFC-J6940DW.USB.SCN.WSERV32.DeviceData
+AddReg        = BrWia10USB.AddReg,BrModel.BHM.DX50.AddReg
+CopyFiles     = BrWia10USB.CopyFiles,BrTwdsFeUSB.MFC-J6940DW.CopyFiles,BrTwdsMain.CopyFiles
+ICMProfiles   = "sRGB Color Space Profile.icm"
+
+[MFC-J6940DW.USB.SCN.WSERV32.NT.Services]
+Include       = sti.inf
+Needs         = STI.USBSection.Services
+
+[MFC-J6940DW.USB.SCN.WSERV32.DeviceData]
+Server        = local
+UI Class ID   = {4DB1AD10-3391-11D2-9A33-00C04FA36145}
+TwainDS       = "TW-Brother MFC-J6940DW"
+Model         = 0-GENERAL
+STIFILE       = BrUsi19c.dll
+ModelName     = "MFC-J6940DW"
+
+;----------------------------------------
+; USB: XP, Server 2003 (64bit)
+;----------------------------------------
+[MFC-J6940DW.USB.SCN.WXP64.NT]
+Include       = sti.inf
+Needs         = STI.USBSection
+SubClass      = StillImage
+DeviceType    = 1
+DeviceSubType = 0x1
+Capabilities  = 0x39
+PortSelect    = NO
+Events        = BrEvents
+DeviceData    = MFC-J6940DW.USB.SCN.WXP64.DeviceData
+AddReg        = BrWia10USB.AddReg,BrModel.BHM.DX50.AddReg
+CopyFiles     = BrWia10USB.CopyFiles,BrTwdsFeUSB.MFC-J6940DW.CopyFiles,BrTwdsMain.CopyFiles
+ICMProfiles   = "sRGB Color Space Profile.icm"
+
+[MFC-J6940DW.USB.SCN.WXP64.NT.Services]
+Include       = sti.inf
+Needs         = STI.USBSection.Services
+
+[MFC-J6940DW.USB.SCN.WXP64.DeviceData]
+Server        = local
+UI Class ID   = {4DB1AD10-3391-11D2-9A33-00C04FA36145}
+TwainDS       = "TW-Brother MFC-J6940DW"
+Model         = 0-GENERAL
+STIFILE       = BrUsi19c.dll
+ModelName     = "MFC-J6940DW"
+
+;----------------------------------------
+; USB: Vist or later (32/64bit)
+;----------------------------------------
+[MFC-J6940DW.USB.SCN.NT]
+Include       = sti.inf
+Needs         = STI.USBSection
+SubClass      = StillImage
+DeviceType    = 1
+DeviceSubType = 0x1
+Capabilities  = 0x39
+PortSelect    = NO
+Events        = BrEvents
+DeviceData    = MFC-J6940DW.USB.SCN.DeviceData
+AddReg        = BrWia20USB.AddReg,BrModel.BHM.DX50.AddReg
+CopyFiles     = BrWia20USB.CopyFiles,BrTwdsFeUSB.MFC-J6940DW.CopyFiles,BrTwdsMain.CopyFiles
+ICMProfiles   = "sRGB Color Space Profile.icm"
+
+[MFC-J6940DW.USB.SCN.NT.Services]
+Include       = sti.inf
+Needs         = STI.USBSection.Services
+
+[MFC-J6940DW.USB.SCN.DeviceData]
+Server        = local
+UI Class ID   = {4DB1AD10-3391-11D2-9A33-00C04FA36145}
+TwainDS       = "TW-Brother MFC-J6940DW"
+Model         = 0-GENERAL
+STIFILE       = BrUsi19c.dll
+ModelName     = "MFC-J6940DW"
+
+;----------------------------------------
+; NET: XP / Server2003 (32/64bit)
+;----------------------------------------
+[MFC-J6940DW.NET.SCN.WXP.NT]
+Include       = sti.inf
+Needs         = STI.SerialSection
+SubClass      = StillImage
+DeviceType    = 1
+DeviceSubType = 0x1
+Capabilities  = 0x39
+PortSelect    = NO
+Events        = BrEvents
+DeviceData    = MFC-J6940DW.NET.SCN.WXP.DeviceData
+AddReg        = BrWiaNetUi.AddReg,BrWia10Net.AddReg,BrModel.BHM.DX50.AddReg
+CopyFiles     = BrWia10Net.CopyFiles,BrTwdsFeNet.MFC-J6940DW.CopyFiles,BrTwdsMain.CopyFiles
+ICMProfiles   = "sRGB Color Space Profile.icm"
+
+[MFC-J6940DW.NET.SCN.WXP.NT.Services]
+Include       = sti.inf
+Needs         = STI.SerialSection.Services
+
+[MFC-J6940DW.NET.SCN.WXP.DeviceData]
+Server        = local
+UI Class ID   = {4B29E704-7E5A-466c-A5FD-8BAEC62DC2BA}
+TwainDS       = "TW-Brother MFC-J6940DW LAN"
+Model         = 0-GENERAL
+STIFILE       = BrNetSti.dll
+LISTNAME      = "MFC-J6940DW"
+
+;----------------------------------------
+; NET: Vista or later (32/64bit)
+;----------------------------------------
+[MFC-J6940DW.NET.SCN.NT]
+Include       = sti.inf
+Needs         = STI.SerialSection
+SubClass      = StillImage
+DeviceType    = 1
+DeviceSubType = 0x1
+Capabilities  = 0x39
+PortSelect    = NO
+Events        = BrEvents
+DeviceData    = MFC-J6940DW.NET.SCN.DeviceData
+AddReg        = BrWiaNetUi.AddReg,BrWia20Net.AddReg,BrModel.BHM.DX50.AddReg
+CopyFiles     = BrWia20Net.CopyFiles,BrTwdsFeNet.MFC-J6940DW.CopyFiles,BrTwdsMain.CopyFiles
+ICMProfiles   = "sRGB Color Space Profile.icm"
+
+[MFC-J6940DW.NET.SCN.NT.Services]
+Include       = sti.inf
+Needs         = STI.SerialSection.Services
+
+[MFC-J6940DW.NET.SCN.DeviceData]
+Server        = local
+UI Class ID   = {4B29E704-7E5A-466c-A5FD-8BAEC62DC2BA}
+TwainDS       = "TW-Brother MFC-J6940DW LAN"
+Model         = 0-GENERAL
+STIFILE       = BrNetSti.dll
+LISTNAME      = "MFC-J6940DW"
+
+;----------------------------------------
+;----------------------------------------
+; MFC-J3940DW
+;----------------------------------------
+;----------------------------------------
+
+;----------------------------------------
+; USB: Server 2003 (32bit)
+;----------------------------------------
+[MFC-J3940DW.USB.SCN.WSERV32.NT]
+Include       = sti.inf
+Needs         = STI.USBSection
+SubClass      = StillImage
+DeviceType    = 1
+DeviceSubType = 0x1
+Capabilities  = 0x39
+PortSelect    = NO
+Events        = BrEvents
+DeviceData    = MFC-J3940DW.USB.SCN.WSERV32.DeviceData
+AddReg        = BrWia10USB.AddReg,BrModel.BHM.DX50.AddReg
+CopyFiles     = BrWia10USB.CopyFiles,BrTwdsFeUSB.MFC-J3940DW.CopyFiles,BrTwdsMain.CopyFiles
+ICMProfiles   = "sRGB Color Space Profile.icm"
+
+[MFC-J3940DW.USB.SCN.WSERV32.NT.Services]
+Include       = sti.inf
+Needs         = STI.USBSection.Services
+
+[MFC-J3940DW.USB.SCN.WSERV32.DeviceData]
+Server        = local
+UI Class ID   = {4DB1AD10-3391-11D2-9A33-00C04FA36145}
+TwainDS       = "TW-Brother MFC-J3940DW"
+Model         = 0-GENERAL
+STIFILE       = BrUsi19c.dll
+ModelName     = "MFC-J3940DW"
+
+;----------------------------------------
+; USB: XP, Server 2003 (64bit)
+;----------------------------------------
+[MFC-J3940DW.USB.SCN.WXP64.NT]
+Include       = sti.inf
+Needs         = STI.USBSection
+SubClass      = StillImage
+DeviceType    = 1
+DeviceSubType = 0x1
+Capabilities  = 0x39
+PortSelect    = NO
+Events        = BrEvents
+DeviceData    = MFC-J3940DW.USB.SCN.WXP64.DeviceData
+AddReg        = BrWia10USB.AddReg,BrModel.BHM.DX50.AddReg
+CopyFiles     = BrWia10USB.CopyFiles,BrTwdsFeUSB.MFC-J3940DW.CopyFiles,BrTwdsMain.CopyFiles
+ICMProfiles   = "sRGB Color Space Profile.icm"
+
+[MFC-J3940DW.USB.SCN.WXP64.NT.Services]
+Include       = sti.inf
+Needs         = STI.USBSection.Services
+
+[MFC-J3940DW.USB.SCN.WXP64.DeviceData]
+Server        = local
+UI Class ID   = {4DB1AD10-3391-11D2-9A33-00C04FA36145}
+TwainDS       = "TW-Brother MFC-J3940DW"
+Model         = 0-GENERAL
+STIFILE       = BrUsi19c.dll
+ModelName     = "MFC-J3940DW"
+
+;----------------------------------------
+; USB: Vist or later (32/64bit)
+;----------------------------------------
+[MFC-J3940DW.USB.SCN.NT]
+Include       = sti.inf
+Needs         = STI.USBSection
+SubClass      = StillImage
+DeviceType    = 1
+DeviceSubType = 0x1
+Capabilities  = 0x39
+PortSelect    = NO
+Events        = BrEvents
+DeviceData    = MFC-J3940DW.USB.SCN.DeviceData
+AddReg        = BrWia20USB.AddReg,BrModel.BHM.DX50.AddReg
+CopyFiles     = BrWia20USB.CopyFiles,BrTwdsFeUSB.MFC-J3940DW.CopyFiles,BrTwdsMain.CopyFiles
+ICMProfiles   = "sRGB Color Space Profile.icm"
+
+[MFC-J3940DW.USB.SCN.NT.Services]
+Include       = sti.inf
+Needs         = STI.USBSection.Services
+
+[MFC-J3940DW.USB.SCN.DeviceData]
+Server        = local
+UI Class ID   = {4DB1AD10-3391-11D2-9A33-00C04FA36145}
+TwainDS       = "TW-Brother MFC-J3940DW"
+Model         = 0-GENERAL
+STIFILE       = BrUsi19c.dll
+ModelName     = "MFC-J3940DW"
+
+;----------------------------------------
+; NET: XP / Server2003 (32/64bit)
+;----------------------------------------
+[MFC-J3940DW.NET.SCN.WXP.NT]
+Include       = sti.inf
+Needs         = STI.SerialSection
+SubClass      = StillImage
+DeviceType    = 1
+DeviceSubType = 0x1
+Capabilities  = 0x39
+PortSelect    = NO
+Events        = BrEvents
+DeviceData    = MFC-J3940DW.NET.SCN.WXP.DeviceData
+AddReg        = BrWiaNetUi.AddReg,BrWia10Net.AddReg,BrModel.BHM.DX50.AddReg
+CopyFiles     = BrWia10Net.CopyFiles,BrTwdsFeNet.MFC-J3940DW.CopyFiles,BrTwdsMain.CopyFiles
+ICMProfiles   = "sRGB Color Space Profile.icm"
+
+[MFC-J3940DW.NET.SCN.WXP.NT.Services]
+Include       = sti.inf
+Needs         = STI.SerialSection.Services
+
+[MFC-J3940DW.NET.SCN.WXP.DeviceData]
+Server        = local
+UI Class ID   = {4B29E704-7E5A-466c-A5FD-8BAEC62DC2BA}
+TwainDS       = "TW-Brother MFC-J3940DW LAN"
+Model         = 0-GENERAL
+STIFILE       = BrNetSti.dll
+LISTNAME      = "MFC-J3940DW"
+
+;----------------------------------------
+; NET: Vista or later (32/64bit)
+;----------------------------------------
+[MFC-J3940DW.NET.SCN.NT]
+Include       = sti.inf
+Needs         = STI.SerialSection
+SubClass      = StillImage
+DeviceType    = 1
+DeviceSubType = 0x1
+Capabilities  = 0x39
+PortSelect    = NO
+Events        = BrEvents
+DeviceData    = MFC-J3940DW.NET.SCN.DeviceData
+AddReg        = BrWiaNetUi.AddReg,BrWia20Net.AddReg,BrModel.BHM.DX50.AddReg
+CopyFiles     = BrWia20Net.CopyFiles,BrTwdsFeNet.MFC-J3940DW.CopyFiles,BrTwdsMain.CopyFiles
+ICMProfiles   = "sRGB Color Space Profile.icm"
+
+[MFC-J3940DW.NET.SCN.NT.Services]
+Include       = sti.inf
+Needs         = STI.SerialSection.Services
+
+[MFC-J3940DW.NET.SCN.DeviceData]
+Server        = local
+UI Class ID   = {4B29E704-7E5A-466c-A5FD-8BAEC62DC2BA}
+TwainDS       = "TW-Brother MFC-J3940DW LAN"
+Model         = 0-GENERAL
+STIFILE       = BrNetSti.dll
+LISTNAME      = "MFC-J3940DW"
+
+;----------------------------------------
+;----------------------------------------
+; MFC-J7300CDW
+;----------------------------------------
+;----------------------------------------
+
+;----------------------------------------
+; USB: Server 2003 (32bit)
+;----------------------------------------
+[MFC-J7300CDW.USB.SCN.WSERV32.NT]
+Include       = sti.inf
+Needs         = STI.USBSection
+SubClass      = StillImage
+DeviceType    = 1
+DeviceSubType = 0x1
+Capabilities  = 0x39
+PortSelect    = NO
+Events        = BrEvents
+DeviceData    = MFC-J7300CDW.USB.SCN.WSERV32.DeviceData
+AddReg        = BrWia10USB.AddReg,BrModel.BHM.DX50.AddReg
+CopyFiles     = BrWia10USB.CopyFiles,BrTwdsFeUSB.MFC-J7300CDW.CopyFiles,BrTwdsMain.CopyFiles
+ICMProfiles   = "sRGB Color Space Profile.icm"
+
+[MFC-J7300CDW.USB.SCN.WSERV32.NT.Services]
+Include       = sti.inf
+Needs         = STI.USBSection.Services
+
+[MFC-J7300CDW.USB.SCN.WSERV32.DeviceData]
+Server        = local
+UI Class ID   = {4DB1AD10-3391-11D2-9A33-00C04FA36145}
+TwainDS       = "TW-Brother MFC-J7300CDW"
+Model         = 0-GENERAL
+STIFILE       = BrUsi19c.dll
+ModelName     = "MFC-J7300CDW"
+
+;----------------------------------------
+; USB: XP, Server 2003 (64bit)
+;----------------------------------------
+[MFC-J7300CDW.USB.SCN.WXP64.NT]
+Include       = sti.inf
+Needs         = STI.USBSection
+SubClass      = StillImage
+DeviceType    = 1
+DeviceSubType = 0x1
+Capabilities  = 0x39
+PortSelect    = NO
+Events        = BrEvents
+DeviceData    = MFC-J7300CDW.USB.SCN.WXP64.DeviceData
+AddReg        = BrWia10USB.AddReg,BrModel.BHM.DX50.AddReg
+CopyFiles     = BrWia10USB.CopyFiles,BrTwdsFeUSB.MFC-J7300CDW.CopyFiles,BrTwdsMain.CopyFiles
+ICMProfiles   = "sRGB Color Space Profile.icm"
+
+[MFC-J7300CDW.USB.SCN.WXP64.NT.Services]
+Include       = sti.inf
+Needs         = STI.USBSection.Services
+
+[MFC-J7300CDW.USB.SCN.WXP64.DeviceData]
+Server        = local
+UI Class ID   = {4DB1AD10-3391-11D2-9A33-00C04FA36145}
+TwainDS       = "TW-Brother MFC-J7300CDW"
+Model         = 0-GENERAL
+STIFILE       = BrUsi19c.dll
+ModelName     = "MFC-J7300CDW"
+
+;----------------------------------------
+; USB: Vist or later (32/64bit)
+;----------------------------------------
+[MFC-J7300CDW.USB.SCN.NT]
+Include       = sti.inf
+Needs         = STI.USBSection
+SubClass      = StillImage
+DeviceType    = 1
+DeviceSubType = 0x1
+Capabilities  = 0x39
+PortSelect    = NO
+Events        = BrEvents
+DeviceData    = MFC-J7300CDW.USB.SCN.DeviceData
+AddReg        = BrWia20USB.AddReg,BrModel.BHM.DX50.AddReg
+CopyFiles     = BrWia20USB.CopyFiles,BrTwdsFeUSB.MFC-J7300CDW.CopyFiles,BrTwdsMain.CopyFiles
+ICMProfiles   = "sRGB Color Space Profile.icm"
+
+[MFC-J7300CDW.USB.SCN.NT.Services]
+Include       = sti.inf
+Needs         = STI.USBSection.Services
+
+[MFC-J7300CDW.USB.SCN.DeviceData]
+Server        = local
+UI Class ID   = {4DB1AD10-3391-11D2-9A33-00C04FA36145}
+TwainDS       = "TW-Brother MFC-J7300CDW"
+Model         = 0-GENERAL
+STIFILE       = BrUsi19c.dll
+ModelName     = "MFC-J7300CDW"
+
+;----------------------------------------
+; NET: XP / Server2003 (32/64bit)
+;----------------------------------------
+[MFC-J7300CDW.NET.SCN.WXP.NT]
+Include       = sti.inf
+Needs         = STI.SerialSection
+SubClass      = StillImage
+DeviceType    = 1
+DeviceSubType = 0x1
+Capabilities  = 0x39
+PortSelect    = NO
+Events        = BrEvents
+DeviceData    = MFC-J7300CDW.NET.SCN.WXP.DeviceData
+AddReg        = BrWiaNetUi.AddReg,BrWia10Net.AddReg,BrModel.BHM.DX50.AddReg
+CopyFiles     = BrWia10Net.CopyFiles,BrTwdsFeNet.MFC-J7300CDW.CopyFiles,BrTwdsMain.CopyFiles
+ICMProfiles   = "sRGB Color Space Profile.icm"
+
+[MFC-J7300CDW.NET.SCN.WXP.NT.Services]
+Include       = sti.inf
+Needs         = STI.SerialSection.Services
+
+[MFC-J7300CDW.NET.SCN.WXP.DeviceData]
+Server        = local
+UI Class ID   = {4B29E704-7E5A-466c-A5FD-8BAEC62DC2BA}
+TwainDS       = "TW-Brother MFC-J7300CDW LAN"
+Model         = 0-GENERAL
+STIFILE       = BrNetSti.dll
+LISTNAME      = "MFC-J7300CDW"
+
+;----------------------------------------
+; NET: Vista or later (32/64bit)
+;----------------------------------------
+[MFC-J7300CDW.NET.SCN.NT]
+Include       = sti.inf
+Needs         = STI.SerialSection
+SubClass      = StillImage
+DeviceType    = 1
+DeviceSubType = 0x1
+Capabilities  = 0x39
+PortSelect    = NO
+Events        = BrEvents
+DeviceData    = MFC-J7300CDW.NET.SCN.DeviceData
+AddReg        = BrWiaNetUi.AddReg,BrWia20Net.AddReg,BrModel.BHM.DX50.AddReg
+CopyFiles     = BrWia20Net.CopyFiles,BrTwdsFeNet.MFC-J7300CDW.CopyFiles,BrTwdsMain.CopyFiles
+ICMProfiles   = "sRGB Color Space Profile.icm"
+
+[MFC-J7300CDW.NET.SCN.NT.Services]
+Include       = sti.inf
+Needs         = STI.SerialSection.Services
+
+[MFC-J7300CDW.NET.SCN.DeviceData]
+Server        = local
+UI Class ID   = {4B29E704-7E5A-466c-A5FD-8BAEC62DC2BA}
+TwainDS       = "TW-Brother MFC-J7300CDW LAN"
+Model         = 0-GENERAL
+STIFILE       = BrNetSti.dll
+LISTNAME      = "MFC-J7300CDW"
+
+;----------------------------------------
+;----------------------------------------
+; MFC-J5855DW
+;----------------------------------------
+;----------------------------------------
+
+;----------------------------------------
+; USB: Server 2003 (32bit)
+;----------------------------------------
+[MFC-J5855DW.USB.SCN.WSERV32.NT]
+Include       = sti.inf
+Needs         = STI.USBSection
+SubClass      = StillImage
+DeviceType    = 1
+DeviceSubType = 0x1
+Capabilities  = 0x39
+PortSelect    = NO
+Events        = BrEvents
+DeviceData    = MFC-J5855DW.USB.SCN.WSERV32.DeviceData
+AddReg        = BrWia10USB.AddReg,BrModel.BHB.SX50.AddReg
+CopyFiles     = BrWia10USB.CopyFiles,BrTwdsFeUSB.MFC-J5855DW.CopyFiles,BrTwdsMain.CopyFiles
+ICMProfiles   = "sRGB Color Space Profile.icm"
+
+[MFC-J5855DW.USB.SCN.WSERV32.NT.Services]
+Include       = sti.inf
+Needs         = STI.USBSection.Services
+
+[MFC-J5855DW.USB.SCN.WSERV32.DeviceData]
+Server        = local
+UI Class ID   = {4DB1AD10-3391-11D2-9A33-00C04FA36145}
+TwainDS       = "TW-Brother MFC-J5855DW"
+Model         = 0-GENERAL
+STIFILE       = BrUsi19c.dll
+ModelName     = "MFC-J5855DW"
+
+;----------------------------------------
+; USB: XP, Server 2003 (64bit)
+;----------------------------------------
+[MFC-J5855DW.USB.SCN.WXP64.NT]
+Include       = sti.inf
+Needs         = STI.USBSection
+SubClass      = StillImage
+DeviceType    = 1
+DeviceSubType = 0x1
+Capabilities  = 0x39
+PortSelect    = NO
+Events        = BrEvents
+DeviceData    = MFC-J5855DW.USB.SCN.WXP64.DeviceData
+AddReg        = BrWia10USB.AddReg,BrModel.BHB.SX50.AddReg
+CopyFiles     = BrWia10USB.CopyFiles,BrTwdsFeUSB.MFC-J5855DW.CopyFiles,BrTwdsMain.CopyFiles
+ICMProfiles   = "sRGB Color Space Profile.icm"
+
+[MFC-J5855DW.USB.SCN.WXP64.NT.Services]
+Include       = sti.inf
+Needs         = STI.USBSection.Services
+
+[MFC-J5855DW.USB.SCN.WXP64.DeviceData]
+Server        = local
+UI Class ID   = {4DB1AD10-3391-11D2-9A33-00C04FA36145}
+TwainDS       = "TW-Brother MFC-J5855DW"
+Model         = 0-GENERAL
+STIFILE       = BrUsi19c.dll
+ModelName     = "MFC-J5855DW"
+
+;----------------------------------------
+; USB: Vist or later (32/64bit)
+;----------------------------------------
+[MFC-J5855DW.USB.SCN.NT]
+Include       = sti.inf
+Needs         = STI.USBSection
+SubClass      = StillImage
+DeviceType    = 1
+DeviceSubType = 0x1
+Capabilities  = 0x39
+PortSelect    = NO
+Events        = BrEvents
+DeviceData    = MFC-J5855DW.USB.SCN.DeviceData
+AddReg        = BrWia20USB.AddReg,BrModel.BHB.SX50.AddReg
+CopyFiles     = BrWia20USB.CopyFiles,BrTwdsFeUSB.MFC-J5855DW.CopyFiles,BrTwdsMain.CopyFiles
+ICMProfiles   = "sRGB Color Space Profile.icm"
+
+[MFC-J5855DW.USB.SCN.NT.Services]
+Include       = sti.inf
+Needs         = STI.USBSection.Services
+
+[MFC-J5855DW.USB.SCN.DeviceData]
+Server        = local
+UI Class ID   = {4DB1AD10-3391-11D2-9A33-00C04FA36145}
+TwainDS       = "TW-Brother MFC-J5855DW"
+Model         = 0-GENERAL
+STIFILE       = BrUsi19c.dll
+ModelName     = "MFC-J5855DW"
+
+;----------------------------------------
+; NET: XP / Server2003 (32/64bit)
+;----------------------------------------
+[MFC-J5855DW.NET.SCN.WXP.NT]
+Include       = sti.inf
+Needs         = STI.SerialSection
+SubClass      = StillImage
+DeviceType    = 1
+DeviceSubType = 0x1
+Capabilities  = 0x39
+PortSelect    = NO
+Events        = BrEvents
+DeviceData    = MFC-J5855DW.NET.SCN.WXP.DeviceData
+AddReg        = BrWiaNetUi.AddReg,BrWia10Net.AddReg,BrModel.BHB.SX50.AddReg
+CopyFiles     = BrWia10Net.CopyFiles,BrTwdsFeNet.MFC-J5855DW.CopyFiles,BrTwdsMain.CopyFiles
+ICMProfiles   = "sRGB Color Space Profile.icm"
+
+[MFC-J5855DW.NET.SCN.WXP.NT.Services]
+Include       = sti.inf
+Needs         = STI.SerialSection.Services
+
+[MFC-J5855DW.NET.SCN.WXP.DeviceData]
+Server        = local
+UI Class ID   = {4B29E704-7E5A-466c-A5FD-8BAEC62DC2BA}
+TwainDS       = "TW-Brother MFC-J5855DW LAN"
+Model         = 0-GENERAL
+STIFILE       = BrNetSti.dll
+LISTNAME      = "MFC-J5855DW"
+
+;----------------------------------------
+; NET: Vista or later (32/64bit)
+;----------------------------------------
+[MFC-J5855DW.NET.SCN.NT]
+Include       = sti.inf
+Needs         = STI.SerialSection
+SubClass      = StillImage
+DeviceType    = 1
+DeviceSubType = 0x1
+Capabilities  = 0x39
+PortSelect    = NO
+Events        = BrEvents
+DeviceData    = MFC-J5855DW.NET.SCN.DeviceData
+AddReg        = BrWiaNetUi.AddReg,BrWia20Net.AddReg,BrModel.BHB.SX50.AddReg
+CopyFiles     = BrWia20Net.CopyFiles,BrTwdsFeNet.MFC-J5855DW.CopyFiles,BrTwdsMain.CopyFiles
+ICMProfiles   = "sRGB Color Space Profile.icm"
+
+[MFC-J5855DW.NET.SCN.NT.Services]
+Include       = sti.inf
+Needs         = STI.SerialSection.Services
+
+[MFC-J5855DW.NET.SCN.DeviceData]
+Server        = local
+UI Class ID   = {4B29E704-7E5A-466c-A5FD-8BAEC62DC2BA}
+TwainDS       = "TW-Brother MFC-J5855DW LAN"
+Model         = 0-GENERAL
+STIFILE       = BrNetSti.dll
+LISTNAME      = "MFC-J5855DW"
+
+;----------------------------------------
+;----------------------------------------
+; MFC-J5800CDW
+;----------------------------------------
+;----------------------------------------
+
+;----------------------------------------
+; USB: Server 2003 (32bit)
+;----------------------------------------
+[MFC-J5800CDW.USB.SCN.WSERV32.NT]
+Include       = sti.inf
+Needs         = STI.USBSection
+SubClass      = StillImage
+DeviceType    = 1
+DeviceSubType = 0x1
+Capabilities  = 0x39
+PortSelect    = NO
+Events        = BrEvents
+DeviceData    = MFC-J5800CDW.USB.SCN.WSERV32.DeviceData
+AddReg        = BrWia10USB.AddReg,BrModel.BHB.SX50.AddReg
+CopyFiles     = BrWia10USB.CopyFiles,BrTwdsFeUSB.MFC-J5800CDW.CopyFiles,BrTwdsMain.CopyFiles
+ICMProfiles   = "sRGB Color Space Profile.icm"
+
+[MFC-J5800CDW.USB.SCN.WSERV32.NT.Services]
+Include       = sti.inf
+Needs         = STI.USBSection.Services
+
+[MFC-J5800CDW.USB.SCN.WSERV32.DeviceData]
+Server        = local
+UI Class ID   = {4DB1AD10-3391-11D2-9A33-00C04FA36145}
+TwainDS       = "TW-Brother MFC-J5800CDW"
+Model         = 0-GENERAL
+STIFILE       = BrUsi19c.dll
+ModelName     = "MFC-J5800CDW"
+
+;----------------------------------------
+; USB: XP, Server 2003 (64bit)
+;----------------------------------------
+[MFC-J5800CDW.USB.SCN.WXP64.NT]
+Include       = sti.inf
+Needs         = STI.USBSection
+SubClass      = StillImage
+DeviceType    = 1
+DeviceSubType = 0x1
+Capabilities  = 0x39
+PortSelect    = NO
+Events        = BrEvents
+DeviceData    = MFC-J5800CDW.USB.SCN.WXP64.DeviceData
+AddReg        = BrWia10USB.AddReg,BrModel.BHB.SX50.AddReg
+CopyFiles     = BrWia10USB.CopyFiles,BrTwdsFeUSB.MFC-J5800CDW.CopyFiles,BrTwdsMain.CopyFiles
+ICMProfiles   = "sRGB Color Space Profile.icm"
+
+[MFC-J5800CDW.USB.SCN.WXP64.NT.Services]
+Include       = sti.inf
+Needs         = STI.USBSection.Services
+
+[MFC-J5800CDW.USB.SCN.WXP64.DeviceData]
+Server        = local
+UI Class ID   = {4DB1AD10-3391-11D2-9A33-00C04FA36145}
+TwainDS       = "TW-Brother MFC-J5800CDW"
+Model         = 0-GENERAL
+STIFILE       = BrUsi19c.dll
+ModelName     = "MFC-J5800CDW"
+
+;----------------------------------------
+; USB: Vist or later (32/64bit)
+;----------------------------------------
+[MFC-J5800CDW.USB.SCN.NT]
+Include       = sti.inf
+Needs         = STI.USBSection
+SubClass      = StillImage
+DeviceType    = 1
+DeviceSubType = 0x1
+Capabilities  = 0x39
+PortSelect    = NO
+Events        = BrEvents
+DeviceData    = MFC-J5800CDW.USB.SCN.DeviceData
+AddReg        = BrWia20USB.AddReg,BrModel.BHB.SX50.AddReg
+CopyFiles     = BrWia20USB.CopyFiles,BrTwdsFeUSB.MFC-J5800CDW.CopyFiles,BrTwdsMain.CopyFiles
+ICMProfiles   = "sRGB Color Space Profile.icm"
+
+[MFC-J5800CDW.USB.SCN.NT.Services]
+Include       = sti.inf
+Needs         = STI.USBSection.Services
+
+[MFC-J5800CDW.USB.SCN.DeviceData]
+Server        = local
+UI Class ID   = {4DB1AD10-3391-11D2-9A33-00C04FA36145}
+TwainDS       = "TW-Brother MFC-J5800CDW"
+Model         = 0-GENERAL
+STIFILE       = BrUsi19c.dll
+ModelName     = "MFC-J5800CDW"
+
+;----------------------------------------
+; NET: XP / Server2003 (32/64bit)
+;----------------------------------------
+[MFC-J5800CDW.NET.SCN.WXP.NT]
+Include       = sti.inf
+Needs         = STI.SerialSection
+SubClass      = StillImage
+DeviceType    = 1
+DeviceSubType = 0x1
+Capabilities  = 0x39
+PortSelect    = NO
+Events        = BrEvents
+DeviceData    = MFC-J5800CDW.NET.SCN.WXP.DeviceData
+AddReg        = BrWiaNetUi.AddReg,BrWia10Net.AddReg,BrModel.BHB.SX50.AddReg
+CopyFiles     = BrWia10Net.CopyFiles,BrTwdsFeNet.MFC-J5800CDW.CopyFiles,BrTwdsMain.CopyFiles
+ICMProfiles   = "sRGB Color Space Profile.icm"
+
+[MFC-J5800CDW.NET.SCN.WXP.NT.Services]
+Include       = sti.inf
+Needs         = STI.SerialSection.Services
+
+[MFC-J5800CDW.NET.SCN.WXP.DeviceData]
+Server        = local
+UI Class ID   = {4B29E704-7E5A-466c-A5FD-8BAEC62DC2BA}
+TwainDS       = "TW-Brother MFC-J5800CDW LAN"
+Model         = 0-GENERAL
+STIFILE       = BrNetSti.dll
+LISTNAME      = "MFC-J5800CDW"
+
+;----------------------------------------
+; NET: Vista or later (32/64bit)
+;----------------------------------------
+[MFC-J5800CDW.NET.SCN.NT]
+Include       = sti.inf
+Needs         = STI.SerialSection
+SubClass      = StillImage
+DeviceType    = 1
+DeviceSubType = 0x1
+Capabilities  = 0x39
+PortSelect    = NO
+Events        = BrEvents
+DeviceData    = MFC-J5800CDW.NET.SCN.DeviceData
+AddReg        = BrWiaNetUi.AddReg,BrWia20Net.AddReg,BrModel.BHB.SX50.AddReg
+CopyFiles     = BrWia20Net.CopyFiles,BrTwdsFeNet.MFC-J5800CDW.CopyFiles,BrTwdsMain.CopyFiles
+ICMProfiles   = "sRGB Color Space Profile.icm"
+
+[MFC-J5800CDW.NET.SCN.NT.Services]
+Include       = sti.inf
+Needs         = STI.SerialSection.Services
+
+[MFC-J5800CDW.NET.SCN.DeviceData]
+Server        = local
+UI Class ID   = {4B29E704-7E5A-466c-A5FD-8BAEC62DC2BA}
+TwainDS       = "TW-Brother MFC-J5800CDW LAN"
+Model         = 0-GENERAL
+STIFILE       = BrNetSti.dll
+LISTNAME      = "MFC-J5800CDW"
+
+;----------------------------------------
+;----------------------------------------
+; MFC-J5955DW
+;----------------------------------------
+;----------------------------------------
+
+;----------------------------------------
+; USB: Server 2003 (32bit)
+;----------------------------------------
+[MFC-J5955DW.USB.SCN.WSERV32.NT]
+Include       = sti.inf
+Needs         = STI.USBSection
+SubClass      = StillImage
+DeviceType    = 1
+DeviceSubType = 0x1
+Capabilities  = 0x39
+PortSelect    = NO
+Events        = BrEvents
+DeviceData    = MFC-J5955DW.USB.SCN.WSERV32.DeviceData
+AddReg        = BrWia10USB.AddReg,BrModel.BHB.DX50.AddReg
+CopyFiles     = BrWia10USB.CopyFiles,BrTwdsFeUSB.MFC-J5955DW.CopyFiles,BrTwdsMain.CopyFiles
+ICMProfiles   = "sRGB Color Space Profile.icm"
+
+[MFC-J5955DW.USB.SCN.WSERV32.NT.Services]
+Include       = sti.inf
+Needs         = STI.USBSection.Services
+
+[MFC-J5955DW.USB.SCN.WSERV32.DeviceData]
+Server        = local
+UI Class ID   = {4DB1AD10-3391-11D2-9A33-00C04FA36145}
+TwainDS       = "TW-Brother MFC-J5955DW"
+Model         = 0-GENERAL
+STIFILE       = BrUsi19c.dll
+ModelName     = "MFC-J5955DW"
+
+;----------------------------------------
+; USB: XP, Server 2003 (64bit)
+;----------------------------------------
+[MFC-J5955DW.USB.SCN.WXP64.NT]
+Include       = sti.inf
+Needs         = STI.USBSection
+SubClass      = StillImage
+DeviceType    = 1
+DeviceSubType = 0x1
+Capabilities  = 0x39
+PortSelect    = NO
+Events        = BrEvents
+DeviceData    = MFC-J5955DW.USB.SCN.WXP64.DeviceData
+AddReg        = BrWia10USB.AddReg,BrModel.BHB.DX50.AddReg
+CopyFiles     = BrWia10USB.CopyFiles,BrTwdsFeUSB.MFC-J5955DW.CopyFiles,BrTwdsMain.CopyFiles
+ICMProfiles   = "sRGB Color Space Profile.icm"
+
+[MFC-J5955DW.USB.SCN.WXP64.NT.Services]
+Include       = sti.inf
+Needs         = STI.USBSection.Services
+
+[MFC-J5955DW.USB.SCN.WXP64.DeviceData]
+Server        = local
+UI Class ID   = {4DB1AD10-3391-11D2-9A33-00C04FA36145}
+TwainDS       = "TW-Brother MFC-J5955DW"
+Model         = 0-GENERAL
+STIFILE       = BrUsi19c.dll
+ModelName     = "MFC-J5955DW"
+
+;----------------------------------------
+; USB: Vist or later (32/64bit)
+;----------------------------------------
+[MFC-J5955DW.USB.SCN.NT]
+Include       = sti.inf
+Needs         = STI.USBSection
+SubClass      = StillImage
+DeviceType    = 1
+DeviceSubType = 0x1
+Capabilities  = 0x39
+PortSelect    = NO
+Events        = BrEvents
+DeviceData    = MFC-J5955DW.USB.SCN.DeviceData
+AddReg        = BrWia20USB.AddReg,BrModel.BHB.DX50.AddReg
+CopyFiles     = BrWia20USB.CopyFiles,BrTwdsFeUSB.MFC-J5955DW.CopyFiles,BrTwdsMain.CopyFiles
+ICMProfiles   = "sRGB Color Space Profile.icm"
+
+[MFC-J5955DW.USB.SCN.NT.Services]
+Include       = sti.inf
+Needs         = STI.USBSection.Services
+
+[MFC-J5955DW.USB.SCN.DeviceData]
+Server        = local
+UI Class ID   = {4DB1AD10-3391-11D2-9A33-00C04FA36145}
+TwainDS       = "TW-Brother MFC-J5955DW"
+Model         = 0-GENERAL
+STIFILE       = BrUsi19c.dll
+ModelName     = "MFC-J5955DW"
+
+;----------------------------------------
+; NET: XP / Server2003 (32/64bit)
+;----------------------------------------
+[MFC-J5955DW.NET.SCN.WXP.NT]
+Include       = sti.inf
+Needs         = STI.SerialSection
+SubClass      = StillImage
+DeviceType    = 1
+DeviceSubType = 0x1
+Capabilities  = 0x39
+PortSelect    = NO
+Events        = BrEvents
+DeviceData    = MFC-J5955DW.NET.SCN.WXP.DeviceData
+AddReg        = BrWiaNetUi.AddReg,BrWia10Net.AddReg,BrModel.BHB.DX50.AddReg
+CopyFiles     = BrWia10Net.CopyFiles,BrTwdsFeNet.MFC-J5955DW.CopyFiles,BrTwdsMain.CopyFiles
+ICMProfiles   = "sRGB Color Space Profile.icm"
+
+[MFC-J5955DW.NET.SCN.WXP.NT.Services]
+Include       = sti.inf
+Needs         = STI.SerialSection.Services
+
+[MFC-J5955DW.NET.SCN.WXP.DeviceData]
+Server        = local
+UI Class ID   = {4B29E704-7E5A-466c-A5FD-8BAEC62DC2BA}
+TwainDS       = "TW-Brother MFC-J5955DW LAN"
+Model         = 0-GENERAL
+STIFILE       = BrNetSti.dll
+LISTNAME      = "MFC-J5955DW"
+
+;----------------------------------------
+; NET: Vista or later (32/64bit)
+;----------------------------------------
+[MFC-J5955DW.NET.SCN.NT]
+Include       = sti.inf
+Needs         = STI.SerialSection
+SubClass      = StillImage
+DeviceType    = 1
+DeviceSubType = 0x1
+Capabilities  = 0x39
+PortSelect    = NO
+Events        = BrEvents
+DeviceData    = MFC-J5955DW.NET.SCN.DeviceData
+AddReg        = BrWiaNetUi.AddReg,BrWia20Net.AddReg,BrModel.BHB.DX50.AddReg
+CopyFiles     = BrWia20Net.CopyFiles,BrTwdsFeNet.MFC-J5955DW.CopyFiles,BrTwdsMain.CopyFiles
+ICMProfiles   = "sRGB Color Space Profile.icm"
+
+[MFC-J5955DW.NET.SCN.NT.Services]
+Include       = sti.inf
+Needs         = STI.SerialSection.Services
+
+[MFC-J5955DW.NET.SCN.DeviceData]
+Server        = local
+UI Class ID   = {4B29E704-7E5A-466c-A5FD-8BAEC62DC2BA}
+TwainDS       = "TW-Brother MFC-J5955DW LAN"
+Model         = 0-GENERAL
+STIFILE       = BrNetSti.dll
+LISTNAME      = "MFC-J5955DW"
+
+;----------------------------------------
+;----------------------------------------
+; MFC-J6555DW
+;----------------------------------------
+;----------------------------------------
+
+;----------------------------------------
+; USB: Server 2003 (32bit)
+;----------------------------------------
+[MFC-J6555DW.USB.SCN.WSERV32.NT]
+Include       = sti.inf
+Needs         = STI.USBSection
+SubClass      = StillImage
+DeviceType    = 1
+DeviceSubType = 0x1
+Capabilities  = 0x39
+PortSelect    = NO
+Events        = BrEvents
+DeviceData    = MFC-J6555DW.USB.SCN.WSERV32.DeviceData
+AddReg        = BrWia10USB.AddReg,BrModel.BHM.SX50.AddReg
+CopyFiles     = BrWia10USB.CopyFiles,BrTwdsFeUSB.MFC-J6555DW.CopyFiles,BrTwdsMain.CopyFiles
+ICMProfiles   = "sRGB Color Space Profile.icm"
+
+[MFC-J6555DW.USB.SCN.WSERV32.NT.Services]
+Include       = sti.inf
+Needs         = STI.USBSection.Services
+
+[MFC-J6555DW.USB.SCN.WSERV32.DeviceData]
+Server        = local
+UI Class ID   = {4DB1AD10-3391-11D2-9A33-00C04FA36145}
+TwainDS       = "TW-Brother MFC-J6555DW"
+Model         = 0-GENERAL
+STIFILE       = BrUsi19c.dll
+ModelName     = "MFC-J6555DW"
+
+;----------------------------------------
+; USB: XP, Server 2003 (64bit)
+;----------------------------------------
+[MFC-J6555DW.USB.SCN.WXP64.NT]
+Include       = sti.inf
+Needs         = STI.USBSection
+SubClass      = StillImage
+DeviceType    = 1
+DeviceSubType = 0x1
+Capabilities  = 0x39
+PortSelect    = NO
+Events        = BrEvents
+DeviceData    = MFC-J6555DW.USB.SCN.WXP64.DeviceData
+AddReg        = BrWia10USB.AddReg,BrModel.BHM.SX50.AddReg
+CopyFiles     = BrWia10USB.CopyFiles,BrTwdsFeUSB.MFC-J6555DW.CopyFiles,BrTwdsMain.CopyFiles
+ICMProfiles   = "sRGB Color Space Profile.icm"
+
+[MFC-J6555DW.USB.SCN.WXP64.NT.Services]
+Include       = sti.inf
+Needs         = STI.USBSection.Services
+
+[MFC-J6555DW.USB.SCN.WXP64.DeviceData]
+Server        = local
+UI Class ID   = {4DB1AD10-3391-11D2-9A33-00C04FA36145}
+TwainDS       = "TW-Brother MFC-J6555DW"
+Model         = 0-GENERAL
+STIFILE       = BrUsi19c.dll
+ModelName     = "MFC-J6555DW"
+
+;----------------------------------------
+; USB: Vist or later (32/64bit)
+;----------------------------------------
+[MFC-J6555DW.USB.SCN.NT]
+Include       = sti.inf
+Needs         = STI.USBSection
+SubClass      = StillImage
+DeviceType    = 1
+DeviceSubType = 0x1
+Capabilities  = 0x39
+PortSelect    = NO
+Events        = BrEvents
+DeviceData    = MFC-J6555DW.USB.SCN.DeviceData
+AddReg        = BrWia20USB.AddReg,BrModel.BHM.SX50.AddReg
+CopyFiles     = BrWia20USB.CopyFiles,BrTwdsFeUSB.MFC-J6555DW.CopyFiles,BrTwdsMain.CopyFiles
+ICMProfiles   = "sRGB Color Space Profile.icm"
+
+[MFC-J6555DW.USB.SCN.NT.Services]
+Include       = sti.inf
+Needs         = STI.USBSection.Services
+
+[MFC-J6555DW.USB.SCN.DeviceData]
+Server        = local
+UI Class ID   = {4DB1AD10-3391-11D2-9A33-00C04FA36145}
+TwainDS       = "TW-Brother MFC-J6555DW"
+Model         = 0-GENERAL
+STIFILE       = BrUsi19c.dll
+ModelName     = "MFC-J6555DW"
+
+;----------------------------------------
+; NET: XP / Server2003 (32/64bit)
+;----------------------------------------
+[MFC-J6555DW.NET.SCN.WXP.NT]
+Include       = sti.inf
+Needs         = STI.SerialSection
+SubClass      = StillImage
+DeviceType    = 1
+DeviceSubType = 0x1
+Capabilities  = 0x39
+PortSelect    = NO
+Events        = BrEvents
+DeviceData    = MFC-J6555DW.NET.SCN.WXP.DeviceData
+AddReg        = BrWiaNetUi.AddReg,BrWia10Net.AddReg,BrModel.BHM.SX50.AddReg
+CopyFiles     = BrWia10Net.CopyFiles,BrTwdsFeNet.MFC-J6555DW.CopyFiles,BrTwdsMain.CopyFiles
+ICMProfiles   = "sRGB Color Space Profile.icm"
+
+[MFC-J6555DW.NET.SCN.WXP.NT.Services]
+Include       = sti.inf
+Needs         = STI.SerialSection.Services
+
+[MFC-J6555DW.NET.SCN.WXP.DeviceData]
+Server        = local
+UI Class ID   = {4B29E704-7E5A-466c-A5FD-8BAEC62DC2BA}
+TwainDS       = "TW-Brother MFC-J6555DW LAN"
+Model         = 0-GENERAL
+STIFILE       = BrNetSti.dll
+LISTNAME      = "MFC-J6555DW"
+
+;----------------------------------------
+; NET: Vista or later (32/64bit)
+;----------------------------------------
+[MFC-J6555DW.NET.SCN.NT]
+Include       = sti.inf
+Needs         = STI.SerialSection
+SubClass      = StillImage
+DeviceType    = 1
+DeviceSubType = 0x1
+Capabilities  = 0x39
+PortSelect    = NO
+Events        = BrEvents
+DeviceData    = MFC-J6555DW.NET.SCN.DeviceData
+AddReg        = BrWiaNetUi.AddReg,BrWia20Net.AddReg,BrModel.BHM.SX50.AddReg
+CopyFiles     = BrWia20Net.CopyFiles,BrTwdsFeNet.MFC-J6555DW.CopyFiles,BrTwdsMain.CopyFiles
+ICMProfiles   = "sRGB Color Space Profile.icm"
+
+[MFC-J6555DW.NET.SCN.NT.Services]
+Include       = sti.inf
+Needs         = STI.SerialSection.Services
+
+[MFC-J6555DW.NET.SCN.DeviceData]
+Server        = local
+UI Class ID   = {4B29E704-7E5A-466c-A5FD-8BAEC62DC2BA}
+TwainDS       = "TW-Brother MFC-J6555DW LAN"
+Model         = 0-GENERAL
+STIFILE       = BrNetSti.dll
+LISTNAME      = "MFC-J6555DW"
+
+;----------------------------------------
+;----------------------------------------
+; MFC-J6955DW
+;----------------------------------------
+;----------------------------------------
+
+;----------------------------------------
+; USB: Server 2003 (32bit)
+;----------------------------------------
+[MFC-J6955DW.USB.SCN.WSERV32.NT]
+Include       = sti.inf
+Needs         = STI.USBSection
+SubClass      = StillImage
+DeviceType    = 1
+DeviceSubType = 0x1
+Capabilities  = 0x39
+PortSelect    = NO
+Events        = BrEvents
+DeviceData    = MFC-J6955DW.USB.SCN.WSERV32.DeviceData
+AddReg        = BrWia10USB.AddReg,BrModel.BHM.DX50.AddReg
+CopyFiles     = BrWia10USB.CopyFiles,BrTwdsFeUSB.MFC-J6955DW.CopyFiles,BrTwdsMain.CopyFiles
+ICMProfiles   = "sRGB Color Space Profile.icm"
+
+[MFC-J6955DW.USB.SCN.WSERV32.NT.Services]
+Include       = sti.inf
+Needs         = STI.USBSection.Services
+
+[MFC-J6955DW.USB.SCN.WSERV32.DeviceData]
+Server        = local
+UI Class ID   = {4DB1AD10-3391-11D2-9A33-00C04FA36145}
+TwainDS       = "TW-Brother MFC-J6955DW"
+Model         = 0-GENERAL
+STIFILE       = BrUsi19c.dll
+ModelName     = "MFC-J6955DW"
+
+;----------------------------------------
+; USB: XP, Server 2003 (64bit)
+;----------------------------------------
+[MFC-J6955DW.USB.SCN.WXP64.NT]
+Include       = sti.inf
+Needs         = STI.USBSection
+SubClass      = StillImage
+DeviceType    = 1
+DeviceSubType = 0x1
+Capabilities  = 0x39
+PortSelect    = NO
+Events        = BrEvents
+DeviceData    = MFC-J6955DW.USB.SCN.WXP64.DeviceData
+AddReg        = BrWia10USB.AddReg,BrModel.BHM.DX50.AddReg
+CopyFiles     = BrWia10USB.CopyFiles,BrTwdsFeUSB.MFC-J6955DW.CopyFiles,BrTwdsMain.CopyFiles
+ICMProfiles   = "sRGB Color Space Profile.icm"
+
+[MFC-J6955DW.USB.SCN.WXP64.NT.Services]
+Include       = sti.inf
+Needs         = STI.USBSection.Services
+
+[MFC-J6955DW.USB.SCN.WXP64.DeviceData]
+Server        = local
+UI Class ID   = {4DB1AD10-3391-11D2-9A33-00C04FA36145}
+TwainDS       = "TW-Brother MFC-J6955DW"
+Model         = 0-GENERAL
+STIFILE       = BrUsi19c.dll
+ModelName     = "MFC-J6955DW"
+
+;----------------------------------------
+; USB: Vist or later (32/64bit)
+;----------------------------------------
+[MFC-J6955DW.USB.SCN.NT]
+Include       = sti.inf
+Needs         = STI.USBSection
+SubClass      = StillImage
+DeviceType    = 1
+DeviceSubType = 0x1
+Capabilities  = 0x39
+PortSelect    = NO
+Events        = BrEvents
+DeviceData    = MFC-J6955DW.USB.SCN.DeviceData
+AddReg        = BrWia20USB.AddReg,BrModel.BHM.DX50.AddReg
+CopyFiles     = BrWia20USB.CopyFiles,BrTwdsFeUSB.MFC-J6955DW.CopyFiles,BrTwdsMain.CopyFiles
+ICMProfiles   = "sRGB Color Space Profile.icm"
+
+[MFC-J6955DW.USB.SCN.NT.Services]
+Include       = sti.inf
+Needs         = STI.USBSection.Services
+
+[MFC-J6955DW.USB.SCN.DeviceData]
+Server        = local
+UI Class ID   = {4DB1AD10-3391-11D2-9A33-00C04FA36145}
+TwainDS       = "TW-Brother MFC-J6955DW"
+Model         = 0-GENERAL
+STIFILE       = BrUsi19c.dll
+ModelName     = "MFC-J6955DW"
+
+;----------------------------------------
+; NET: XP / Server2003 (32/64bit)
+;----------------------------------------
+[MFC-J6955DW.NET.SCN.WXP.NT]
+Include       = sti.inf
+Needs         = STI.SerialSection
+SubClass      = StillImage
+DeviceType    = 1
+DeviceSubType = 0x1
+Capabilities  = 0x39
+PortSelect    = NO
+Events        = BrEvents
+DeviceData    = MFC-J6955DW.NET.SCN.WXP.DeviceData
+AddReg        = BrWiaNetUi.AddReg,BrWia10Net.AddReg,BrModel.BHM.DX50.AddReg
+CopyFiles     = BrWia10Net.CopyFiles,BrTwdsFeNet.MFC-J6955DW.CopyFiles,BrTwdsMain.CopyFiles
+ICMProfiles   = "sRGB Color Space Profile.icm"
+
+[MFC-J6955DW.NET.SCN.WXP.NT.Services]
+Include       = sti.inf
+Needs         = STI.SerialSection.Services
+
+[MFC-J6955DW.NET.SCN.WXP.DeviceData]
+Server        = local
+UI Class ID   = {4B29E704-7E5A-466c-A5FD-8BAEC62DC2BA}
+TwainDS       = "TW-Brother MFC-J6955DW LAN"
+Model         = 0-GENERAL
+STIFILE       = BrNetSti.dll
+LISTNAME      = "MFC-J6955DW"
+
+;----------------------------------------
+; NET: Vista or later (32/64bit)
+;----------------------------------------
+[MFC-J6955DW.NET.SCN.NT]
+Include       = sti.inf
+Needs         = STI.SerialSection
+SubClass      = StillImage
+DeviceType    = 1
+DeviceSubType = 0x1
+Capabilities  = 0x39
+PortSelect    = NO
+Events        = BrEvents
+DeviceData    = MFC-J6955DW.NET.SCN.DeviceData
+AddReg        = BrWiaNetUi.AddReg,BrWia20Net.AddReg,BrModel.BHM.DX50.AddReg
+CopyFiles     = BrWia20Net.CopyFiles,BrTwdsFeNet.MFC-J6955DW.CopyFiles,BrTwdsMain.CopyFiles
+ICMProfiles   = "sRGB Color Space Profile.icm"
+
+[MFC-J6955DW.NET.SCN.NT.Services]
+Include       = sti.inf
+Needs         = STI.SerialSection.Services
+
+[MFC-J6955DW.NET.SCN.DeviceData]
+Server        = local
+UI Class ID   = {4B29E704-7E5A-466c-A5FD-8BAEC62DC2BA}
+TwainDS       = "TW-Brother MFC-J6955DW LAN"
+Model         = 0-GENERAL
+STIFILE       = BrNetSti.dll
+LISTNAME      = "MFC-J6955DW"
+
+;----------------------------------------
+;----------------------------------------
+; MFC-J7500CDW
+;----------------------------------------
+;----------------------------------------
+
+;----------------------------------------
+; USB: Server 2003 (32bit)
+;----------------------------------------
+[MFC-J7500CDW.USB.SCN.WSERV32.NT]
+Include       = sti.inf
+Needs         = STI.USBSection
+SubClass      = StillImage
+DeviceType    = 1
+DeviceSubType = 0x1
+Capabilities  = 0x39
+PortSelect    = NO
+Events        = BrEvents
+DeviceData    = MFC-J7500CDW.USB.SCN.WSERV32.DeviceData
+AddReg        = BrWia10USB.AddReg,BrModel.BHM.DX50.AddReg
+CopyFiles     = BrWia10USB.CopyFiles,BrTwdsFeUSB.MFC-J7500CDW.CopyFiles,BrTwdsMain.CopyFiles
+ICMProfiles   = "sRGB Color Space Profile.icm"
+
+[MFC-J7500CDW.USB.SCN.WSERV32.NT.Services]
+Include       = sti.inf
+Needs         = STI.USBSection.Services
+
+[MFC-J7500CDW.USB.SCN.WSERV32.DeviceData]
+Server        = local
+UI Class ID   = {4DB1AD10-3391-11D2-9A33-00C04FA36145}
+TwainDS       = "TW-Brother MFC-J7500CDW"
+Model         = 0-GENERAL
+STIFILE       = BrUsi19c.dll
+ModelName     = "MFC-J7500CDW"
+
+;----------------------------------------
+; USB: XP, Server 2003 (64bit)
+;----------------------------------------
+[MFC-J7500CDW.USB.SCN.WXP64.NT]
+Include       = sti.inf
+Needs         = STI.USBSection
+SubClass      = StillImage
+DeviceType    = 1
+DeviceSubType = 0x1
+Capabilities  = 0x39
+PortSelect    = NO
+Events        = BrEvents
+DeviceData    = MFC-J7500CDW.USB.SCN.WXP64.DeviceData
+AddReg        = BrWia10USB.AddReg,BrModel.BHM.DX50.AddReg
+CopyFiles     = BrWia10USB.CopyFiles,BrTwdsFeUSB.MFC-J7500CDW.CopyFiles,BrTwdsMain.CopyFiles
+ICMProfiles   = "sRGB Color Space Profile.icm"
+
+[MFC-J7500CDW.USB.SCN.WXP64.NT.Services]
+Include       = sti.inf
+Needs         = STI.USBSection.Services
+
+[MFC-J7500CDW.USB.SCN.WXP64.DeviceData]
+Server        = local
+UI Class ID   = {4DB1AD10-3391-11D2-9A33-00C04FA36145}
+TwainDS       = "TW-Brother MFC-J7500CDW"
+Model         = 0-GENERAL
+STIFILE       = BrUsi19c.dll
+ModelName     = "MFC-J7500CDW"
+
+;----------------------------------------
+; USB: Vist or later (32/64bit)
+;----------------------------------------
+[MFC-J7500CDW.USB.SCN.NT]
+Include       = sti.inf
+Needs         = STI.USBSection
+SubClass      = StillImage
+DeviceType    = 1
+DeviceSubType = 0x1
+Capabilities  = 0x39
+PortSelect    = NO
+Events        = BrEvents
+DeviceData    = MFC-J7500CDW.USB.SCN.DeviceData
+AddReg        = BrWia20USB.AddReg,BrModel.BHM.DX50.AddReg
+CopyFiles     = BrWia20USB.CopyFiles,BrTwdsFeUSB.MFC-J7500CDW.CopyFiles,BrTwdsMain.CopyFiles
+ICMProfiles   = "sRGB Color Space Profile.icm"
+
+[MFC-J7500CDW.USB.SCN.NT.Services]
+Include       = sti.inf
+Needs         = STI.USBSection.Services
+
+[MFC-J7500CDW.USB.SCN.DeviceData]
+Server        = local
+UI Class ID   = {4DB1AD10-3391-11D2-9A33-00C04FA36145}
+TwainDS       = "TW-Brother MFC-J7500CDW"
+Model         = 0-GENERAL
+STIFILE       = BrUsi19c.dll
+ModelName     = "MFC-J7500CDW"
+
+;----------------------------------------
+; NET: XP / Server2003 (32/64bit)
+;----------------------------------------
+[MFC-J7500CDW.NET.SCN.WXP.NT]
+Include       = sti.inf
+Needs         = STI.SerialSection
+SubClass      = StillImage
+DeviceType    = 1
+DeviceSubType = 0x1
+Capabilities  = 0x39
+PortSelect    = NO
+Events        = BrEvents
+DeviceData    = MFC-J7500CDW.NET.SCN.WXP.DeviceData
+AddReg        = BrWiaNetUi.AddReg,BrWia10Net.AddReg,BrModel.BHM.DX50.AddReg
+CopyFiles     = BrWia10Net.CopyFiles,BrTwdsFeNet.MFC-J7500CDW.CopyFiles,BrTwdsMain.CopyFiles
+ICMProfiles   = "sRGB Color Space Profile.icm"
+
+[MFC-J7500CDW.NET.SCN.WXP.NT.Services]
+Include       = sti.inf
+Needs         = STI.SerialSection.Services
+
+[MFC-J7500CDW.NET.SCN.WXP.DeviceData]
+Server        = local
+UI Class ID   = {4B29E704-7E5A-466c-A5FD-8BAEC62DC2BA}
+TwainDS       = "TW-Brother MFC-J7500CDW LAN"
+Model         = 0-GENERAL
+STIFILE       = BrNetSti.dll
+LISTNAME      = "MFC-J7500CDW"
+
+;----------------------------------------
+; NET: Vista or later (32/64bit)
+;----------------------------------------
+[MFC-J7500CDW.NET.SCN.NT]
+Include       = sti.inf
+Needs         = STI.SerialSection
+SubClass      = StillImage
+DeviceType    = 1
+DeviceSubType = 0x1
+Capabilities  = 0x39
+PortSelect    = NO
+Events        = BrEvents
+DeviceData    = MFC-J7500CDW.NET.SCN.DeviceData
+AddReg        = BrWiaNetUi.AddReg,BrWia20Net.AddReg,BrModel.BHM.DX50.AddReg
+CopyFiles     = BrWia20Net.CopyFiles,BrTwdsFeNet.MFC-J7500CDW.CopyFiles,BrTwdsMain.CopyFiles
+ICMProfiles   = "sRGB Color Space Profile.icm"
+
+[MFC-J7500CDW.NET.SCN.NT.Services]
+Include       = sti.inf
+Needs         = STI.SerialSection.Services
+
+[MFC-J7500CDW.NET.SCN.DeviceData]
+Server        = local
+UI Class ID   = {4B29E704-7E5A-466c-A5FD-8BAEC62DC2BA}
+TwainDS       = "TW-Brother MFC-J7500CDW LAN"
+Model         = 0-GENERAL
+STIFILE       = BrNetSti.dll
+LISTNAME      = "MFC-J7500CDW"
+
+;----------------------------------------
+;----------------------------------------
+; MFC-J6957DW
+;----------------------------------------
+;----------------------------------------
+
+;----------------------------------------
+; USB: Server 2003 (32bit)
+;----------------------------------------
+[MFC-J6957DW.USB.SCN.WSERV32.NT]
+Include       = sti.inf
+Needs         = STI.USBSection
+SubClass      = StillImage
+DeviceType    = 1
+DeviceSubType = 0x1
+Capabilities  = 0x39
+PortSelect    = NO
+Events        = BrEvents
+DeviceData    = MFC-J6957DW.USB.SCN.WSERV32.DeviceData
+AddReg        = BrWia10USB.AddReg,BrModel.BHM.DX50.AddReg
+CopyFiles     = BrWia10USB.CopyFiles,BrTwdsFeUSB.MFC-J6957DW.CopyFiles,BrTwdsMain.CopyFiles
+ICMProfiles   = "sRGB Color Space Profile.icm"
+
+[MFC-J6957DW.USB.SCN.WSERV32.NT.Services]
+Include       = sti.inf
+Needs         = STI.USBSection.Services
+
+[MFC-J6957DW.USB.SCN.WSERV32.DeviceData]
+Server        = local
+UI Class ID   = {4DB1AD10-3391-11D2-9A33-00C04FA36145}
+TwainDS       = "TW-Brother MFC-J6957DW"
+Model         = 0-GENERAL
+STIFILE       = BrUsi19c.dll
+ModelName     = "MFC-J6957DW"
+
+;----------------------------------------
+; USB: XP, Server 2003 (64bit)
+;----------------------------------------
+[MFC-J6957DW.USB.SCN.WXP64.NT]
+Include       = sti.inf
+Needs         = STI.USBSection
+SubClass      = StillImage
+DeviceType    = 1
+DeviceSubType = 0x1
+Capabilities  = 0x39
+PortSelect    = NO
+Events        = BrEvents
+DeviceData    = MFC-J6957DW.USB.SCN.WXP64.DeviceData
+AddReg        = BrWia10USB.AddReg,BrModel.BHM.DX50.AddReg
+CopyFiles     = BrWia10USB.CopyFiles,BrTwdsFeUSB.MFC-J6957DW.CopyFiles,BrTwdsMain.CopyFiles
+ICMProfiles   = "sRGB Color Space Profile.icm"
+
+[MFC-J6957DW.USB.SCN.WXP64.NT.Services]
+Include       = sti.inf
+Needs         = STI.USBSection.Services
+
+[MFC-J6957DW.USB.SCN.WXP64.DeviceData]
+Server        = local
+UI Class ID   = {4DB1AD10-3391-11D2-9A33-00C04FA36145}
+TwainDS       = "TW-Brother MFC-J6957DW"
+Model         = 0-GENERAL
+STIFILE       = BrUsi19c.dll
+ModelName     = "MFC-J6957DW"
+
+;----------------------------------------
+; USB: Vist or later (32/64bit)
+;----------------------------------------
+[MFC-J6957DW.USB.SCN.NT]
+Include       = sti.inf
+Needs         = STI.USBSection
+SubClass      = StillImage
+DeviceType    = 1
+DeviceSubType = 0x1
+Capabilities  = 0x39
+PortSelect    = NO
+Events        = BrEvents
+DeviceData    = MFC-J6957DW.USB.SCN.DeviceData
+AddReg        = BrWia20USB.AddReg,BrModel.BHM.DX50.AddReg
+CopyFiles     = BrWia20USB.CopyFiles,BrTwdsFeUSB.MFC-J6957DW.CopyFiles,BrTwdsMain.CopyFiles
+ICMProfiles   = "sRGB Color Space Profile.icm"
+
+[MFC-J6957DW.USB.SCN.NT.Services]
+Include       = sti.inf
+Needs         = STI.USBSection.Services
+
+[MFC-J6957DW.USB.SCN.DeviceData]
+Server        = local
+UI Class ID   = {4DB1AD10-3391-11D2-9A33-00C04FA36145}
+TwainDS       = "TW-Brother MFC-J6957DW"
+Model         = 0-GENERAL
+STIFILE       = BrUsi19c.dll
+ModelName     = "MFC-J6957DW"
+
+;----------------------------------------
+; NET: XP / Server2003 (32/64bit)
+;----------------------------------------
+[MFC-J6957DW.NET.SCN.WXP.NT]
+Include       = sti.inf
+Needs         = STI.SerialSection
+SubClass      = StillImage
+DeviceType    = 1
+DeviceSubType = 0x1
+Capabilities  = 0x39
+PortSelect    = NO
+Events        = BrEvents
+DeviceData    = MFC-J6957DW.NET.SCN.WXP.DeviceData
+AddReg        = BrWiaNetUi.AddReg,BrWia10Net.AddReg,BrModel.BHM.DX50.AddReg
+CopyFiles     = BrWia10Net.CopyFiles,BrTwdsFeNet.MFC-J6957DW.CopyFiles,BrTwdsMain.CopyFiles
+ICMProfiles   = "sRGB Color Space Profile.icm"
+
+[MFC-J6957DW.NET.SCN.WXP.NT.Services]
+Include       = sti.inf
+Needs         = STI.SerialSection.Services
+
+[MFC-J6957DW.NET.SCN.WXP.DeviceData]
+Server        = local
+UI Class ID   = {4B29E704-7E5A-466c-A5FD-8BAEC62DC2BA}
+TwainDS       = "TW-Brother MFC-J6957DW LAN"
+Model         = 0-GENERAL
+STIFILE       = BrNetSti.dll
+LISTNAME      = "MFC-J6957DW"
+
+;----------------------------------------
+; NET: Vista or later (32/64bit)
+;----------------------------------------
+[MFC-J6957DW.NET.SCN.NT]
+Include       = sti.inf
+Needs         = STI.SerialSection
+SubClass      = StillImage
+DeviceType    = 1
+DeviceSubType = 0x1
+Capabilities  = 0x39
+PortSelect    = NO
+Events        = BrEvents
+DeviceData    = MFC-J6957DW.NET.SCN.DeviceData
+AddReg        = BrWiaNetUi.AddReg,BrWia20Net.AddReg,BrModel.BHM.DX50.AddReg
+CopyFiles     = BrWia20Net.CopyFiles,BrTwdsFeNet.MFC-J6957DW.CopyFiles,BrTwdsMain.CopyFiles
+ICMProfiles   = "sRGB Color Space Profile.icm"
+
+[MFC-J6957DW.NET.SCN.NT.Services]
+Include       = sti.inf
+Needs         = STI.SerialSection.Services
+
+[MFC-J6957DW.NET.SCN.DeviceData]
+Server        = local
+UI Class ID   = {4B29E704-7E5A-466c-A5FD-8BAEC62DC2BA}
+TwainDS       = "TW-Brother MFC-J6957DW LAN"
+Model         = 0-GENERAL
+STIFILE       = BrNetSti.dll
+LISTNAME      = "MFC-J6957DW"
+
+;----------------------------------------
+;----------------------------------------
+; MFC-J7600CDW
+;----------------------------------------
+;----------------------------------------
+
+;----------------------------------------
+; USB: Server 2003 (32bit)
+;----------------------------------------
+[MFC-J7600CDW.USB.SCN.WSERV32.NT]
+Include       = sti.inf
+Needs         = STI.USBSection
+SubClass      = StillImage
+DeviceType    = 1
+DeviceSubType = 0x1
+Capabilities  = 0x39
+PortSelect    = NO
+Events        = BrEvents
+DeviceData    = MFC-J7600CDW.USB.SCN.WSERV32.DeviceData
+AddReg        = BrWia10USB.AddReg,BrModel.BHM.DX50.AddReg
+CopyFiles     = BrWia10USB.CopyFiles,BrTwdsFeUSB.MFC-J7600CDW.CopyFiles,BrTwdsMain.CopyFiles
+ICMProfiles   = "sRGB Color Space Profile.icm"
+
+[MFC-J7600CDW.USB.SCN.WSERV32.NT.Services]
+Include       = sti.inf
+Needs         = STI.USBSection.Services
+
+[MFC-J7600CDW.USB.SCN.WSERV32.DeviceData]
+Server        = local
+UI Class ID   = {4DB1AD10-3391-11D2-9A33-00C04FA36145}
+TwainDS       = "TW-Brother MFC-J7600CDW"
+Model         = 0-GENERAL
+STIFILE       = BrUsi19c.dll
+ModelName     = "MFC-J7600CDW"
+
+;----------------------------------------
+; USB: XP, Server 2003 (64bit)
+;----------------------------------------
+[MFC-J7600CDW.USB.SCN.WXP64.NT]
+Include       = sti.inf
+Needs         = STI.USBSection
+SubClass      = StillImage
+DeviceType    = 1
+DeviceSubType = 0x1
+Capabilities  = 0x39
+PortSelect    = NO
+Events        = BrEvents
+DeviceData    = MFC-J7600CDW.USB.SCN.WXP64.DeviceData
+AddReg        = BrWia10USB.AddReg,BrModel.BHM.DX50.AddReg
+CopyFiles     = BrWia10USB.CopyFiles,BrTwdsFeUSB.MFC-J7600CDW.CopyFiles,BrTwdsMain.CopyFiles
+ICMProfiles   = "sRGB Color Space Profile.icm"
+
+[MFC-J7600CDW.USB.SCN.WXP64.NT.Services]
+Include       = sti.inf
+Needs         = STI.USBSection.Services
+
+[MFC-J7600CDW.USB.SCN.WXP64.DeviceData]
+Server        = local
+UI Class ID   = {4DB1AD10-3391-11D2-9A33-00C04FA36145}
+TwainDS       = "TW-Brother MFC-J7600CDW"
+Model         = 0-GENERAL
+STIFILE       = BrUsi19c.dll
+ModelName     = "MFC-J7600CDW"
+
+;----------------------------------------
+; USB: Vist or later (32/64bit)
+;----------------------------------------
+[MFC-J7600CDW.USB.SCN.NT]
+Include       = sti.inf
+Needs         = STI.USBSection
+SubClass      = StillImage
+DeviceType    = 1
+DeviceSubType = 0x1
+Capabilities  = 0x39
+PortSelect    = NO
+Events        = BrEvents
+DeviceData    = MFC-J7600CDW.USB.SCN.DeviceData
+AddReg        = BrWia20USB.AddReg,BrModel.BHM.DX50.AddReg
+CopyFiles     = BrWia20USB.CopyFiles,BrTwdsFeUSB.MFC-J7600CDW.CopyFiles,BrTwdsMain.CopyFiles
+ICMProfiles   = "sRGB Color Space Profile.icm"
+
+[MFC-J7600CDW.USB.SCN.NT.Services]
+Include       = sti.inf
+Needs         = STI.USBSection.Services
+
+[MFC-J7600CDW.USB.SCN.DeviceData]
+Server        = local
+UI Class ID   = {4DB1AD10-3391-11D2-9A33-00C04FA36145}
+TwainDS       = "TW-Brother MFC-J7600CDW"
+Model         = 0-GENERAL
+STIFILE       = BrUsi19c.dll
+ModelName     = "MFC-J7600CDW"
+
+;----------------------------------------
+; NET: XP / Server2003 (32/64bit)
+;----------------------------------------
+[MFC-J7600CDW.NET.SCN.WXP.NT]
+Include       = sti.inf
+Needs         = STI.SerialSection
+SubClass      = StillImage
+DeviceType    = 1
+DeviceSubType = 0x1
+Capabilities  = 0x39
+PortSelect    = NO
+Events        = BrEvents
+DeviceData    = MFC-J7600CDW.NET.SCN.WXP.DeviceData
+AddReg        = BrWiaNetUi.AddReg,BrWia10Net.AddReg,BrModel.BHM.DX50.AddReg
+CopyFiles     = BrWia10Net.CopyFiles,BrTwdsFeNet.MFC-J7600CDW.CopyFiles,BrTwdsMain.CopyFiles
+ICMProfiles   = "sRGB Color Space Profile.icm"
+
+[MFC-J7600CDW.NET.SCN.WXP.NT.Services]
+Include       = sti.inf
+Needs         = STI.SerialSection.Services
+
+[MFC-J7600CDW.NET.SCN.WXP.DeviceData]
+Server        = local
+UI Class ID   = {4B29E704-7E5A-466c-A5FD-8BAEC62DC2BA}
+TwainDS       = "TW-Brother MFC-J7600CDW LAN"
+Model         = 0-GENERAL
+STIFILE       = BrNetSti.dll
+LISTNAME      = "MFC-J7600CDW"
+
+;----------------------------------------
+; NET: Vista or later (32/64bit)
+;----------------------------------------
+[MFC-J7600CDW.NET.SCN.NT]
+Include       = sti.inf
+Needs         = STI.SerialSection
+SubClass      = StillImage
+DeviceType    = 1
+DeviceSubType = 0x1
+Capabilities  = 0x39
+PortSelect    = NO
+Events        = BrEvents
+DeviceData    = MFC-J7600CDW.NET.SCN.DeviceData
+AddReg        = BrWiaNetUi.AddReg,BrWia20Net.AddReg,BrModel.BHM.DX50.AddReg
+CopyFiles     = BrWia20Net.CopyFiles,BrTwdsFeNet.MFC-J7600CDW.CopyFiles,BrTwdsMain.CopyFiles
+ICMProfiles   = "sRGB Color Space Profile.icm"
+
+[MFC-J7600CDW.NET.SCN.NT.Services]
+Include       = sti.inf
+Needs         = STI.SerialSection.Services
+
+[MFC-J7600CDW.NET.SCN.DeviceData]
+Server        = local
+UI Class ID   = {4B29E704-7E5A-466c-A5FD-8BAEC62DC2BA}
+TwainDS       = "TW-Brother MFC-J7600CDW LAN"
+Model         = 0-GENERAL
+STIFILE       = BrNetSti.dll
+LISTNAME      = "MFC-J7600CDW"
+
+;----------------------------------------
+;----------------------------------------
+; MFC-J6959DW
+;----------------------------------------
+;----------------------------------------
+
+;----------------------------------------
+; USB: Server 2003 (32bit)
+;----------------------------------------
+[MFC-J6959DW.USB.SCN.WSERV32.NT]
+Include       = sti.inf
+Needs         = STI.USBSection
+SubClass      = StillImage
+DeviceType    = 1
+DeviceSubType = 0x1
+Capabilities  = 0x39
+PortSelect    = NO
+Events        = BrEvents
+DeviceData    = MFC-J6959DW.USB.SCN.WSERV32.DeviceData
+AddReg        = BrWia10USB.AddReg,BrModel.BHM.DX50.AddReg
+CopyFiles     = BrWia10USB.CopyFiles,BrTwdsFeUSB.MFC-J6959DW.CopyFiles,BrTwdsMain.CopyFiles
+ICMProfiles   = "sRGB Color Space Profile.icm"
+
+[MFC-J6959DW.USB.SCN.WSERV32.NT.Services]
+Include       = sti.inf
+Needs         = STI.USBSection.Services
+
+[MFC-J6959DW.USB.SCN.WSERV32.DeviceData]
+Server        = local
+UI Class ID   = {4DB1AD10-3391-11D2-9A33-00C04FA36145}
+TwainDS       = "TW-Brother MFC-J6959DW"
+Model         = 0-GENERAL
+STIFILE       = BrUsi19c.dll
+ModelName     = "MFC-J6959DW"
+
+;----------------------------------------
+; USB: XP, Server 2003 (64bit)
+;----------------------------------------
+[MFC-J6959DW.USB.SCN.WXP64.NT]
+Include       = sti.inf
+Needs         = STI.USBSection
+SubClass      = StillImage
+DeviceType    = 1
+DeviceSubType = 0x1
+Capabilities  = 0x39
+PortSelect    = NO
+Events        = BrEvents
+DeviceData    = MFC-J6959DW.USB.SCN.WXP64.DeviceData
+AddReg        = BrWia10USB.AddReg,BrModel.BHM.DX50.AddReg
+CopyFiles     = BrWia10USB.CopyFiles,BrTwdsFeUSB.MFC-J6959DW.CopyFiles,BrTwdsMain.CopyFiles
+ICMProfiles   = "sRGB Color Space Profile.icm"
+
+[MFC-J6959DW.USB.SCN.WXP64.NT.Services]
+Include       = sti.inf
+Needs         = STI.USBSection.Services
+
+[MFC-J6959DW.USB.SCN.WXP64.DeviceData]
+Server        = local
+UI Class ID   = {4DB1AD10-3391-11D2-9A33-00C04FA36145}
+TwainDS       = "TW-Brother MFC-J6959DW"
+Model         = 0-GENERAL
+STIFILE       = BrUsi19c.dll
+ModelName     = "MFC-J6959DW"
+
+;----------------------------------------
+; USB: Vist or later (32/64bit)
+;----------------------------------------
+[MFC-J6959DW.USB.SCN.NT]
+Include       = sti.inf
+Needs         = STI.USBSection
+SubClass      = StillImage
+DeviceType    = 1
+DeviceSubType = 0x1
+Capabilities  = 0x39
+PortSelect    = NO
+Events        = BrEvents
+DeviceData    = MFC-J6959DW.USB.SCN.DeviceData
+AddReg        = BrWia20USB.AddReg,BrModel.BHM.DX50.AddReg
+CopyFiles     = BrWia20USB.CopyFiles,BrTwdsFeUSB.MFC-J6959DW.CopyFiles,BrTwdsMain.CopyFiles
+ICMProfiles   = "sRGB Color Space Profile.icm"
+
+[MFC-J6959DW.USB.SCN.NT.Services]
+Include       = sti.inf
+Needs         = STI.USBSection.Services
+
+[MFC-J6959DW.USB.SCN.DeviceData]
+Server        = local
+UI Class ID   = {4DB1AD10-3391-11D2-9A33-00C04FA36145}
+TwainDS       = "TW-Brother MFC-J6959DW"
+Model         = 0-GENERAL
+STIFILE       = BrUsi19c.dll
+ModelName     = "MFC-J6959DW"
+
+;----------------------------------------
+; NET: XP / Server2003 (32/64bit)
+;----------------------------------------
+[MFC-J6959DW.NET.SCN.WXP.NT]
+Include       = sti.inf
+Needs         = STI.SerialSection
+SubClass      = StillImage
+DeviceType    = 1
+DeviceSubType = 0x1
+Capabilities  = 0x39
+PortSelect    = NO
+Events        = BrEvents
+DeviceData    = MFC-J6959DW.NET.SCN.WXP.DeviceData
+AddReg        = BrWiaNetUi.AddReg,BrWia10Net.AddReg,BrModel.BHM.DX50.AddReg
+CopyFiles     = BrWia10Net.CopyFiles,BrTwdsFeNet.MFC-J6959DW.CopyFiles,BrTwdsMain.CopyFiles
+ICMProfiles   = "sRGB Color Space Profile.icm"
+
+[MFC-J6959DW.NET.SCN.WXP.NT.Services]
+Include       = sti.inf
+Needs         = STI.SerialSection.Services
+
+[MFC-J6959DW.NET.SCN.WXP.DeviceData]
+Server        = local
+UI Class ID   = {4B29E704-7E5A-466c-A5FD-8BAEC62DC2BA}
+TwainDS       = "TW-Brother MFC-J6959DW LAN"
+Model         = 0-GENERAL
+STIFILE       = BrNetSti.dll
+LISTNAME      = "MFC-J6959DW"
+
+;----------------------------------------
+; NET: Vista or later (32/64bit)
+;----------------------------------------
+[MFC-J6959DW.NET.SCN.NT]
+Include       = sti.inf
+Needs         = STI.SerialSection
+SubClass      = StillImage
+DeviceType    = 1
+DeviceSubType = 0x1
+Capabilities  = 0x39
+PortSelect    = NO
+Events        = BrEvents
+DeviceData    = MFC-J6959DW.NET.SCN.DeviceData
+AddReg        = BrWiaNetUi.AddReg,BrWia20Net.AddReg,BrModel.BHM.DX50.AddReg
+CopyFiles     = BrWia20Net.CopyFiles,BrTwdsFeNet.MFC-J6959DW.CopyFiles,BrTwdsMain.CopyFiles
+ICMProfiles   = "sRGB Color Space Profile.icm"
+
+[MFC-J6959DW.NET.SCN.NT.Services]
+Include       = sti.inf
+Needs         = STI.SerialSection.Services
+
+[MFC-J6959DW.NET.SCN.DeviceData]
+Server        = local
+UI Class ID   = {4B29E704-7E5A-466c-A5FD-8BAEC62DC2BA}
+TwainDS       = "TW-Brother MFC-J6959DW LAN"
+Model         = 0-GENERAL
+STIFILE       = BrNetSti.dll
+LISTNAME      = "MFC-J6959DW"
+
+;----------------------------------------
+;----------------------------------------
+; MFC-J7700CDW
+;----------------------------------------
+;----------------------------------------
+
+;----------------------------------------
+; USB: Server 2003 (32bit)
+;----------------------------------------
+[MFC-J7700CDW.USB.SCN.WSERV32.NT]
+Include       = sti.inf
+Needs         = STI.USBSection
+SubClass      = StillImage
+DeviceType    = 1
+DeviceSubType = 0x1
+Capabilities  = 0x39
+PortSelect    = NO
+Events        = BrEvents
+DeviceData    = MFC-J7700CDW.USB.SCN.WSERV32.DeviceData
+AddReg        = BrWia10USB.AddReg,BrModel.BHM.DX50.AddReg
+CopyFiles     = BrWia10USB.CopyFiles,BrTwdsFeUSB.MFC-J7700CDW.CopyFiles,BrTwdsMain.CopyFiles
+ICMProfiles   = "sRGB Color Space Profile.icm"
+
+[MFC-J7700CDW.USB.SCN.WSERV32.NT.Services]
+Include       = sti.inf
+Needs         = STI.USBSection.Services
+
+[MFC-J7700CDW.USB.SCN.WSERV32.DeviceData]
+Server        = local
+UI Class ID   = {4DB1AD10-3391-11D2-9A33-00C04FA36145}
+TwainDS       = "TW-Brother MFC-J7700CDW"
+Model         = 0-GENERAL
+STIFILE       = BrUsi19c.dll
+ModelName     = "MFC-J7700CDW"
+
+;----------------------------------------
+; USB: XP, Server 2003 (64bit)
+;----------------------------------------
+[MFC-J7700CDW.USB.SCN.WXP64.NT]
+Include       = sti.inf
+Needs         = STI.USBSection
+SubClass      = StillImage
+DeviceType    = 1
+DeviceSubType = 0x1
+Capabilities  = 0x39
+PortSelect    = NO
+Events        = BrEvents
+DeviceData    = MFC-J7700CDW.USB.SCN.WXP64.DeviceData
+AddReg        = BrWia10USB.AddReg,BrModel.BHM.DX50.AddReg
+CopyFiles     = BrWia10USB.CopyFiles,BrTwdsFeUSB.MFC-J7700CDW.CopyFiles,BrTwdsMain.CopyFiles
+ICMProfiles   = "sRGB Color Space Profile.icm"
+
+[MFC-J7700CDW.USB.SCN.WXP64.NT.Services]
+Include       = sti.inf
+Needs         = STI.USBSection.Services
+
+[MFC-J7700CDW.USB.SCN.WXP64.DeviceData]
+Server        = local
+UI Class ID   = {4DB1AD10-3391-11D2-9A33-00C04FA36145}
+TwainDS       = "TW-Brother MFC-J7700CDW"
+Model         = 0-GENERAL
+STIFILE       = BrUsi19c.dll
+ModelName     = "MFC-J7700CDW"
+
+;----------------------------------------
+; USB: Vist or later (32/64bit)
+;----------------------------------------
+[MFC-J7700CDW.USB.SCN.NT]
+Include       = sti.inf
+Needs         = STI.USBSection
+SubClass      = StillImage
+DeviceType    = 1
+DeviceSubType = 0x1
+Capabilities  = 0x39
+PortSelect    = NO
+Events        = BrEvents
+DeviceData    = MFC-J7700CDW.USB.SCN.DeviceData
+AddReg        = BrWia20USB.AddReg,BrModel.BHM.DX50.AddReg
+CopyFiles     = BrWia20USB.CopyFiles,BrTwdsFeUSB.MFC-J7700CDW.CopyFiles,BrTwdsMain.CopyFiles
+ICMProfiles   = "sRGB Color Space Profile.icm"
+
+[MFC-J7700CDW.USB.SCN.NT.Services]
+Include       = sti.inf
+Needs         = STI.USBSection.Services
+
+[MFC-J7700CDW.USB.SCN.DeviceData]
+Server        = local
+UI Class ID   = {4DB1AD10-3391-11D2-9A33-00C04FA36145}
+TwainDS       = "TW-Brother MFC-J7700CDW"
+Model         = 0-GENERAL
+STIFILE       = BrUsi19c.dll
+ModelName     = "MFC-J7700CDW"
+
+;----------------------------------------
+; NET: XP / Server2003 (32/64bit)
+;----------------------------------------
+[MFC-J7700CDW.NET.SCN.WXP.NT]
+Include       = sti.inf
+Needs         = STI.SerialSection
+SubClass      = StillImage
+DeviceType    = 1
+DeviceSubType = 0x1
+Capabilities  = 0x39
+PortSelect    = NO
+Events        = BrEvents
+DeviceData    = MFC-J7700CDW.NET.SCN.WXP.DeviceData
+AddReg        = BrWiaNetUi.AddReg,BrWia10Net.AddReg,BrModel.BHM.DX50.AddReg
+CopyFiles     = BrWia10Net.CopyFiles,BrTwdsFeNet.MFC-J7700CDW.CopyFiles,BrTwdsMain.CopyFiles
+ICMProfiles   = "sRGB Color Space Profile.icm"
+
+[MFC-J7700CDW.NET.SCN.WXP.NT.Services]
+Include       = sti.inf
+Needs         = STI.SerialSection.Services
+
+[MFC-J7700CDW.NET.SCN.WXP.DeviceData]
+Server        = local
+UI Class ID   = {4B29E704-7E5A-466c-A5FD-8BAEC62DC2BA}
+TwainDS       = "TW-Brother MFC-J7700CDW LAN"
+Model         = 0-GENERAL
+STIFILE       = BrNetSti.dll
+LISTNAME      = "MFC-J7700CDW"
+
+;----------------------------------------
+; NET: Vista or later (32/64bit)
+;----------------------------------------
+[MFC-J7700CDW.NET.SCN.NT]
+Include       = sti.inf
+Needs         = STI.SerialSection
+SubClass      = StillImage
+DeviceType    = 1
+DeviceSubType = 0x1
+Capabilities  = 0x39
+PortSelect    = NO
+Events        = BrEvents
+DeviceData    = MFC-J7700CDW.NET.SCN.DeviceData
+AddReg        = BrWiaNetUi.AddReg,BrWia20Net.AddReg,BrModel.BHM.DX50.AddReg
+CopyFiles     = BrWia20Net.CopyFiles,BrTwdsFeNet.MFC-J7700CDW.CopyFiles,BrTwdsMain.CopyFiles
+ICMProfiles   = "sRGB Color Space Profile.icm"
+
+[MFC-J7700CDW.NET.SCN.NT.Services]
+Include       = sti.inf
+Needs         = STI.SerialSection.Services
+
+[MFC-J7700CDW.NET.SCN.DeviceData]
+Server        = local
+UI Class ID   = {4B29E704-7E5A-466c-A5FD-8BAEC62DC2BA}
+TwainDS       = "TW-Brother MFC-J7700CDW LAN"
+Model         = 0-GENERAL
+STIFILE       = BrNetSti.dll
+LISTNAME      = "MFC-J7700CDW"
+
+
+;----------------------------------------
+;----------------------------------------
+; Add reg
+;----------------------------------------
+;----------------------------------------
+
+;----------------------------------------
+; Add reg DeviceData
+;----------------------------------------
+[BrModel.BHB.SX50.AddReg]
+HKR,DeviceData,ScannerType     ,0x00000,2
+HKR,DeviceData,DocHandling     ,0x00000,3
+HKR,DeviceData,ResoType        ,0x00000,2
+HKR,DeviceData,MaxResoNo       ,0x00000,8
+HKR,DeviceData,MaxResoCatalog  ,0x00000,12
+HKR,DeviceData,OpticalResoX    ,0x00000,1200
+HKR,DeviceData,OpticalResoY    ,0x00000,2400
+HKR,DeviceData,DevBedWidth     ,0x00000,8500
+HKR,DeviceData,DevBedHeight    ,0x00000,11693
+HKR,DeviceData,DevFeederWidth  ,0x00000,8500
+HKR,DeviceData,DevFeederHeight ,0x00000,14000
+HKR,DeviceData,BedDocWidth     ,0x00000,8421
+HKR,DeviceData,BedDocHeight    ,0x00000,11614
+HKR,DeviceData,FeederDocWidth  ,0x00000,8421
+HKR,DeviceData,FeederDocHeight ,0x00000,13921
+HKR,DeviceData,BedScnSpecWidth ,0x00000,8500
+HKR,DeviceData,BedScnSpecHeight,0x00000,11693
+HKR,DeviceData,EventImage      ,0x00000,1
+HKR,DeviceData,EventOcr        ,0x00000,1
+HKR,DeviceData,EventEmail      ,0x00000,1
+HKR,DeviceData,EventFile2      ,0x00000,1
+HKR,DeviceData,SetupInit       ,0x00000,1
+HKR,DeviceData,EnCmpJ          ,0x00000,1
+HKR,DeviceData,CmpRate         ,0x00000,2
+HKR,DeviceData,SkeyHandling    ,0x00000,1
+HKR,DeviceData,BedHReg         ,0x00000,1
+HKR,DeviceData,Command-S       ,0x00000,1
+HKR,DeviceData,Command-D       ,0x00000,1
+HKR,DeviceData,Command-K       ,0x00000,0
+HKR,DeviceData,DuplexScn       ,0x00000,0
+HKR,DeviceData,DocMaxPages     ,0x00000,50
+HKR,DeviceData,ReadBufSize,0x00010001,2097152
+
+[BrModel.BHB.DX50.AddReg]
+HKR,DeviceData,ScannerType     ,0x00000,2
+HKR,DeviceData,DocHandling     ,0x00000,3
+HKR,DeviceData,ResoType        ,0x00000,2
+HKR,DeviceData,MaxResoNo       ,0x00000,8
+HKR,DeviceData,MaxResoCatalog  ,0x00000,12
+HKR,DeviceData,OpticalResoX    ,0x00000,1200
+HKR,DeviceData,OpticalResoY    ,0x00000,2400
+HKR,DeviceData,DevBedWidth     ,0x00000,8500
+HKR,DeviceData,DevBedHeight    ,0x00000,11693
+HKR,DeviceData,DevFeederWidth  ,0x00000,8500
+HKR,DeviceData,DevFeederHeight ,0x00000,14000
+HKR,DeviceData,DevDuplexWidth  ,0x00000,8500
+HKR,DeviceData,DevDuplexHeight ,0x00000,14000
+HKR,DeviceData,BedDocWidth     ,0x00000,8421
+HKR,DeviceData,BedDocHeight    ,0x00000,11614
+HKR,DeviceData,FeederDocWidth  ,0x00000,8421
+HKR,DeviceData,FeederDocHeight ,0x00000,13921
+HKR,DeviceData,BedScnSpecWidth ,0x00000,8500
+HKR,DeviceData,BedScnSpecHeight,0x00000,11693
+HKR,DeviceData,EventImage      ,0x00000,1
+HKR,DeviceData,EventOcr        ,0x00000,1
+HKR,DeviceData,EventEmail      ,0x00000,1
+HKR,DeviceData,EventFile2      ,0x00000,1
+HKR,DeviceData,SetupInit       ,0x00000,1
+HKR,DeviceData,EnCmpJ          ,0x00000,1
+HKR,DeviceData,CmpRate         ,0x00000,2
+HKR,DeviceData,SkeyHandling    ,0x00000,1
+HKR,DeviceData,BedHReg         ,0x00000,1
+HKR,DeviceData,Command-S       ,0x00000,1
+HKR,DeviceData,Command-D       ,0x00000,1
+HKR,DeviceData,Command-K       ,0x00000,1
+HKR,DeviceData,DuplexScn       ,0x00000,1
+HKR,DeviceData,DocMaxPages     ,0x00000,100
+HKR,DeviceData,ReadBufSize,0x00010001,2097152
+
+[BrModel.BHM.SX50.AddReg]
+HKR,DeviceData,ScannerType     ,0x00000,2
+HKR,DeviceData,DocHandling     ,0x00000,3
+HKR,DeviceData,ResoType        ,0x00000,2
+HKR,DeviceData,MaxResoNo       ,0x00000,8
+HKR,DeviceData,MaxResoCatalog  ,0x00000,12
+HKR,DeviceData,OpticalResoX    ,0x00000,1200
+HKR,DeviceData,OpticalResoY    ,0x00000,2400
+HKR,DeviceData,DevBedWidth     ,0x00000,11693
+HKR,DeviceData,DevBedHeight    ,0x00000,17000
+HKR,DeviceData,DevFeederWidth  ,0x00000,11693
+HKR,DeviceData,DevFeederHeight ,0x00000,17000
+HKR,DeviceData,BedDocWidth     ,0x00000,11614
+HKR,DeviceData,BedDocHeight    ,0x00000,16921
+HKR,DeviceData,FeederDocWidth  ,0x00000,11614
+HKR,DeviceData,FeederDocHeight ,0x00000,16921
+HKR,DeviceData,BedScnSpecWidth ,0x00000,11693
+HKR,DeviceData,BedScnSpecHeight,0x00000,17000
+HKR,DeviceData,EventImage      ,0x00000,1
+HKR,DeviceData,EventOcr        ,0x00000,1
+HKR,DeviceData,EventEmail      ,0x00000,1
+HKR,DeviceData,EventFile2      ,0x00000,1
+HKR,DeviceData,SetupInit       ,0x00000,1
+HKR,DeviceData,EnCmpJ          ,0x00000,1
+HKR,DeviceData,CmpRate         ,0x00000,2
+HKR,DeviceData,SkeyHandling    ,0x00000,1
+HKR,DeviceData,BedHReg         ,0x00000,1
+HKR,DeviceData,Command-S       ,0x00000,1
+HKR,DeviceData,Command-D       ,0x00000,1
+HKR,DeviceData,Command-K       ,0x00000,0
+HKR,DeviceData,DuplexScn       ,0x00000,0
+HKR,DeviceData,DocMaxPages     ,0x00000,50
+HKR,DeviceData,ReadBufSize,0x00010001,2097152
+
+[BrModel.BHM.DX50.AddReg]
+HKR,DeviceData,ScannerType     ,0x00000,2
+HKR,DeviceData,DocHandling     ,0x00000,3
+HKR,DeviceData,ResoType        ,0x00000,2
+HKR,DeviceData,MaxResoNo       ,0x00000,8
+HKR,DeviceData,MaxResoCatalog  ,0x00000,12
+HKR,DeviceData,OpticalResoX    ,0x00000,1200
+HKR,DeviceData,OpticalResoY    ,0x00000,2400
+HKR,DeviceData,DevBedWidth     ,0x00000,11693
+HKR,DeviceData,DevBedHeight    ,0x00000,17000
+HKR,DeviceData,DevFeederWidth  ,0x00000,11693
+HKR,DeviceData,DevFeederHeight ,0x00000,17000
+HKR,DeviceData,DevDuplexWidth  ,0x00000,11693
+HKR,DeviceData,DevDuplexHeight ,0x00000,17000
+HKR,DeviceData,BedDocWidth     ,0x00000,11614
+HKR,DeviceData,BedDocHeight    ,0x00000,16921
+HKR,DeviceData,FeederDocWidth  ,0x00000,11614
+HKR,DeviceData,FeederDocHeight ,0x00000,16921
+HKR,DeviceData,BedScnSpecWidth ,0x00000,11693
+HKR,DeviceData,BedScnSpecHeight,0x00000,17000
+HKR,DeviceData,EventImage      ,0x00000,1
+HKR,DeviceData,EventOcr        ,0x00000,1
+HKR,DeviceData,EventEmail      ,0x00000,1
+HKR,DeviceData,EventFile2      ,0x00000,1
+HKR,DeviceData,SetupInit       ,0x00000,1
+HKR,DeviceData,EnCmpJ          ,0x00000,1
+HKR,DeviceData,CmpRate         ,0x00000,2
+HKR,DeviceData,SkeyHandling    ,0x00000,1
+HKR,DeviceData,BedHReg         ,0x00000,1
+HKR,DeviceData,Command-S       ,0x00000,1
+HKR,DeviceData,Command-D       ,0x00000,1
+HKR,DeviceData,Command-K       ,0x00000,1
+HKR,DeviceData,DuplexScn       ,0x00000,1
+HKR,DeviceData,DocMaxPages     ,0x00000,100
+HKR,DeviceData,ReadBufSize,0x00010001,2097152
+
+;----------------------------------------
+; Add reg USB
+;----------------------------------------
+[BrWia10USB.AddReg]
+HKR,,HardwareConfig,1,4
+HKR,,USDClass,,"{F7F714C5-8326-467C-964E-5059FB6A8893}"
+HKR,DeviceData,OpenTimeout,0x00010001,360000
+HKCR,CLSID\{F7F714C5-8326-467C-964E-5059FB6A8893} ,,,%BrWiaUsd%
+HKCR,CLSID\{F7F714C5-8326-467C-964E-5059FB6A8893}\InProcServer32,,0x00020000,%%SystemRoot%%\System32\BrWia19c.dll
+HKCR,CLSID\{F7F714C5-8326-467C-964E-5059FB6A8893}\InProcServer32,ThreadingModel,,"Both"
+
+[BrWia20USB.AddReg]
+HKR,,HardwareConfig,1,4
+HKR,,USDClass,,"{E9976F60-A1C4-4C20-BA8A-381DC82F0C97}"
+HKR,DeviceData,ChangePaperSize,0x00000,0
+HKR,DeviceData,OpenTimeout,0x00010001,360000
+HKCR,CLSID\{E9976F60-A1C4-4C20-BA8A-381DC82F0C97} ,,,%BrWiaUsd%
+HKCR,CLSID\{E9976F60-A1C4-4C20-BA8A-381DC82F0C97}\InProcServer32,,0x00020000,%%SystemRoot%%\System32\BrWi219c.dll
+HKCR,CLSID\{E9976F60-A1C4-4C20-BA8A-381DC82F0C97}\InProcServer32,ThreadingModel,,"Both"
+
+;----------------------------------------
+; Add reg NET
+;----------------------------------------
+[BrWia10Net.AddReg]
+HKR,,HardwareConfig,1,1
+HKR,,USDClass,,"{F7F714C5-8326-467C-964E-5059FB6A8893}"
+HKR,,CreateFileName,,BRNET
+HKR,DeviceData,OpenTimeout,0x00010001,360000
+HKCR,CLSID\{F7F714C5-8326-467C-964E-5059FB6A8893} ,,,%BrWiaUsd%
+HKCR,CLSID\{F7F714C5-8326-467C-964E-5059FB6A8893}\InProcServer32,,0x00020000,%%SystemRoot%%\System32\BrWia19c.dll
+HKCR,CLSID\{F7F714C5-8326-467C-964E-5059FB6A8893}\InProcServer32,ThreadingModel,,"Both"
+
+[BrWia20Net.AddReg]
+HKR,,HardwareConfig,1,1
+HKR,,USDClass,,"{E9976F60-A1C4-4C20-BA8A-381DC82F0C97}"
+HKR,,CreateFileName,,BRNET
+HKR,DeviceData,ChangePaperSize,0x00000,0
+HKR,DeviceData,OpenTimeout,0x00010001,360000
+HKCR,CLSID\{E9976F60-A1C4-4C20-BA8A-381DC82F0C97} ,,,%BrWiaUsd%
+HKCR,CLSID\{E9976F60-A1C4-4C20-BA8A-381DC82F0C97}\InProcServer32,,0x00020000,%%SystemRoot%%\System32\BrWi219c.dll
+HKCR,CLSID\{E9976F60-A1C4-4C20-BA8A-381DC82F0C97}\InProcServer32,ThreadingModel,,"Both"
+
+[BrWiaNetUi.AddReg]
+HKCR,CLSID\{4B29E704-7E5A-466c-A5FD-8BAEC62DC2BA},,,"WIA Driver UI Extension"
+HKCR,CLSID\{4B29E704-7E5A-466c-A5FD-8BAEC62DC2BA}\shellex\PropertySheetHandlers\{65F642BF-7D2E-4848-96E8-E2B24655E87B}
+HKCR,CLSID\{65F642BF-7D2E-4848-96E8-E2B24655E87B},,,"WIA Property Sheet Handlers"
+HKCR,CLSID\{65F642BF-7D2E-4848-96E8-E2B24655E87B}\InProcServer32,,0x00020000,%%SystemRoot%%\System32\BrWiaNCp.dll
+HKCR,CLSID\{65F642BF-7D2E-4848-96E8-E2B24655E87B}\InProcServer32,ThreadingModel,,"Both"
+
+;----------------------------------------
+;----------------------------------------
+; Events
+;----------------------------------------
+;----------------------------------------
+[BrEvents]
+ScanToOcr   = %ScanToOcr%,{9d095b89-37d6-4877-afed-62a297dc6dbe},*
+ScanToSpApp = %ScanToSpApp%,{a6c5a715-8c6e-11d2-977a-0000f87a926f},*
+ScanToEmail = %ScanToEmail%,{c686dcee-54f2-419e-9a27-2fc7f2e98f9e},*
+ScanToFile  = %ScanToFile%,{fc4767c1-c8b3-48a2-9cfa-2e90cb3d3590},*
+
+
+;----------------------------------------
+;----------------------------------------
+; Copy Files
+;----------------------------------------
+;----------------------------------------
+
+;----------------------------------------
+; Copy Files Common
+;----------------------------------------
+[BrTwdsMain.CopyFiles]
+BsDeviceAccs.dll
+BsStiDevAccs.dll
+BsUsbDevAccs.dll
+BsNetDevAccs.dll
+BsScanCoreApi.dll
+BoScanValidator.dll
+TwCaps.dll
+TwTriplet.dll
+TwDsUiFe.dll
+TwDsUi.exe
+TwDsUiLaunch.exe
+Livet.dll
+Microsoft.Expression.Interactions.dll
+System.Windows.Interactivity.dll
+ColorDropDialog.dll
+BrImgPdf.dll
+
+TwHelpAru.chm
+TwHelpBul.chm
+TwHelpChn.chm
+TwHelpCht.chm
+TwHelpCze.chm
+TwHelpDan.chm
+TwHelpDut.chm
+TwHelpEng.chm
+TwHelpFin.chm
+TwHelpFrc.chm
+TwHelpFre.chm
+TwHelpGer.chm
+TwHelpHrv.chm
+TwHelpHun.chm
+TwHelpInd.chm
+TwHelpIta.chm
+TwHelpJpn.chm
+TwHelpKor.chm
+TwHelpNor.chm
+TwHelpPol.chm
+TwHelpPor.chm
+TwHelpPtb.chm
+TwHelpRom.chm
+TwHelpRus.chm
+TwHelpSlv.chm
+TwHelpSpa.chm
+TwHelpSrl.chm
+TwHelpSvk.chm
+TwHelpSwe.chm
+TwHelpTha.chm
+TwHelpTrk.chm
+TwHelpUkr.chm
+TwHelpUsa.chm
+TwHelpVit.chm
+
+[BrTwdsFeUSB.MFC-J5340DW.CopyFiles]
+TwDsFe.ds
+MFC-J5340DWU.ini
+
+[BrTwdsFeNet.MFC-J5340DW.CopyFiles]
+TwDsFe.ds
+MFC-J5340DWN.ini
+
+[BrTwdsFeUSB.MFC-J5345DW.CopyFiles]
+TwDsFe.ds
+MFC-J5345DWU.ini
+
+[BrTwdsFeNet.MFC-J5345DW.CopyFiles]
+TwDsFe.ds
+MFC-J5345DWN.ini
+
+[BrTwdsFeUSB.MFC-J2340DW.CopyFiles]
+TwDsFe.ds
+MFC-J2340DWU.ini
+
+[BrTwdsFeNet.MFC-J2340DW.CopyFiles]
+TwDsFe.ds
+MFC-J2340DWN.ini
+
+[BrTwdsFeUSB.MFC-J5740DW.CopyFiles]
+TwDsFe.ds
+MFC-J5740DWU.ini
+
+[BrTwdsFeNet.MFC-J5740DW.CopyFiles]
+TwDsFe.ds
+MFC-J5740DWN.ini
+
+[BrTwdsFeUSB.MFC-J2740DW.CopyFiles]
+TwDsFe.ds
+MFC-J2740DWU.ini
+
+[BrTwdsFeNet.MFC-J2740DW.CopyFiles]
+TwDsFe.ds
+MFC-J2740DWN.ini
+
+[BrTwdsFeUSB.MFC-J6540DW.CopyFiles]
+TwDsFe.ds
+MFC-J6540DWU.ini
+
+[BrTwdsFeNet.MFC-J6540DW.CopyFiles]
+TwDsFe.ds
+MFC-J6540DWN.ini
+
+[BrTwdsFeUSB.MFC-J3540DW.CopyFiles]
+TwDsFe.ds
+MFC-J3540DWU.ini
+
+[BrTwdsFeNet.MFC-J3540DW.CopyFiles]
+TwDsFe.ds
+MFC-J3540DWN.ini
+
+[BrTwdsFeUSB.MFC-J7100CDW.CopyFiles]
+TwDsFe.ds
+MFC-J7100CDWU.ini
+
+[BrTwdsFeNet.MFC-J7100CDW.CopyFiles]
+TwDsFe.ds
+MFC-J7100CDWN.ini
+
+[BrTwdsFeUSB.MFC-J6740DW.CopyFiles]
+TwDsFe.ds
+MFC-J6740DWU.ini
+
+[BrTwdsFeNet.MFC-J6740DW.CopyFiles]
+TwDsFe.ds
+MFC-J6740DWN.ini
+
+[BrTwdsFeUSB.MFC-J6940DW.CopyFiles]
+TwDsFe.ds
+MFC-J6940DWU.ini
+
+[BrTwdsFeNet.MFC-J6940DW.CopyFiles]
+TwDsFe.ds
+MFC-J6940DWN.ini
+
+[BrTwdsFeUSB.MFC-J3940DW.CopyFiles]
+TwDsFe.ds
+MFC-J3940DWU.ini
+
+[BrTwdsFeNet.MFC-J3940DW.CopyFiles]
+TwDsFe.ds
+MFC-J3940DWN.ini
+
+[BrTwdsFeUSB.MFC-J7300CDW.CopyFiles]
+TwDsFe.ds
+MFC-J7300CDWU.ini
+
+[BrTwdsFeNet.MFC-J7300CDW.CopyFiles]
+TwDsFe.ds
+MFC-J7300CDWN.ini
+
+[BrTwdsFeUSB.MFC-J5855DW.CopyFiles]
+TwDsFe.ds
+MFC-J5855DWU.ini
+
+[BrTwdsFeNet.MFC-J5855DW.CopyFiles]
+TwDsFe.ds
+MFC-J5855DWN.ini
+
+[BrTwdsFeUSB.MFC-J5800CDW.CopyFiles]
+TwDsFe.ds
+MFC-J5800CDWU.ini
+
+[BrTwdsFeNet.MFC-J5800CDW.CopyFiles]
+TwDsFe.ds
+MFC-J5800CDWN.ini
+
+[BrTwdsFeUSB.MFC-J5955DW.CopyFiles]
+TwDsFe.ds
+MFC-J5955DWU.ini
+
+[BrTwdsFeNet.MFC-J5955DW.CopyFiles]
+TwDsFe.ds
+MFC-J5955DWN.ini
+
+[BrTwdsFeUSB.MFC-J6555DW.CopyFiles]
+TwDsFe.ds
+MFC-J6555DWU.ini
+
+[BrTwdsFeNet.MFC-J6555DW.CopyFiles]
+TwDsFe.ds
+MFC-J6555DWN.ini
+
+[BrTwdsFeUSB.MFC-J6955DW.CopyFiles]
+TwDsFe.ds
+MFC-J6955DWU.ini
+
+[BrTwdsFeNet.MFC-J6955DW.CopyFiles]
+TwDsFe.ds
+MFC-J6955DWN.ini
+
+[BrTwdsFeUSB.MFC-J7500CDW.CopyFiles]
+TwDsFe.ds
+MFC-J7500CDWU.ini
+
+[BrTwdsFeNet.MFC-J7500CDW.CopyFiles]
+TwDsFe.ds
+MFC-J7500CDWN.ini
+
+[BrTwdsFeUSB.MFC-J6957DW.CopyFiles]
+TwDsFe.ds
+MFC-J6957DWU.ini
+
+[BrTwdsFeNet.MFC-J6957DW.CopyFiles]
+TwDsFe.ds
+MFC-J6957DWN.ini
+
+[BrTwdsFeUSB.MFC-J7600CDW.CopyFiles]
+TwDsFe.ds
+MFC-J7600CDWU.ini
+
+[BrTwdsFeNet.MFC-J7600CDW.CopyFiles]
+TwDsFe.ds
+MFC-J7600CDWN.ini
+
+[BrTwdsFeUSB.MFC-J6959DW.CopyFiles]
+TwDsFe.ds
+MFC-J6959DWU.ini
+
+[BrTwdsFeNet.MFC-J6959DW.CopyFiles]
+TwDsFe.ds
+MFC-J6959DWN.ini
+
+[BrTwdsFeUSB.MFC-J7700CDW.CopyFiles]
+TwDsFe.ds
+MFC-J7700CDWU.ini
+
+[BrTwdsFeNet.MFC-J7700CDW.CopyFiles]
+TwDsFe.ds
+MFC-J7700CDWN.ini
+
+;----------------------------------------
+; Copy Files USB
+;----------------------------------------
+[BrWia10USB.CopyFiles]
+BrWia19c.dll
+BrUsi19c.dll
+BrJDec.dll
+
+[BrWia20USB.CopyFiles]
+BrWi219c.dll
+BrUsi19c.dll
+BrJDec.dll
+
+;----------------------------------------
+; Copy Files NET
+;----------------------------------------
+[BrWia10Net.CopyFiles]
+BrWia19c.dll
+BrJDec.dll
+
+[BrWia20Net.CopyFiles]
+BrWi219c.dll
+BrJDec.dll
+
+;[BrWiaNetCommon32.CopyFiles]
+;BrWiaNCp.dll
+;BrNetSti.dll
+;NSSearch.dll
+;BrMuSNMP.dll
+;Brnsplg.dll
+
+;[BrWiaNetCommon64.CopyFiles]
+;BrWiaNCp.dll
+;BrNetSti.dll
+;NSSRH64.dll
+;BrSNMP64.dll
+;Brnsplg.dll
+
+
+;----------------------------------------
+;----------------------------------------
+; Destination Directories
+;----------------------------------------
+;----------------------------------------
+[DestinationDirs]
+DefaultDestDir           = 11
+BrTwdsMain.CopyFiles     = 10,TWAIN_32\Brimi20a\Common
+
+BrTwdsFeUSB.MFC-J5340DW.CopyFiles = 10,TWAIN_32\Brimi20a\MFC-J5340DWU
+BrTwdsFeNet.MFC-J5340DW.CopyFiles = 10,TWAIN_32\Brimi20a\MFC-J5340DWN
+BrTwdsFeUSB.MFC-J5345DW.CopyFiles = 10,TWAIN_32\Brimi20a\MFC-J5345DWU
+BrTwdsFeNet.MFC-J5345DW.CopyFiles = 10,TWAIN_32\Brimi20a\MFC-J5345DWN
+BrTwdsFeUSB.MFC-J2340DW.CopyFiles = 10,TWAIN_32\Brimi20a\MFC-J2340DWU
+BrTwdsFeNet.MFC-J2340DW.CopyFiles = 10,TWAIN_32\Brimi20a\MFC-J2340DWN
+BrTwdsFeUSB.MFC-J5740DW.CopyFiles = 10,TWAIN_32\Brimi20a\MFC-J5740DWU
+BrTwdsFeNet.MFC-J5740DW.CopyFiles = 10,TWAIN_32\Brimi20a\MFC-J5740DWN
+BrTwdsFeUSB.MFC-J2740DW.CopyFiles = 10,TWAIN_32\Brimi20a\MFC-J2740DWU
+BrTwdsFeNet.MFC-J2740DW.CopyFiles = 10,TWAIN_32\Brimi20a\MFC-J2740DWN
+BrTwdsFeUSB.MFC-J6540DW.CopyFiles = 10,TWAIN_32\Brimi20a\MFC-J6540DWU
+BrTwdsFeNet.MFC-J6540DW.CopyFiles = 10,TWAIN_32\Brimi20a\MFC-J6540DWN
+BrTwdsFeUSB.MFC-J3540DW.CopyFiles = 10,TWAIN_32\Brimi20a\MFC-J3540DWU
+BrTwdsFeNet.MFC-J3540DW.CopyFiles = 10,TWAIN_32\Brimi20a\MFC-J3540DWN
+BrTwdsFeUSB.MFC-J7100CDW.CopyFiles = 10,TWAIN_32\Brimi20a\MFC-J7100CDWU
+BrTwdsFeNet.MFC-J7100CDW.CopyFiles = 10,TWAIN_32\Brimi20a\MFC-J7100CDWN
+BrTwdsFeUSB.MFC-J6740DW.CopyFiles = 10,TWAIN_32\Brimi20a\MFC-J6740DWU
+BrTwdsFeNet.MFC-J6740DW.CopyFiles = 10,TWAIN_32\Brimi20a\MFC-J6740DWN
+BrTwdsFeUSB.MFC-J6940DW.CopyFiles = 10,TWAIN_32\Brimi20a\MFC-J6940DWU
+BrTwdsFeNet.MFC-J6940DW.CopyFiles = 10,TWAIN_32\Brimi20a\MFC-J6940DWN
+BrTwdsFeUSB.MFC-J3940DW.CopyFiles = 10,TWAIN_32\Brimi20a\MFC-J3940DWU
+BrTwdsFeNet.MFC-J3940DW.CopyFiles = 10,TWAIN_32\Brimi20a\MFC-J3940DWN
+BrTwdsFeUSB.MFC-J7300CDW.CopyFiles = 10,TWAIN_32\Brimi20a\MFC-J7300CDWU
+BrTwdsFeNet.MFC-J7300CDW.CopyFiles = 10,TWAIN_32\Brimi20a\MFC-J7300CDWN
+BrTwdsFeUSB.MFC-J5855DW.CopyFiles = 10,TWAIN_32\Brimi20a\MFC-J5855DWU
+BrTwdsFeNet.MFC-J5855DW.CopyFiles = 10,TWAIN_32\Brimi20a\MFC-J5855DWN
+BrTwdsFeUSB.MFC-J5800CDW.CopyFiles = 10,TWAIN_32\Brimi20a\MFC-J5800CDWU
+BrTwdsFeNet.MFC-J5800CDW.CopyFiles = 10,TWAIN_32\Brimi20a\MFC-J5800CDWN
+BrTwdsFeUSB.MFC-J5955DW.CopyFiles = 10,TWAIN_32\Brimi20a\MFC-J5955DWU
+BrTwdsFeNet.MFC-J5955DW.CopyFiles = 10,TWAIN_32\Brimi20a\MFC-J5955DWN
+BrTwdsFeUSB.MFC-J6555DW.CopyFiles = 10,TWAIN_32\Brimi20a\MFC-J6555DWU
+BrTwdsFeNet.MFC-J6555DW.CopyFiles = 10,TWAIN_32\Brimi20a\MFC-J6555DWN
+BrTwdsFeUSB.MFC-J6955DW.CopyFiles = 10,TWAIN_32\Brimi20a\MFC-J6955DWU
+BrTwdsFeNet.MFC-J6955DW.CopyFiles = 10,TWAIN_32\Brimi20a\MFC-J6955DWN
+BrTwdsFeUSB.MFC-J7500CDW.CopyFiles = 10,TWAIN_32\Brimi20a\MFC-J7500CDWU
+BrTwdsFeNet.MFC-J7500CDW.CopyFiles = 10,TWAIN_32\Brimi20a\MFC-J7500CDWN
+BrTwdsFeUSB.MFC-J6957DW.CopyFiles = 10,TWAIN_32\Brimi20a\MFC-J6957DWU
+BrTwdsFeNet.MFC-J6957DW.CopyFiles = 10,TWAIN_32\Brimi20a\MFC-J6957DWN
+BrTwdsFeUSB.MFC-J7600CDW.CopyFiles = 10,TWAIN_32\Brimi20a\MFC-J7600CDWU
+BrTwdsFeNet.MFC-J7600CDW.CopyFiles = 10,TWAIN_32\Brimi20a\MFC-J7600CDWN
+BrTwdsFeUSB.MFC-J6959DW.CopyFiles = 10,TWAIN_32\Brimi20a\MFC-J6959DWU
+BrTwdsFeNet.MFC-J6959DW.CopyFiles = 10,TWAIN_32\Brimi20a\MFC-J6959DWN
+BrTwdsFeUSB.MFC-J7700CDW.CopyFiles = 10,TWAIN_32\Brimi20a\MFC-J7700CDWU
+BrTwdsFeNet.MFC-J7700CDW.CopyFiles = 10,TWAIN_32\Brimi20a\MFC-J7700CDWN
+
+
+;----------------------------------------
+;----------------------------------------
+; Source Disks
+;----------------------------------------
+;----------------------------------------
+[SourceDisksNames]
+1 = %BrDrvDisk1%
+
+[SourceDisksNames.x86]
+3 = %BrDrvDisk1%,,,x86
+[SourceDisksNames.amd64]
+4 = %BrDrvDisk1%,,,amd64
+
+[SourceDisksFiles]
+BsDeviceAccs.dll = 1,,
+BsStiDevAccs.dll = 1,,
+BsUsbDevAccs.dll = 1,,
+BsNetDevAccs.dll = 1,,
+BsScanCoreApi.dll = 1,,
+BoScanValidator.dll = 1,,
+TwCaps.dll = 1,,
+TwTriplet.dll = 1,,
+TwDsUiFe.dll = 1,,
+TwDsUi.exe = 1,,
+TwDsUiLaunch.exe = 1,,
+Livet.dll = 1,,
+Microsoft.Expression.Interactions.dll = 1,,
+System.Windows.Interactivity.dll = 1,,
+ColorDropDialog.dll = 1,,
+BrImgPdf.dll = 1,,
+TwHelpAru.chm = 1,,
+TwHelpBul.chm = 1,,
+TwHelpChn.chm = 1,,
+TwHelpCht.chm = 1,,
+TwHelpCze.chm = 1,,
+TwHelpDan.chm = 1,,
+TwHelpDut.chm = 1,,
+TwHelpEng.chm = 1,,
+TwHelpFin.chm = 1,,
+TwHelpFrc.chm = 1,,
+TwHelpFre.chm = 1,,
+TwHelpGer.chm = 1,,
+TwHelpHrv.chm = 1,,
+TwHelpHun.chm = 1,,
+TwHelpInd.chm = 1,,
+TwHelpIta.chm = 1,,
+TwHelpJpn.chm = 1,,
+TwHelpKor.chm = 1,,
+TwHelpNor.chm = 1,,
+TwHelpPol.chm = 1,,
+TwHelpPor.chm = 1,,
+TwHelpPtb.chm = 1,,
+TwHelpRom.chm = 1,,
+TwHelpRus.chm = 1,,
+TwHelpSlv.chm = 1,,
+TwHelpSpa.chm = 1,,
+TwHelpSrl.chm = 1,,
+TwHelpSvk.chm = 1,,
+TwHelpSwe.chm = 1,,
+TwHelpTha.chm = 1,,
+TwHelpTrk.chm = 1,,
+TwHelpUkr.chm = 1,,
+TwHelpUsa.chm = 1,,
+TwHelpVit.chm = 1,,
+
+MFC-J5340DWU.ini = 1,,
+MFC-J5340DWN.ini = 1,,
+MFC-J5345DWU.ini = 1,,
+MFC-J5345DWN.ini = 1,,
+MFC-J2340DWU.ini = 1,,
+MFC-J2340DWN.ini = 1,,
+MFC-J5740DWU.ini = 1,,
+MFC-J5740DWN.ini = 1,,
+MFC-J2740DWU.ini = 1,,
+MFC-J2740DWN.ini = 1,,
+MFC-J6540DWU.ini = 1,,
+MFC-J6540DWN.ini = 1,,
+MFC-J3540DWU.ini = 1,,
+MFC-J3540DWN.ini = 1,,
+MFC-J7100CDWU.ini = 1,,
+MFC-J7100CDWN.ini = 1,,
+MFC-J6740DWU.ini = 1,,
+MFC-J6740DWN.ini = 1,,
+MFC-J6940DWU.ini = 1,,
+MFC-J6940DWN.ini = 1,,
+MFC-J3940DWU.ini = 1,,
+MFC-J3940DWN.ini = 1,,
+MFC-J7300CDWU.ini = 1,,
+MFC-J7300CDWN.ini = 1,,
+MFC-J5855DWU.ini = 1,,
+MFC-J5855DWN.ini = 1,,
+MFC-J5800CDWU.ini = 1,,
+MFC-J5800CDWN.ini = 1,,
+MFC-J5955DWU.ini = 1,,
+MFC-J5955DWN.ini = 1,,
+MFC-J6555DWU.ini = 1,,
+MFC-J6555DWN.ini = 1,,
+MFC-J6955DWU.ini = 1,,
+MFC-J6955DWN.ini = 1,,
+MFC-J7500CDWU.ini = 1,,
+MFC-J7500CDWN.ini = 1,,
+MFC-J6957DWU.ini = 1,,
+MFC-J6957DWN.ini = 1,,
+MFC-J7600CDWU.ini = 1,,
+MFC-J7600CDWN.ini = 1,,
+MFC-J6959DWU.ini = 1,,
+MFC-J6959DWN.ini = 1,,
+MFC-J7700CDWU.ini = 1,,
+MFC-J7700CDWN.ini = 1,,
+TwDsFe.ds = 1,,
+
+[SourceDisksFiles.x86]
+BrWia19c.dll = 3,,
+BrWi219c.dll = 3,,
+BrUsi19c.dll = 3,,
+BrJDec.dll  = 3,,
+
+[SourceDisksFiles.amd64]
+BrWia19c.dll = 4,,
+BrWi219c.dll = 4,,
+BrUsi19c.dll = 4,,
+BrJDec.dll  = 4,,
+
+
+;----------------------------------------
+;----------------------------------------
+; Localizable Strings
+;----------------------------------------
+;----------------------------------------
+[Strings]
+BrDrvDisk1       = "Brother Scanner Driver Disk"
+BrWiaUsd         = "Brother Wia Scanner minidriver"
+
+ScanToOcr        = "Scan To OCR - Button Press"
+ScanToSpApp      = "Scan To Image - Button Press"
+ScanToEmail      = "Scan To E-mail - Button Press"
+ScanToFile       = "Scan To File - Button Press"

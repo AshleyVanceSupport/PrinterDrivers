@@ -1,0 +1,13 @@
+{
+	"ini_list"	: 
+	[
+		{
+			"PrinterModelName"	: ["MP C2004ex","DSc1220ex","MP C2504ex","DSc1225ex","MP C2094exJ","MP C2594exJ"],
+			"LoadDll"			: "MFRicr64.dll",
+			"ResDll"			: "RD05Rd64.dll",
+			"Version"			: "1.1.20.0"
+			
+		}
+	]
+}
+
