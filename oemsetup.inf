@@ -1,0 +1,213 @@
+;------------------------------------------------------------
+; Copyright (c) 2007-2025 RICOH COMPANY, LTD
+; All Rights Reserved
+; Printer Driver Setup Information File
+;------------------------------------------------------------
+
+[Version]
+Signature   = "$Windows NT$"
+Provider    = %Ricoh%
+ClassGUID   = {4D36E979-E325-11CE-BFC1-08002BE10318}
+Class       = Printer
+DriverVer  = 10/15/2025,1.5.0.0
+CatalogFile	= rica7Z.cat
+
+[Manufacturer]
+%Gestetner%=Gestetner,NTamd64
+%NRG%=NRG,NTamd64
+%Ricoh%=Ricoh,NTamd64
+
+
+;WindowsXP(amd64)
+[Gestetner.NTamd64]
+"Gestetner IM C2010 PCL 6"=Gestetner_IM_C2010_64.dat,USBPRINT\GestetnerIM_C2010E5B7,LPTENUM\GestetnerIM_C2010E5B7,GestetnerIM_C2010E5B7
+"Gestetner GS4020c PCL 6"=Gestetner_GS4020c_64.dat,USBPRINT\GestetnerGS4020cF204,LPTENUM\GestetnerGS4020cF204,GestetnerGS4020cF204
+"Gestetner IM C2510 PCL 6"=Gestetner_IM_C2510_64.dat,USBPRINT\GestetnerIM_C2510E4A7,LPTENUM\GestetnerIM_C2510E4A7,GestetnerIM_C2510E4A7
+"Gestetner GS4025c PCL 6"=Gestetner_GS4025c_64.dat,USBPRINT\GestetnerGS4025cA207,LPTENUM\GestetnerGS4025cA207,GestetnerGS4025cA207
+
+[NRG.NTamd64]
+"NRG IM C2010 PCL 6"=NRG_IM_C2010_64.dat,USBPRINT\NRGIM_C201053F7,LPTENUM\NRGIM_C201053F7,NRGIM_C201053F7
+"NRG IM C2510 PCL 6"=NRG_IM_C2510_64.dat,USBPRINT\NRGIM_C251052E7,LPTENUM\NRGIM_C251052E7,NRGIM_C251052E7
+
+[Ricoh.NTamd64]
+"RICOH IM C2010 PCL 6"=RICOH_IM_C2010_64.dat,USBPRINT\RICOHIM_C201089C5,LPTENUM\RICOHIM_C201089C5,RICOHIM_C201089C5
+"RICOH IM C2510 PCL 6"=RICOH_IM_C2510_64.dat,USBPRINT\RICOHIM_C251088D7,LPTENUM\RICOHIM_C251088D7,RICOHIM_C251088D7
+"RICOH IM C2519J PCL 6"=RICOH_IM_C2519J_64.dat,USBPRINT\RICOHIM_C2519JF94F,LPTENUM\RICOHIM_C2519JF94F,RICOHIM_C2519JF94F
+
+
+;WindowsXP(x86)
+
+[Gestetner_IM_C2010_64.dat]
+CopyFiles		= RPD_FILES,RPD_COMMON,RPD_COMMON_SYS32
+DataSection		= RPD_DATA
+DataFile		= rica7Zcd.psz
+LanguageMonitor	= rica7Zlm,rica7Zlm.dll
+CopyINF		= RPRNUT.INF
+
+[Gestetner_GS4020c_64.dat]
+CopyFiles		= RPD_FILES,RPD_COMMON,RPD_COMMON_SYS32
+DataSection		= RPD_DATA
+DataFile		= rica7Zcd.psz
+LanguageMonitor	= rica7Zlm,rica7Zlm.dll
+CopyINF		= RPRNUT.INF
+
+[Gestetner_IM_C2510_64.dat]
+CopyFiles		= RPD_FILES,RPD_COMMON,RPD_COMMON_SYS32
+DataSection		= RPD_DATA
+DataFile		= rica7Zcd.psz
+LanguageMonitor	= rica7Zlm,rica7Zlm.dll
+CopyINF		= RPRNUT.INF
+
+[Gestetner_GS4025c_64.dat]
+CopyFiles		= RPD_FILES,RPD_COMMON,RPD_COMMON_SYS32
+DataSection		= RPD_DATA
+DataFile		= rica7Zcd.psz
+LanguageMonitor	= rica7Zlm,rica7Zlm.dll
+CopyINF		= RPRNUT.INF
+
+[NRG_IM_C2010_64.dat]
+CopyFiles		= RPD_FILES,RPD_COMMON,RPD_COMMON_SYS32
+DataSection		= RPD_DATA
+DataFile		= rica7Zcd.psz
+LanguageMonitor	= rica7Zlm,rica7Zlm.dll
+CopyINF		= RPRNUT.INF
+
+[NRG_IM_C2510_64.dat]
+CopyFiles		= RPD_FILES,RPD_COMMON,RPD_COMMON_SYS32
+DataSection		= RPD_DATA
+DataFile		= rica7Zcd.psz
+LanguageMonitor	= rica7Zlm,rica7Zlm.dll
+CopyINF		= RPRNUT.INF
+
+[RICOH_IM_C2010_64.dat]
+CopyFiles		= RPD_FILES,RPD_COMMON,RPD_COMMON_SYS32
+DataSection		= RPD_DATA
+DataFile		= rica7Zcd.psz
+LanguageMonitor	= rica7Zlm,rica7Zlm.dll
+CopyINF		= RPRNUT.INF
+
+[RICOH_IM_C2510_64.dat]
+CopyFiles		= RPD_FILES,RPD_COMMON,RPD_COMMON_SYS32
+DataSection		= RPD_DATA
+DataFile		= rica7Zcd.psz
+LanguageMonitor	= rica7Zlm,rica7Zlm.dll
+CopyINF		= RPRNUT.INF
+
+[RICOH_IM_C2519J_64.dat]
+CopyFiles		= RPD_FILES,RPD_COMMON,RPD_COMMON_SYS32
+DataSection		= RPD_DATA
+DataFile		= rica7Zcd.psz
+LanguageMonitor	= rica7Zlm,rica7Zlm.dll
+CopyINF		= RPRNUT.INF
+
+
+[Gestetner_IM_C2010_64.dat.Services]
+AddService = ,0x2
+
+[Gestetner_GS4020c_64.dat.Services]
+AddService = ,0x2
+
+[Gestetner_IM_C2510_64.dat.Services]
+AddService = ,0x2
+
+[Gestetner_GS4025c_64.dat.Services]
+AddService = ,0x2
+
+[NRG_IM_C2010_64.dat.Services]
+AddService = ,0x2
+
+[NRG_IM_C2510_64.dat.Services]
+AddService = ,0x2
+
+[RICOH_IM_C2010_64.dat.Services]
+AddService = ,0x2
+
+[RICOH_IM_C2510_64.dat.Services]
+AddService = ,0x2
+
+[RICOH_IM_C2519J_64.dat.Services]
+AddService = ,0x2
+
+
+[RPD_FILES]
+rica7Zui.dll,rica7Zui.dl_
+rica7Zui.irj
+rica7Zui.rdj
+rica7Zui.rcf
+rica7Zug.dll,rica7Zug.dl_
+rica7Zug.miz
+rica7Zur.dll,rica7Zur.dl_
+rica7Zgr.dll,rica7Zgr.dl_
+rica7Zgl.dll,rica7Zgl.dl_
+rica7Zci.dll,rica7Zci.dl_
+rica7Zcd.dll,rica7Zcd.dl_
+rica7Zcd.psz
+rica7Zcf.cfz
+rica7Zcl.ini
+rica7Zch.chm
+rica7Zcz.dlz
+rica7Zcj.dll,rica7Zcj.dl_
+rica7Zct.dll,rica7Zct.dl_
+rica7Zcb.dll,rica7Zcb.dl_
+rica7Ztl.exe,rica7Ztl.ex_
+rica7Ztc.exe,rica7Ztc.ex_
+rica7Ztt.exe,rica7Ztt.ex_
+rica7Ztf.exe,rica7Ztf.ex_
+
+[RPD_COMMON_SYS32]
+rica7Zlm.dll,rica7Zlm.dl_,,0x00000020
+
+[RPD_COMMON]
+ricdb64.dll,ricdb64.dl_,,0x00000020
+mfricr64.dll,mfricr64.dl_,,0x00000020
+RD07Zd64.dll,RD07Zd64.dl_,,0x00000020
+
+[RPD_DATA]
+ConfigFile		= rica7Zui.dll
+DriverFile		= rica7Zgr.dll
+HelpFile		= rica7Zch.chm
+
+[DestinationDirs]
+DefaultDestDir		= 66000
+RPD_COMMON_SYS32	 	= 66002
+
+[SourceDisksNames.amd64]
+1 = %DSK%,,,
+
+[PrinterPackageInstallation.amd64]
+PackageAware			=TRUE
+
+[SourceDisksFiles.amd64]
+rica7Zui.dl_	= 1
+rica7Zui.irj	= 1
+rica7Zui.rdj	= 1
+rica7Zui.rcf	= 1
+rica7Zug.dl_	= 1
+rica7Zug.miz	= 1
+rica7Zur.dl_	= 1
+rica7Zgr.dl_	= 1
+rica7Zgl.dl_	= 1
+rica7Zci.dl_		= 1
+rica7Zcd.dl_	= 1
+rica7Zcd.psz	= 1
+rica7Zcf.cfz	= 1
+rica7Zcl.ini	= 1
+rica7Zch.chm	= 1
+rica7Zcz.dlz		= 1
+rica7Zcj.dl_	= 1
+rica7Zct.dl_	= 1
+rica7Zcb.dl_	= 1
+rica7Zlm.dl_	= 1
+ricdb64.dl_			= 1
+mfricr64.dl_		= 1
+rica7Ztl.ex_      = 1
+RD07Zd64.dl_		= 1
+rica7Ztc.ex_      = 1
+rica7Ztt.ex_      = 1
+rica7Ztf.ex_      = 1
+
+[Strings]
+Ricoh="Ricoh"
+Gestetner="Gestetner"
+NRG="NRG"
+DSK= "PCL6 Printer Driver Disk1"
