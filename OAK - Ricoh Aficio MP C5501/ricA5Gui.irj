@@ -1,0 +1,207 @@
+{
+
+	"common" :
+	{
+
+		"root" :
+		{
+			"RMIOASSIST"				: [ "1",		"REG_DWORD" ],
+			"MetaConfigType"						: [ "1",					"REG_BINARY" ],
+			"Logging"								: [ "1",					"REG_DWORD" ]
+		},
+
+		"common_scope" :
+		{
+			"DriverProductVersion"		: [ "1.5.0.0",		"REG_SZ" ],
+			"Date"				: [ "11/26/2014",	"REG_SZ" ],
+			"PrinterModelName"		: [ "MP C4501",	"REG_SZ" ]					
+		},
+
+		"ui_scope" :
+		{
+		},
+
+		"gr_scope" :
+		{
+			"NODRAW_OBJECT"				: [ "0",	"REG_DWORD" ]
+		},
+
+		"capsdb_scope" :
+		{
+		},
+
+		"diag_scope" :
+		{
+		}
+
+	},
+       "Gestetner MP C4501 PCL 6" :
+       {
+               "common_scope" :
+               {
+                       "PrinterModelName"              : [ "MP C4501", "REG_SZ" ]
+               }
+       },
+       "Gestetner MP C5501 PCL 6" :
+       {
+               "common_scope" :
+               {
+                       "PrinterModelName"              : [ "MP C5501", "REG_SZ" ]
+               }
+       },
+       "Gestetner MP C4501A PCL 6" :
+       {
+               "common_scope" :
+               {
+                       "PrinterModelName"              : [ "MP C4501A", "REG_SZ" ]
+               }
+       },
+       "Gestetner MP C5501A PCL 6" :
+       {
+               "common_scope" :
+               {
+                       "PrinterModelName"              : [ "MP C5501A", "REG_SZ" ]
+               }
+       },
+"infotec MP C4501 PCL 6" :
+       {
+               "common_scope" :
+               {
+                       "PrinterModelName"              : [ "MP C4501", "REG_SZ" ]
+               }
+       },
+       "infotec MP C5501 PCL 6" :
+       {
+               "common_scope" :
+               {
+                       "PrinterModelName"              : [ "MP C5501", "REG_SZ" ]
+               }
+       },
+       "infotec MP C4501A PCL 6" :
+       {
+               "common_scope" :
+               {
+                       "PrinterModelName"              : [ "MP C4501A", "REG_SZ" ]
+               }
+       },
+       "infotec MP C5501A PCL 6" :
+       {
+               "common_scope" :
+               {
+                       "PrinterModelName"              : [ "MP C5501A", "REG_SZ" ]
+               }
+       },
+"LANIER MP C4501/LD645C PCL 6" :
+       {
+               "common_scope" :
+               {
+                       "PrinterModelName"              : [ "MP C4501/LD645C", "REG_SZ" ]
+               }
+       },
+       "LANIER MP C5501/LD655C PCL 6" :
+       {
+               "common_scope" :
+               {
+                       "PrinterModelName"              : [ "MP C5501/LD655C", "REG_SZ" ]
+               }
+       },
+       "LANIER MPC4501A/LD645CA PCL 6" :
+       {
+               "common_scope" :
+               {
+                       "PrinterModelName"              : [ "MPC4501A/LD645CA", "REG_SZ" ]
+               }
+       },
+       "LANIER MPC5501A/LD655CA PCL 6" :
+       {
+               "common_scope" :
+               {
+                       "PrinterModelName"              : [ "MPC5501A/LD655CA", "REG_SZ" ]
+               }
+       },
+"NRG MP C4501 PCL 6" :
+       {
+               "common_scope" :
+               {
+                       "PrinterModelName"              : [ "MP C4501", "REG_SZ" ]
+               }
+       },
+       "NRG MP C5501 PCL 6" :
+       {
+               "common_scope" :
+               {
+                       "PrinterModelName"              : [ "MP C5501", "REG_SZ" ]
+               }
+       },
+       "NRG MP C4501A PCL 6" :
+       {
+               "common_scope" :
+               {
+                       "PrinterModelName"              : [ "MP C4501A", "REG_SZ" ]
+               }
+       },
+       "NRG MP C5501A PCL 6" :
+       {
+               "common_scope" :
+               {
+                       "PrinterModelName"              : [ "MP C5501A", "REG_SZ" ]
+               }
+       },
+"RICOH Aficio MP C4501 PCL 6" :
+       {
+               "common_scope" :
+               {
+                       "PrinterModelName"              : [ "Aficio MP C4501", "REG_SZ" ]
+               }
+       },
+       "RICOH Aficio MP C5501 PCL 6" :
+       {
+               "common_scope" :
+               {
+                       "PrinterModelName"              : [ "Aficio MP C5501", "REG_SZ" ]
+               }
+       },
+       "RICOH Aficio MP C4501A PCL 6" :
+       {
+               "common_scope" :
+               {
+                       "PrinterModelName"              : [ "Aficio MP C4501A", "REG_SZ" ]
+               }
+       },
+       "RICOH Aficio MP C5501A PCL 6" :
+       {
+               "common_scope" :
+               {
+                       "PrinterModelName"              : [ "Aficio MP C5501A", "REG_SZ" ]
+               }
+       },
+"SAVIN C9145 PCL 6" :
+       {
+               "common_scope" :
+               {
+                       "PrinterModelName"              : [ "C9145", "REG_SZ" ]
+               }
+       },
+       "SAVIN C9155 PCL 6" :
+       {
+               "common_scope" :
+               {
+                       "PrinterModelName"              : [ "C9155", "REG_SZ" ]
+               }
+       },
+       "SAVIN C9145A PCL 6" :
+       {
+               "common_scope" :
+               {
+                       "PrinterModelName"              : [ "C9145A", "REG_SZ" ]
+               }
+       },
+       "SAVIN C9155A PCL 6" :
+       {
+               "common_scope" :
+               {
+                       "PrinterModelName"              : [ "C9155A", "REG_SZ" ]
+               }
+       }
+ 
+}
